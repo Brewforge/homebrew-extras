@@ -1,83 +1,64 @@
 # Homebrew-Extras
 
+![Homebrew](https://img.shields.io/badge/-Homebrew-FBB040?labelColor=555555&logoColor=FFFFFF&logo=homebrew) ![CI](https://github.com/Brewforge/homebrew-extras/actions/workflows/main.yml/badge.svg) ![license](https://img.shields.io/github/license/Brewforge/homebrew-extras) ![code-size](https://img.shields.io/github/languages/code-size/Brewforge/homebrew-extras) ![repo-size](https://img.shields.io/github/repo-size/Brewforge/homebrew-extras)
+
 Extras [Homebrew](https://github.com/Homebrew/brew) 🍺 Casks Not Included in the Official Repos
 
-[![CI](https://github.com/brewforge/homebrew-extras/actions/workflows/main.yml/badge.svg)](https://github.com/brewforge/homebrew-extras/actions/workflows/main.yml) [![license](https://img.shields.io/github/license/brewforge/homebrew-extras.svg)](https://img.shields.io/github/languages/license/homebrew-extras.svg) [![code-size](https://img.shields.io/github/languages/code-size/brewforge/homebrew-extras.svg)](https://img.shields.io/github/languages/code-size/brewforge/homebrew-extras.svg) [![repo-size](https://img.shields.io/github/repo-size/brewforge/homebrew-extras.svg)](https://img.shields.io/github/repo-size/brewforge/homebrew-extras.svg)
+## 📝 TL;DR
 
-## Get Started 🏃
+📦 List of entries
 
-### Install Homebrew 🍺 🚴
+[![List](https://img.shields.io/badge/List-blue?logo=homebrew&label=Click%20to%20view)](./list.md)
 
-In the terminal:
+## 🏃 Get Started
 
-```bash
+```sh
 /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-brew tap brewforge/extras
 ```
 
-For more details, check Homebrew official site 👉 [https://brew.sh/](https://brew.sh/) 👈
+For more details, check [Homebrew official site](https://brew.sh/).
 
-### Install App in this Cask 🚅
+## 🍺 User Guide
 
-- Step 1: Add this Cask, Mua~ 💋
-
-In the terminal:
+🚰 `Tap` this repo at first time
 
 ```bash
 brew tap brewforge/extras
-brew update
 ```
 
-- Step 2: Install App ✈️
+🔍 Search
 
-- Check the exact name of app with brew search:
-
-```bash
-brew search <app_name>
-brew cask install <app_name>
+```sh
+brew search <formula/cask>
 ```
 
-- For specific installation
+🛒 Install
 
-```bash
-brew install extras/<app_name>
+```sh
+brew install <formula>
+brew install --cask <cask>
 ```
 
-## Cask List
+🗑️ Remove
 
-### Open Source Casks
+```sh
+brew rm <formula/cask>
+```
 
-|    Cask Name    |                              App Name                              | Comercial Mode | Auto-Bump |
-| :-------------: | :----------------------------------------------------------------: | :------------: | :-------: |
-|      barss      |             [baRSS](https://relikd.de/projects/barss)              |       🆓       |     ✓     |
-|    cudatext     |              [cudatext](https://cudatext.github.io/)               |       🆓       |     ✓     |
-|   corretto-8    |    [Amazon Corretto 8](https://github.com/corretto/corretto-8)     |       🆓       |     ✓     |
-|     chatgpt     |            [ChatGPT](https://github.com/lencx/ChatGPT)             |       🆓       |     ✓     |
-|     dvc-app     |                      [DVC](https://dvc.org/)                       |       🆓       |     ✓     |
-|  freefilesync   |              [FreeFileSync](https://freefilesync.org)              |       🆓       |     ×     |
-|   goldendict    |     [GoldenDict](https://github.com/xiaoyifang/goldendict-ng)      |       🆓       |     ×     |
-|   gridplayer    |        [GridPlayer](https://github.com/vzhd1701/gridplayer)        |       🆓       |     ✓     |
-|      later      |                   [Later](https://getlater.app)                    |       🆓       |     ×     |
-|    lyricsxjh    | [LyricsX JH Fork](https://github.com/JH-Application-Forks/LyricsX) |       🆓       |     ✓     |
-|   openstudio    |          [OpenStudio](https://github.com/NREL/OpenStudio)          |       🆓       |     ✓     |
-| pareto-security |                [Pareto](https://paretosecurity.com)                |      🆓💰      |     ✓     |
-|     peazip      |             [PeaZip](https://github.com/peazip/PeaZip)             |       🆓       |     ✓     |
-|  pixel-perfect  | [Pixel Perfect](https://github.com/cormiertyshawn895/PixelPerfect) |       🆓       |     ✓     |
-|     ryujinx     |                   [Ryujinx](https://ryujinx.org)                   |       🆓       |     ✓     |
-|     upscayl     |                   [Upscayl](https://upscayl.org)                   |       🆓       |     ✓     |
+🧾 List the installed software
 
-### Commercial Casks
+```sh
+brew ls
+```
 
-| Cask Name  |                         App Name                          | Comercial Mode | Auto-Bump |
-| :--------: | :-------------------------------------------------------: | :------------: | :-------: |
-|   peekai   |    [peekai](https://prateekkeshari.gumroad.com/l/peek)    |      🆓💰      |     ✓     |
-| tinkertool | [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) |       🆓       |     ✓     |
-|  xnapper   |              [Xnapper](https://xnapper.com)               |       💰       |     ✓     |
-|  zlibrary  |           [Z-Library](https://zlibrary-asia.se)           |       🆓       |     ×     |
+🙏 More help
 
-## Formula List
+```sh
+brew help
+```
 
-| Formula Name |                       CLI Name                        | Comercial Mode | Auto-Bump |
-| :----------: | :---------------------------------------------------: | :------------: | :-------: |
-| chatgpt-cli  |      [ChatGPT](https://github.com/j178/chatgpt)       |       🆓       |     ×     |
-|   typstfmt   | [typstfmt](https://github.com/astrale-sharp/typstfmt) |       🆓       |     ×     |
+## ✨ Contributing
+
+Please directly initiate a [pull request](https://github.com/Brewforge/homebrew-extras/compare) or [issue](https://github.com/Brewforge/homebrew-extras/issues/new/choose).
+
+<!-- ## ❤️ Sponsors -->
