@@ -6,9 +6,9 @@ Extras [Homebrew](https://github.com/Homebrew/brew) 🍺 Casks Not Included in t
 
 ## 📝 TL;DR
 
-📦 List of entries
+📦 List of Entries
 
-[![List](https://img.shields.io/badge/List-blue?logo=homebrew&label=Click%20to%20view)](./list.md)
+[![List](https://img.shields.io/badge/List-blue?logo=homebrew&label=Click%20to%20view)](./List.md)
 
 ## 🏃 Get Started
 
@@ -20,7 +20,7 @@ For more details, check [Homebrew official site](https://brew.sh/).
 
 ## 🍺 User Guide
 
-🚰 `Tap` this repo at first time
+🚰 `Tap` this repo at the 1st time
 
 ```bash
 brew tap brewforge/extras
