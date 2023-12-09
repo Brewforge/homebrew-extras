@@ -52,6 +52,7 @@ brew install extras/<app_name>
 |      barss      |             [baRSS](https://relikd.de/projects/barss)              |       🆓       |
 |    cudatext     |              [cudatext](https://cudatext.github.io/)               |       🆓       |
 |   corretto-8    |    [Amazon Corretto 8](https://github.com/corretto/corretto-8)     |       🆓       |
+|     chatgpt     |            [ChatGPT](https://github.com/lencx/ChatGPT)             |       🆓       |
 |     dvc-app     |                      [DVC](https://dvc.org/)                       |       🆓       |
 |  freefilesync   |              [FreeFileSync](https://freefilesync.org)              |       🆓       |
 |   gridplayer    |        [GridPlayer](https://github.com/vzhd1701/gridplayer)        |       🆓       |
