@@ -57,7 +57,7 @@ brew install extras/<app_name>
 |  freefilesync   |              [FreeFileSync](https://freefilesync.org)              |       🆓       |     ×     |
 |   goldendict    |     [GoldenDict](https://github.com/xiaoyifang/goldendict-ng)      |       🆓       |     ×     |
 |   gridplayer    |        [GridPlayer](https://github.com/vzhd1701/gridplayer)        |       🆓       |     ✓     |
-|      later      |                   [Later](https://getlater.app)                    |       🆓       |     ✓     |
+|      later      |                   [Later](https://getlater.app)                    |       🆓       |     ×     |
 |    lyricsxjh    | [LyricsX JH Fork](https://github.com/JH-Application-Forks/LyricsX) |       🆓       |     ✓     |
 |   openstudio    |          [OpenStudio](https://github.com/NREL/OpenStudio)          |       🆓       |     ✓     |
 | pareto-security |                [Pareto](https://paretosecurity.com)                |      🆓💰      |     ✓     |
@@ -70,6 +70,7 @@ brew install extras/<app_name>
 
 | Cask Name  |                         App Name                          | Comercial Mode | Auto-Bump |
 | :--------: | :-------------------------------------------------------: | :------------: | :-------: |
+|   peekai   |    [peekai](https://prateekkeshari.gumroad.com/l/peek)    |      🆓💰      |     ✓     |
 | tinkertool | [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) |       🆓       |     ✓     |
 |  xnapper   |              [Xnapper](https://xnapper.com)               |       💰       |     ✓     |
 |  zlibrary  |           [Z-Library](https://zlibrary-asia.se)           |       🆓       |     ×     |
