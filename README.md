@@ -67,9 +67,10 @@ brew install extras/<app_name>
 
 ### Commercial Casks
 
-| Cask Name | App Name | Comercial Mode |
-| :-------: | :------: | :------------: |
-| zlibrary  | ZLibrary |       🆓       |
+| Cask Name  |                         App Name                          | Comercial Mode |
+| :--------: | :-------------------------------------------------------: | :------------: |
+| tinkertool | [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) |       🆓       |
+|  zlibrary  |           [Z-Library](https://zlibrary-asia.se)           |       🆓       |
 
 ## Formula List
 
