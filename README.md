@@ -69,3 +69,10 @@ brew install extras/<app_name>
 | Cask Name | App Name | Comercial Mode |
 | :-------: | :------: | :------------: |
 | zlibrary  | ZLibrary |       🆓       |
+
+## Formula List
+
+| Formula Name |                       CLI Name                        | Comercial Mode |
+| :----------: | :---------------------------------------------------: | :------------: |
+| chatgpt-cli  |      [ChatGPT](https://github.com/j178/chatgpt)       |       🆓       |
+|   typstfmt   | [typstfmt](https://github.com/astrale-sharp/typstfmt) |       🆓       |
