@@ -47,19 +47,16 @@ jobs:
 
       - name: Add Tap
         env:
-          HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
+          HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.BREWFORGE_API_TOKEN }}
         run: |
           brew tap brewforge/extras
           brew update
           brew install ripgrep sd
-          # echo "export HOMEBREW_GITHUB_API_TOKEN=$MY_SECRET_KEY" >> /Users/runner/.bash_profile
-          # source /Users/runner/.bash_profile
-          echo $HOMEBREW_GITHUB_API_TOKEN
 
       - name: Bump mirorr casks
         # continue-on-error: true
         env:
-          HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
+          HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.BREWFORGE_API_TOKEN }}
         run: |
           cd $(brew --prefix)/Homebrew/Library/Taps/brewforge/homebrew-extras/Casks
           for cask in *.rb; do
