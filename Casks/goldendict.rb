@@ -1,6 +1,6 @@
 cask "goldendict" do
   version "6.6.1,20231208"
-  sha256 "8cfe961c6bf79a6664e603739657880d73f8a0ff9babe004505e266be2d26e61"
+  sha256 :no_check
 
   url "https://github.com/xiaoyifang/goldendict-ng/releases/download/v23.12.07-HeavySnow.b0086d5c/#{version.csv.first}-GoldenDict_macos-12_homebrew_#{version.csv.second}.dmg"
   name "GoldenDict"
