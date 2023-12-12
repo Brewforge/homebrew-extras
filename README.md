@@ -61,4 +61,8 @@ brew help
 
 Please directly initiate a [pull request](https://github.com/Brewforge/homebrew-extras/compare) or [issue](https://github.com/Brewforge/homebrew-extras/issues/new/choose).
 
+### ⚔️ Chalenge
+
+In the Experiment folder, there are several manifests that the current contributors cannot fix, welcome your help!
+
 <!-- ## ❤️ Sponsors -->
