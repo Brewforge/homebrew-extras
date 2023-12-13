@@ -16,6 +16,9 @@ cask "freefilesync" do
 
   pkg "FreeFileSync_#{version}.pkg"
 
+  uninstall quit:    "org.freefilesync.FreeFileSync",
+            pkgutil: "org.freefilesync.RealTimeSync"
+
   zap trash: [
     "~/Library/Preferences/org.freefilesync.FreeFileSync.plist",
     "~/Library/Preferences/org.freefilesync.RealTimeSync.plist",
