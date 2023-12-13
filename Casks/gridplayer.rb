@@ -1,6 +1,6 @@
 cask "gridplayer" do
-  version "0.5.1"
-  sha256 "8d4613c33f6a74395a16f75d12a51346d09754bac53949f962d55a8f25398818"
+  version "0.5.3"
+  sha256 "6885adfdea4329726273dba2560b4bd7329f2f9c64946b1fc4f54de314758551"
 
   url "https://github.com/vzhd1701/gridplayer/releases/download/v#{version}/GridPlayer.#{version}.dmg"
   name "gridplayer"
@@ -13,6 +13,7 @@ cask "gridplayer" do
   end
 
   auto_updates true
+
   app "gridplayer.app"
 
   zap trash: [
