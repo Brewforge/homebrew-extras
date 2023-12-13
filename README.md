@@ -10,7 +10,7 @@ Extras [Homebrew](https://github.com/Homebrew/brew) 🍺 Casks Not Included in t
 
 📦 List of Entries
 
-[![List](https://img.shields.io/badge/List-blue?logo=homebrew&label=Click%20to%20view)](./List.md)
+[![List](https://img.shields.io/badge/List-blue?logo=homebrew&label=Click%20to%20view)](./list.md)
 
 ## 🏃 Get Started
 
