@@ -4,7 +4,7 @@
 
 Extras [Homebrew](https://github.com/Homebrew/brew) 🍺 Casks Not Included in the Official Repos.
 
-👏 Welcome discussion on [Discussions](https://github.com/Brewforge/discussions). 🎙️
+👏 Welcome discussion on [Discussions](https://github.com/orgs/Brewforge/discussions). 🎙️
 
 ## 📝 TL;DR
 
