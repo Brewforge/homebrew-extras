@@ -14,7 +14,7 @@
 |   `corretto-8`    |    [Amazon Corretto 8](https://github.com/corretto/corretto-8)     |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
 |    `cudatext`     |               [cudatext](https://cudatext.github.io)               |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
 |     `dvc-app`     |                       [DVC](https://dvc.org)                       |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
-|  `freefilesync`   |              [FreeFileSync](https://freefilesync.org)              |          ![a](assets/a.svg)![1](assets/1.svg)          |     ×     |
+|  `freefilesync`   |              [FreeFileSync](https://freefilesync.org)              |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |   `goldendict`    |     [GoldenDict](https://github.com/xiaoyifang/goldendict-ng)      |          ![a](assets/a.svg)![1](assets/1.svg)          |     ×     |
 |   `gridplayer`    |        [GridPlayer](https://github.com/vzhd1701/gridplayer)        |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
 |      `later`      |                   [Later](https://getlater.app)                    |          ![a](assets/a.svg)![1](assets/1.svg)          |     ×     |
