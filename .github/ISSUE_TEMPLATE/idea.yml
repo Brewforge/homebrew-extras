@@ -1,0 +1,47 @@
+name: Software suggestions
+description: Did you discover a new continent?
+labels: enhancement
+body:
+  - type: input
+    attributes:
+      label: Cask name
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: GUI or CLI
+      options:
+        - GUI
+        - CLI
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Software official website
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Last version
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Download URL
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Charging model
+      multiple: true
+      options:
+        - Free
+        - Buyout
+        - Subscription
+    validations:
+      required: true
