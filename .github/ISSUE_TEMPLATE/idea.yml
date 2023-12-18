@@ -1,6 +1,6 @@
 name: Software suggestions
 description: Did you discover a new continent?
-labels: enhancement
+labels: package-request
 body:
   - type: input
     attributes:
