@@ -13,7 +13,6 @@ cask "xnapper" do
   end
 
   auto_updates true
-
   app "Xnapper.app"
 
   zap trash: [

@@ -13,7 +13,6 @@ cask "gridplayer" do
   end
 
   auto_updates true
-
   app "gridplayer.app"
 
   zap trash: [

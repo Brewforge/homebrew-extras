@@ -13,7 +13,6 @@ cask "peazip" do
   end
 
   auto_updates true
-
   app "PeaZip.app"
 
   postflight do
