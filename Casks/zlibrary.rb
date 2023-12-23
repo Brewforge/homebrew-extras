@@ -8,7 +8,8 @@ cask "zlibrary" do
   homepage "https://zlibrary-asia.se/"
 
   auto_updates true
-  app "Z-Library.app"
+
+  app  "Z-Library.app"
 
   zap trash: [
     "~/Library/Application Support/Z-Library",

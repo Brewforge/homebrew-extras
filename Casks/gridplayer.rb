@@ -13,7 +13,8 @@ cask "gridplayer" do
   end
 
   auto_updates true
-  app "gridplayer.app"
+
+  app  "gridplayer.app"
 
   zap trash: [
     "~/Library/Application Support/vzhd1701",

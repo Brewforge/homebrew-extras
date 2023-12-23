@@ -13,7 +13,8 @@ cask "pixel-perfect" do
   end
 
   auto_updates true
-  app "Pixel Perfect/Pixel Perfect.app"
+
+  app  "Pixel Perfect/Pixel Perfect.app"
 
   zap trash: [
     "~/Library/Caches/com.mac.PixelPerfect",
