@@ -9,7 +9,7 @@ cask "zlibrary" do
 
   auto_updates true
 
-  app  "Z-Library.app"
+  app "Z-Library.app"
 
   zap trash: [
     "~/Library/Application Support/Z-Library",

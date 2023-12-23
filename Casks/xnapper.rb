@@ -14,7 +14,7 @@ cask "xnapper" do
 
   auto_updates true
 
-  app  "Xnapper.app"
+  app "Xnapper.app"
 
   zap trash: [
     "~/Library/Application Scripts/com.devuap.beautyshotapp-LaunchAtLoginHelper",

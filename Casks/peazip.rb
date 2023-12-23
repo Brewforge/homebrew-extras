@@ -14,7 +14,7 @@ cask "peazip" do
 
   auto_updates true
 
-  app  "PeaZip.app"
+  app "PeaZip.app"
 
   postflight do
     system_command "/usr/bin/open", args: ["#{staged_path}/macOS service menus/PeaZip, add to archive.workflow"]
