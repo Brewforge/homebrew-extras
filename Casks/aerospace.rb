@@ -1,7 +1,7 @@
 cask "aerospace" do
-  version "0.6.1-Beta"
-  sha256 "9efa18020c55e29c244408a4197ae8fb0a436067b25e765e94e963819da6be02"
-  
+  version "0.7.1-Beta"
+  sha256 "1bb3b49942e5ddf94e6268c7a35e26d975ede1682805c3d21d6778b3d87318be"
+
   url "https://github.com/nikitabobko/AeroSpace/releases/download/v#{version}/AeroSpace-v#{version}.zip"
   name "AeroSpace"
   desc "AeroSpace is an i3-like tiling window manager for macOS"
