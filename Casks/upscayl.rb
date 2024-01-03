@@ -18,6 +18,7 @@ cask "upscayl" do
   zap trash: [
     "~/Library/Application Support/Upscayl",
     "~/Library/Caches/upscayl-updater",
+    "~/Library/Logs/Upscayl",
     "~/Library/Preferences/org.upscayl.app.plist",
     "~/Library/Saved Application State/org.upscayl.app.savedState",
   ]
