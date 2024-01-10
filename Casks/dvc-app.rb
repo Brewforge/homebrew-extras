@@ -1,5 +1,5 @@
 cask "dvc-app" do
-  version "3.37.0"
+  version "3.38.1"
   sha256 :no_check
 
   url "https://dvc.org/download/osx/dvc-#{version}"
