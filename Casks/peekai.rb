@@ -16,6 +16,8 @@ cask "peekai" do
     strategy :github_latest
   end
 
+  auto_updates true
+
   app "Peek.app"
 
   zap trash: [
