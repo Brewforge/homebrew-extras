@@ -10,7 +10,7 @@ Extras [Homebrew](https://github.com/Homebrew/brew) 🍺 Casks Not Included in t
 
 📦 List of Entries
 
-[![List](https://img.shields.io/badge/List-blue?logo=homebrew&label=Click%20to%20view)](./list.md)
+[![List](https://img.shields.io/badge/List-blue?logo=homebrew&label=Click%20to%20view)](./List.md)
 
 ## 🏃 Get Started
 
@@ -62,9 +62,5 @@ brew help
 ## ✨ Contributing
 
 Please directly initiate a [pull request](https://github.com/Brewforge/homebrew-extras/compare) or [issue](https://github.com/Brewforge/homebrew-extras/issues/new/choose).
-
-### ⚔️ Chalenge
-
-In the Experiment folder, there are several manifests that the current contributors cannot fix, welcome your help!
 
 <!-- ## ❤️ Sponsors -->
