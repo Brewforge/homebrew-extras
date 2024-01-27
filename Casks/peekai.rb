@@ -8,7 +8,7 @@ cask "peekai" do
   url "https://github.com/prateekkeshari/peek-ai/releases/download/#{version}/Peek-#{version}#{arch}mac.zip",
       verified: "github.com/prateekkeshari/peek-ai/"
   name "Peek"
-  desc "Access to ChatGPT Bard Poe Pi Perplexity Claude Labs on Menu Bar"
+  desc "Access to ChatGPT, Bard, Poe, Pi, Perplexity, Claude Labs on Menu Bar"
   homepage "https://prateekkeshari.gumroad.com/l/peek"
 
   livecheck do
