@@ -2,10 +2,11 @@ cask "peazip" do
   version "9.6.0"
   sha256 "8e5fbd077adefa44ed31bf32e95bfc3580d04c949541f0222006a4b21622bd7a"
 
-  url "https://github.com/peazip/PeaZip/releases/download/#{version}/peazip-#{version}.DARWIN.aarch64.dmg"
+  url "https://github.com/peazip/PeaZip/releases/download/#{version}/peazip-#{version}.DARWIN.aarch64.dmg",
+      verified: "github.com/peazip/PeaZip/"
   name "Peazip"
   desc "Free Zip/Unzip software and Rar file extractor"
-  homepage "https://github.com/peazip/PeaZip"
+  homepage "https://peazip.github.io/"
 
   livecheck do
     url :url

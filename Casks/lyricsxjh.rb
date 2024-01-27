@@ -20,8 +20,8 @@ cask "lyricsxjh" do
     "~/Library/Application Scripts/com.JH.LyricsX",
     "~/Library/Application Scripts/com.JH.LyricsXHelper",
     "~/Library/Application Scripts/D5Q73692VW.group.com.JH.LyricsX",
-    "~/Library/Group Containers/D5Q73692VW.group.com.JH.LyricsX",
-    "~/Library/Containers/com.JH.LyricsXHelper",
     "~/Library/Containers/com.JH.LyricsX",
+    "~/Library/Containers/com.JH.LyricsXHelper",
+    "~/Library/Group Containers/D5Q73692VW.group.com.JH.LyricsX",
   ]
 end

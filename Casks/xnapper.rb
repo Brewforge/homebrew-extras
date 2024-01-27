@@ -4,7 +4,7 @@ cask "xnapper" do
 
   url "https://xnapper.com/dmg/Xnapper-#{version}.dmg"
   name "xnapper"
-  desc "生成美观的截图"
+  desc "Snap Beautiful Screenshots Instantly"
   homepage "https://xnapper.com/"
 
   livecheck do

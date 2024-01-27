@@ -20,8 +20,8 @@ cask "freefilesync" do
             pkgutil: "org.freefilesync.RealTimeSync"
 
   zap trash: [
+    "~/Library/Application Support/FreeFileSync",
     "~/Library/Preferences/org.freefilesync.FreeFileSync.plist",
     "~/Library/Preferences/org.freefilesync.RealTimeSync.plist",
-    "~/Library/Application Support/FreeFileSync",
   ]
 end

@@ -4,7 +4,7 @@ cask "aerospace" do
 
   url "https://github.com/nikitabobko/AeroSpace/releases/download/v#{version}/AeroSpace-v#{version}.zip"
   name "AeroSpace"
-  desc "AeroSpace is an i3-like tiling window manager for macOS"
+  desc "I3-like tiling window manager"
   homepage "https://github.com/nikitabobko/AeroSpace"
 
   livecheck do
@@ -13,14 +13,12 @@ cask "aerospace" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura" # macOS 13
-  # Note: conflicts_with formula: is a stub and is not yet functional. :(
+  # NOTE: conflicts_with formula: is a stub and is not yet functional. :(
   conflicts_with formula: "aerospace-cli"
+  depends_on macos: ">= :ventura" # macOS 13
 
   app "AeroSpace-v#{version}/AeroSpace.app"
   binary "AeroSpace-v#{version}/aerospace"
 
-  zap trash: [
-    "~/Library/Preferences/bobko.aerospace.plist",
-  ]
+  zap trash: "~/Library/Preferences/bobko.aerospace.plist"
 end

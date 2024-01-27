@@ -14,7 +14,5 @@ cask "losslessswitcher" do
 
   app "LosslessSwitcher.app"
 
-  zap trash: [
-    "~/Library/Preferences/com.vincent-neo.LosslessSwitcher.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.vincent-neo.LosslessSwitcher.plist"
 end
