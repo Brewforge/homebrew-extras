@@ -19,6 +19,7 @@
 |  `gridplayer`   |        [GridPlayer](https://github.com/vzhd1701/gridplayer)        |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |      `jan`      |                       [Jan](https://jan.ai/)                       |          ![b](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |     `later`     |                   [Later](https://getlater.app)                    |          ![a](assets/a.svg)![1](assets/1.svg)          |     ×     |
+|   `localsend`   |                 [LocalSend](https://localsend.org)                 |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |   `lyricsxjh`   | [LyricsX JH Fork](https://github.com/JH-Application-Forks/LyricsX) |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |  `openstudio`   |          [OpenStudio](https://github.com/NREL/OpenStudio)          |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |    `peazip`     |             [PeaZip](https://github.com/peazip/PeaZip)             |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
