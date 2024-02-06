@@ -41,10 +41,10 @@
 
 In the Experimental folder, there are several manifests that the current contributors cannot fix, welcome your help!
 
-|     Cask Name     |                           Site                            |                          Note                          |   Problem    |
-| :---------------: | :-------------------------------------------------------: | :----------------------------------------------------: | :----------: |
-| `pareto-security` |           [Pareto](https://paretosecurity.com)            | ![a](assets/a.svg)![1](assets/1.svg)![3](assets/3.svg) | fail to bump |
-|   `goldendict`    | [GoldenDict](https://github.com/xiaoyifang/goldendict-ng) |          ![a](assets/a.svg)![1](assets/1.svg)          | fail to bump |
+|     Cask Name     |                             Site                             |                          Note                          |   Problem    |
+| :---------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------: |
+| `pareto-security` |             [Pareto](https://paretosecurity.com)             | ![a](assets/a.svg)![1](assets/1.svg)![3](assets/3.svg) | fail to bump |
+|  `goldendict-ng`  | [GoldenDict-NG](https://github.com/xiaoyifang/goldendict-ng) |          ![a](assets/a.svg)![1](assets/1.svg)          | fail to bump |
 
 ---
 
