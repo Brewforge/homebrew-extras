@@ -15,7 +15,6 @@
 |   `cudatext`    |               [cudatext](https://cudatext.github.io)               |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |    `dvc-app`    |                       [DVC](https://dvc.org)                       |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 | `freefilesync`  |              [FreeFileSync](https://freefilesync.org)              |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
-|  `goldendict`   |     [GoldenDict](https://github.com/xiaoyifang/goldendict-ng)      |          ![a](assets/a.svg)![1](assets/1.svg)          |     ×     |
 |  `gridplayer`   |        [GridPlayer](https://github.com/vzhd1701/gridplayer)        |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |      `jan`      |                       [Jan](https://jan.ai/)                       |          ![b](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |     `later`     |                   [Later](https://getlater.app)                    |          ![a](assets/a.svg)![1](assets/1.svg)          |     ×     |
@@ -42,9 +41,10 @@
 
 In the Experimental folder, there are several manifests that the current contributors cannot fix, welcome your help!
 
-|     Cask Name     |                 Site                 |                          Note                          |   Problem    |
-| :---------------: | :----------------------------------: | :----------------------------------------------------: | :----------: |
-| `pareto-security` | [Pareto](https://paretosecurity.com) | ![a](assets/a.svg)![1](assets/1.svg)![3](assets/3.svg) | fail to bump |
+|     Cask Name     |                           Site                            |                          Note                          |   Problem    |
+| :---------------: | :-------------------------------------------------------: | :----------------------------------------------------: | :----------: |
+| `pareto-security` |           [Pareto](https://paretosecurity.com)            | ![a](assets/a.svg)![1](assets/1.svg)![3](assets/3.svg) | fail to bump |
+|   `goldendict`    | [GoldenDict](https://github.com/xiaoyifang/goldendict-ng) |          ![a](assets/a.svg)![1](assets/1.svg)          | fail to bump |
 
 ---
 
