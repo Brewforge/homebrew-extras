@@ -1,9 +1,9 @@
 cask "jan" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.4.5"
-  sha256 arm:   "4f42314a363fcebc540d0b564d63167b808c8bf89cd36e09ae3f8474021a4e85",
-         intel: "1840c7eff132247770276607e8e92fc8354c34d2f167a7d01d0356bb0dbf5cbe"
+  version "0.4.6"
+  sha256 arm:   "4501d0f3affba899e6d0ef33c089598e3a309086c0b8ecc6a37ee098d51f4656",
+         intel: "c28b0a8ed09158bdffb80026b2034a732203cea995e4dc94a5deff915508ab0c"
 
   mirror = "https://mirror.ghproxy.com/"
   origin = "https://github.com/janhq/jan/releases/download/v#{version}/jan-mac-#{arch}-#{version}.dmg"
