@@ -1,9 +1,9 @@
 cask "peekai" do
   arch arm: "-arm64-", intel: "-"
 
-  version "4.0.2"
-  sha256 arm:   "7124ff0b0ee374938f7994c8770118eb0d4f3c02fadaaf9dc4bc49ed8318a413",
-         intel: "93762c7170583cbf381605559e6e865d99f0a3ff591de6b32c18196cb61b1d80"
+  version "4.0.3"
+  sha256 arm:   "e6bc71f9ca537f7e3c5687dc4760744df95366e2a4b839e70f08ee5c96bbcb4f",
+         intel: "c9cec33f437a3548b9775d9d4a253f7db2c053ff6d49c3626e6b930ccc739c85"
 
   url "https://github.com/prateekkeshari/peek-ai/releases/download/#{version}/Peek-#{version}#{arch}mac.zip",
       verified: "github.com/prateekkeshari/peek-ai/"
