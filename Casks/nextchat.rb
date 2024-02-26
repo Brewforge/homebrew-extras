@@ -12,10 +12,9 @@ cask "nextchat" do
   uninstall quit: "com.yida.chatgpt.next.web"
 
   zap trash: [
-      "~/.chatgpt",
-      "~/Library/Application Support/com.yida.chatgpt.next.web",
-      "~/Library/Caches/com.yida.chatgpt.next.web",
-      "~/Library/Saved Application State/com.yida.chatgpt.next.web.savedState",
-      "~/Library/WebKit/com.yida.chatgpt.next.web",
+    "~/Library/Application Support/com.yida.chatgpt.next.web",
+    "~/Library/Caches/com.yida.chatgpt.next.web",
+    "~/Library/Saved Application State/com.yida.chatgpt.next.web.savedState",
+    "~/Library/WebKit/com.yida.chatgpt.next.web",
   ]
 end
