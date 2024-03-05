@@ -17,7 +17,6 @@
 | `freefilesync`  |              [FreeFileSync](https://freefilesync.org)              |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |  `gridplayer`   |        [GridPlayer](https://github.com/vzhd1701/gridplayer)        |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |    `hiddify`    |                [Hiddify-Next](https://hiddify.com/)                |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
-|      `jan`      |                       [Jan](https://jan.ai/)                       |          ![b](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |     `later`     |                   [Later](https://getlater.app)                    |          ![a](assets/a.svg)![1](assets/1.svg)          |     ×     |
 |   `localsend`   |                 [LocalSend](https://localsend.org)                 |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |   `lyricsxjh`   | [LyricsX JH Fork](https://github.com/JH-Application-Forks/LyricsX) |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
