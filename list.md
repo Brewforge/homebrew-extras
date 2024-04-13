@@ -28,7 +28,6 @@
 |  `tinkertool`   |     [TinkerTool](https://www.bresink.com/osx/TinkerTool.html)      |          ![b](assets/b.svg)![1](assets/1.svg)          |     ✓     |
 |    `upscayl`    |                   [Upscayl](https://upscayl.org)                   |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |    `xnapper`    |                   [Xnapper](https://xnapper.com)                   |          ![b](assets/b.svg)![2](assets/2.svg)          |     ✓     |
-|   `zlibrary`    |               [Z-Library](https://zlibrary-asia.se)                |          ![b](assets/b.svg)![1](assets/1.svg)          |     ×     |
 
 ## Formulae
 
