@@ -1,12 +1,12 @@
 cask "cudatext" do
   arch arm: "aarch64", intel: "amd64"
 
-  version "1.208.0.0"
-  sha256 arm:   "c3bca95f9b58b405da11a260297aa1807f8e470df251283494e4b7446e254db6",
-         intel: "3c162a7c5ef7fed2767877cd589e4b9233a6aa41104be167fe58798a93736a35"
+  version "1.210.0.0"
+  sha256 arm:   "b07faa4dd0adf72f3404b48414a666dd0ccd336206c5764b28f67ec82f6888b2",
+         intel: "f49431d5bb658d0e3fc9bb44a01290234d0a3a1f71a7eec112fb8c84bda029cc"
 
-  url "https://downloads.sourceforge.net/project/cudatext/release/#{version}/cudatext-macos-cocoa-#{arch}-#{version}.dmg.zip",
-      verified: "downloads.sourceforge.net/project/cudatext/"
+  url "https://sourceforge.net/projects/cudatext/files/release/#{version}/cudatext-macos-cocoa-#{arch}-#{version}.dmg.zip",
+      verified: "downloads.sourceforge.net/projects/cudatext/"
   name "CudaText"
   desc "Text editor"
   homepage "https://cudatext.github.io/index.html"
