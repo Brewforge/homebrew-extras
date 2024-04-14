@@ -1,6 +1,6 @@
 cask "tinkertool" do
   version "9.66"
-  sha256 "376d568fed91a50166511a992f5e4f5dd00f2436b5f4f87e7928f08f8ec63320"
+  sha256 :no_check
 
   url "https://www.bresink.com/download3.php?PHPSESSID=92a1feeb341686c3289ed317c51048d7"
   name "TinkerTool"
