@@ -6,7 +6,7 @@ cask "cudatext" do
          intel: "3c162a7c5ef7fed2767877cd589e4b9233a6aa41104be167fe58798a93736a35"
 
   url "https://udomain.dl.sourceforge.net/project/cudatext/release/#{version}/cudatext-macos-cocoa-#{arch}-#{version}.dmg.zip",
-      verified: "downloads.sourceforge.net/cudatext/"
+      verified: "udomain.dl.sourceforge.net/project/cudatext/"
   name "CudaText"
   desc "Text editor"
   homepage "https://cudatext.github.io/index.html"
