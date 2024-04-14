@@ -7,7 +7,7 @@ on:
     branches: [fix-*]
   schedule:
     # Every 24 hours
-    # - cron: "20 */24 * * *"
+    - cron: "20 */24 * * *"
     # Every day at 6am
     # - cron: "0 6 * * *"
   # allow run manually
