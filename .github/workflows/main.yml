@@ -6,10 +6,10 @@ on:
   push:
     branches: [fix-*]
   schedule:
-    # Every 12 hours
-    # - cron: "20 */12 * * *"
+    # Every 24 hours
+    # - cron: "20 */24 * * *"
     # Every day at 6am
-    - cron: "0 6 * * *"
+    # - cron: "0 6 * * *"
   # allow run manually
   workflow_dispatch:
 
