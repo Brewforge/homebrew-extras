@@ -1,9 +1,9 @@
 cask "hiddify" do
-  version "0.14.20"
-  sha256 "9b566df627528355f76bfd18fd255a51f61951cc5369cfd9c2e06d2b1e30d527"
+  version "1.1.1"
+  sha256 "ef238c7b02955fffdb47421fe371a30f7c12839a17a83c3dee3c3f95a5f67379"
 
   mirror = "https://mirror.ghproxy.com/"
-  origin = "https://github.com/hiddify/hiddify-next/releases/download/v#{version}/hiddify-macos-universal.zip"
+  origin = "https://github.com/hiddify/hiddify-next/releases/download/v#{version}/Hiddify-MacOS.dmg"
 
   url "#{mirror}#{origin}",
       verified: "mirror.ghproxy.com/"
@@ -17,7 +17,6 @@ cask "hiddify" do
   end
 
   auto_updates true
-  container nested: "hiddify-macos-universal.dmg"
 
   app "Hiddify Next.app"
 
