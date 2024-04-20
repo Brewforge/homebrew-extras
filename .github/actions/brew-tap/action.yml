@@ -14,7 +14,7 @@ runs:
         HOMEBREW_GITHUB_API_TOKEN: ${{ inputs.HOMEBREW_GITHUB_API_TOKEN }}
       shell: bash -ieo pipefail {0}
       run: |
-        brew tap brewforge/chinese
+        brew tap brewforge/extras
         brew update
 
     - name: Install Homebrew's dependencies
