@@ -1,7 +1,7 @@
 class Typstyle < Formula
   desc "Format your typst source code"
   homepage "https://github.com/Enter-tainer/typstyle"
-  version "0.11.14"
+  version "0.11.15"
   license "Apache-2.0"
 
   arch = Hardware::CPU.arm? ? "arm64" : "x64"
@@ -9,7 +9,7 @@ class Typstyle < Formula
   if OS.mac?
     url "https://github.com/Enter-tainer/typstyle/releases/download/v#{version}/typstyle-darwin-#{arch}"
     if Hardware::CPU.arm?
-      sha256 "bad507317bcb92d8fc89e5aa0017464b23d901e33473fb199e021ba7799717b1"
+      sha256 "12660b132c309dad89490b072715ff5ba03e1eba1cb3b3a70542fc3c3c8b0ead"
     else
       sha256 "f11d68a827118f6bf762bc159b3813906778eaf560d02d6e5b242f253a91ece9"
     end
