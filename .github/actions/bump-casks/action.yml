@@ -22,4 +22,4 @@ runs:
       run: |
         parallel -j1 --delay 1s --group --halt now,fail=1 \
           "./.github/actions/bump-casks/script.sh brewforge/extras/{}" \
-          ::: $(ls $(brew --repository brewforge/extras)/Casks/*.rb | xargs -I {} basename {} .rb)
+          ::: $(ls $(brew --repository brewforge/extras)/Casks/[b-z]*.rb | xargs -I {} basename {} .rb)
