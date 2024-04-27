@@ -7,6 +7,11 @@ cask "nextchat" do
   desc "Cross-platform ChatGPT/Gemini UI"
   homepage "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   app "NextChat.app"
 
   uninstall quit: "com.yida.chatgpt.next.web"

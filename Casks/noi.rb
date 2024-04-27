@@ -7,6 +7,11 @@ cask "noi" do
   desc "Power Your World with AI - Explore, Extend, Empower"
   homepage "https://github.com/lencx/Noi"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   app "Noi.app"
 
   uninstall quit: "com.lencx.noi"
