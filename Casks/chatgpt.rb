@@ -7,6 +7,11 @@ cask "chatgpt" do
   desc "Desktop wrapper for OpenAI ChatGPT"
   homepage "https://github.com/lencx/ChatGPT"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   app "ChatGPT.app"
 
   uninstall quit: "com.lencx.chatgpt"

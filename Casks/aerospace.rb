@@ -7,9 +7,19 @@ cask "aerospace" do
   desc "I3-like tiling window manager"
   homepage "https://github.com/nikitabobko/AeroSpace"
 
+  livecheck do
+    url "https://github.com/nikitabobko/AeroSpace/releases"
+    strategy :page_match do |page|
+      match = page.match(/href=.*?AeroSpace-v(\d+(\.\d+)+)((-Beta)?)\.zip/)
+      next if match.blank?
+
+      "#{match[1]}#{match[2]}"
+    end
+  end
+
   # NOTE: conflicts_with formula: is a stub and is not yet functional. :(
   # https://github.com/Homebrew/homebrew-cask/issues/12822
-  conflicts_with formula: "aerospace-cli"
+  # conflicts_with formula: "aerospace-cli"
   depends_on macos: ">= :ventura" # macOS 13
 
   app "AeroSpace-v#{version}/AeroSpace.app"

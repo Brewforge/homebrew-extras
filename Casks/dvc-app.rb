@@ -9,7 +9,7 @@ cask "dvc-app" do
 
   livecheck do
     url "https://dvc.org/"
-    regex(/href=.*?dvc-(\d+(?:\.\d+)+)/i)
+    regex(/href=.*?dvc-(\d+(\.\d+)+)/i)
   end
 
   depends_on macos: ">= :mojave"
