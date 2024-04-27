@@ -1,6 +1,6 @@
 cask "xnapper" do
   version "1.17.1"
-  sha256 :no_check
+  sha256 "1cfbabf28fb49d117febcc81c77ced5989768f9150d451417cd4f526b048c7e7"
 
   url "https://xnapper.com/dmg/Xnapper-#{version}.dmg"
   name "xnapper"
@@ -8,8 +8,8 @@ cask "xnapper" do
   homepage "https://xnapper.com/"
 
   livecheck do
-    url :homepage
-    regex(/(\d+(\.\d+)+).+macos/i)
+    url "https://xnapper.com/changelog"
+    regex(/(\d+(\.\d+)+) \(/i)
   end
 
   auto_updates true
