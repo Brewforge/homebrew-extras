@@ -11,7 +11,6 @@
 |   `aerospace`   |       [AeroSpace](https://github.com/nikitabobko/AeroSpace)        |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |     `barss`     |             [baRSS](https://relikd.de/projects/barss)              |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |    `chatgpt`    |            [ChatGPT](https://github.com/lencx/ChatGPT)             |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
-|  `corretto-8`   |    [Amazon Corretto 8](https://github.com/corretto/corretto-8)     |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |   `cudatext`    |               [cudatext](https://cudatext.github.io)               |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |    `dvc-app`    |                       [DVC](https://dvc.org)                       |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 | `freefilesync`  |              [FreeFileSync](https://freefilesync.org)              |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
