@@ -33,8 +33,10 @@
 
 | Formula Name  |                    Site                     |                 Note                 | Auto-Bump |
 | :-----------: | :-----------------------------------------: | :----------------------------------: | :-------: |
+| `bun` | [bun](https://bun.sh/)  | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 | `chatgpt-cli` | [ChatGPT](https://github.com/j178/chatgpt)  | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 |   `termscp`   | [termscp](https://github.com/veeso/termscp) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
+|   `typstyle`   | [typstyle](https://github.com/Enter-tainer/typstyle) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 
 ## ⚔️ Chalenge
 
