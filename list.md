@@ -24,19 +24,20 @@
 |    `peazip`     |             [PeaZip](https://github.com/peazip/PeaZip)             |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |    `peekai`     |        [peekai](https://prateekkeshari.gumroad.com/l/peek)         | ![a](assets/a.svg)![1](assets/1.svg)![2](assets/2.svg) |     ✓     |
 | `pixel-perfect` | [Pixel Perfect](https://github.com/cormiertyshawn895/PixelPerfect) |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
-| `quickrecorder` | [Pixel Perfect](https://github.com/lihaoyun6/QuickRecorder) |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
+|   `qtscrcpy`    |         [QtScrcpy](https://github.com/barry-ran/QtScrcpy)          |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
+| `quickrecorder` |    [Pixel Perfect](https://github.com/lihaoyun6/QuickRecorder)     |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |  `tinkertool`   |     [TinkerTool](https://www.bresink.com/osx/TinkerTool.html)      |          ![b](assets/b.svg)![1](assets/1.svg)          |     ✓     |
 |    `upscayl`    |                   [Upscayl](https://upscayl.org)                   |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |    `xnapper`    |                   [Xnapper](https://xnapper.com)                   |          ![b](assets/b.svg)![2](assets/2.svg)          |     ✓     |
 
 ## Formulae
 
-| Formula Name  |                    Site                     |                 Note                 | Auto-Bump |
-| :-----------: | :-----------------------------------------: | :----------------------------------: | :-------: |
-| `bun` | [bun](https://bun.sh/)  | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
-| `chatgpt-cli` | [ChatGPT](https://github.com/j178/chatgpt)  | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
-|   `termscp`   | [termscp](https://github.com/veeso/termscp) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
-|   `typstyle`   | [typstyle](https://github.com/Enter-tainer/typstyle) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
+| Formula Name  |                         Site                         |                 Note                 | Auto-Bump |
+| :-----------: | :--------------------------------------------------: | :----------------------------------: | :-------: |
+|     `bun`     |                [bun](https://bun.sh/)                | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
+| `chatgpt-cli` |      [ChatGPT](https://github.com/j178/chatgpt)      | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
+|   `termscp`   |     [termscp](https://github.com/veeso/termscp)      | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
+|  `typstyle`   | [typstyle](https://github.com/Enter-tainer/typstyle) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 
 ## ⚔️ Chalenge
 
