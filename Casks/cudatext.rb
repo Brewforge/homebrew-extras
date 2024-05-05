@@ -5,7 +5,7 @@ cask "cudatext" do
   sha256 arm:   "b07faa4dd0adf72f3404b48414a666dd0ccd336206c5764b28f67ec82f6888b2",
          intel: "f49431d5bb658d0e3fc9bb44a01290234d0a3a1f71a7eec112fb8c84bda029cc"
 
-  url "https://sourceforge.net/projects/cudatext/files/release/#{version}/cudatext-macos-cocoa-#{arch}-#{version}.dmg.zip",
+  url "https://sourceforge.net/projects/cudatext/files/release/#{version}/cudatext-macos-cocoa-#{arch}-#{version}.dmg",
       verified: "downloads.sourceforge.net/projects/cudatext/"
   name "CudaText"
   desc "Text editor"
