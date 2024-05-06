@@ -19,5 +19,10 @@ cask "scrcpy-mask" do
 
   app "scrcpy-mask.app"
 
-  zap trash: []
+  zap trash: [
+    "~/Library/Application Support/com.akichase.mask",
+    "~/Library/Caches/com.akichase.mask",
+    "~/Library/Saved Application State/com.akichase.mask.savedState",
+    "~/Library/WebKit/com.akichase.mask",
+  ]
 end
