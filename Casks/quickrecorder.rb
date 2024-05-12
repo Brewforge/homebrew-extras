@@ -1,6 +1,6 @@
 cask "quickrecorder" do
-  version "1.1.8"
-  sha256 "92a8dfa6a9611582ca2bce72f86111fbbc5c9edb7344f52cbdecc29c92e76d9d"
+  version "1.2.0"
+  sha256 "469d4786f80ed990a21d04d9573373d0b9011084856bcd222d23094a746f5bb3"
 
   url "https://github.com/lihaoyun6/QuickRecorder/releases/download/#{version}/QuickRecorder_v#{version}.dmg"
   name "QuickRecorder"
