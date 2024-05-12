@@ -1,6 +1,6 @@
 cask "peazip" do
-  version "9.7.1"
-  sha256 "f5005c1e0dcb071e764669f1fbe60800e9fb352cd6bcceda828021d2be7ebe28"
+  version "9.8.0"
+  sha256 "5fba1cc7f69f1a445e7fea04fbf07e28e23189d7ba301451da3d49368e6c77c1"
 
   url "https://github.com/peazip/PeaZip/releases/download/#{version}/peazip-#{version}.DARWIN.aarch64.dmg",
       verified: "github.com/peazip/PeaZip/"
