@@ -10,7 +10,8 @@
 | :-------------: | :----------------------------------------------------------------: | :----------------------------------------------------: | :-------: |
 |   `aerospace`   |       [AeroSpace](https://github.com/nikitabobko/AeroSpace)        |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |     `barss`     |             [baRSS](https://relikd.de/projects/barss)              |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
-|    `chatgpt-lencx`    |            [ChatGPT-lencx](https://github.com/lencx/ChatGPT)             |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
+|   `butterfly`   |        [Butterfly](https://github.com/LinwoodDev/Butterfly)        |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
+| `chatgpt-lencx` |         [ChatGPT-lencx](https://github.com/lencx/ChatGPT)          |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |   `cudatext`    |               [cudatext](https://cudatext.github.io)               |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |    `dvc-app`    |                       [DVC](https://dvc.org)                       |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 | `freefilesync`  |              [FreeFileSync](https://freefilesync.org)              |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
@@ -26,7 +27,7 @@
 | `pixel-perfect` | [Pixel Perfect](https://github.com/cormiertyshawn895/PixelPerfect) |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |   `qtscrcpy`    |         [QtScrcpy](https://github.com/barry-ran/QtScrcpy)          |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 | `quickrecorder` |    [Pixel Perfect](https://github.com/lihaoyun6/QuickRecorder)     |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
-|  `scrcpy-mask`   |     [scrcpy-mask](https://github.com/AkiChase/scrcpy-mask)      |          ![b](assets/b.svg)![1](assets/1.svg)          |     ✓     |
+|  `scrcpy-mask`  |       [scrcpy-mask](https://github.com/AkiChase/scrcpy-mask)       |          ![b](assets/b.svg)![1](assets/1.svg)          |     ✓     |
 |  `tinkertool`   |     [TinkerTool](https://www.bresink.com/osx/TinkerTool.html)      |          ![b](assets/b.svg)![1](assets/1.svg)          |     ✓     |
 |    `upscayl`    |                   [Upscayl](https://upscayl.org)                   |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |    `xnapper`    |                   [Xnapper](https://xnapper.com)                   |          ![b](assets/b.svg)![2](assets/2.svg)          |     ✓     |
