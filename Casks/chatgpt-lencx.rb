@@ -1,4 +1,4 @@
-cask "chatgpt" do
+cask "chatgpt-lencx" do
   version "1.1.0"
   sha256 "f870ba135ad990715474cbb038b5b38acb8d08640803e2c79c878e210f4800f6"
 
