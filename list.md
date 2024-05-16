@@ -9,6 +9,8 @@
 |    Cask Name    |                                Site                                |                          Note                          | Auto-Bump |
 | :-------------: | :----------------------------------------------------------------: | :----------------------------------------------------: | :-------: |
 |   `aerospace`   |       [AeroSpace](https://github.com/nikitabobko/AeroSpace)        |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
+|      `airy-ai`      |                               [Airy](https://colink.in/)                                |                   ![b](assets/b.svg)![1](assets/1.svg)                   |  ×  |
+
 |     `barss`     |             [baRSS](https://relikd.de/projects/barss)              |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |   `butterfly`   |        [Butterfly](https://github.com/LinwoodDev/Butterfly)        |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 | `chatgpt-lencx` |         [ChatGPT-lencx](https://github.com/lencx/ChatGPT)          |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
