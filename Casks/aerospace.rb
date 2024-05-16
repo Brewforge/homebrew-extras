@@ -8,12 +8,12 @@ cask "aerospace" do
   homepage "https://github.com/nikitabobko/AeroSpace"
 
   livecheck do
-    url "https://github.com/nikitabobko/AeroSpace/releases"
+    url "https://github.com/nikitabobko/AeroSpace/tags"
     strategy :page_match do |page|
-      match = page.match(/href=.*?AeroSpace-v(\d+(\.\d+)+)((-Beta)?)\.zip/)
+      match = page.match(%r{href=.*?v(\d+(\.\d+)+(-Beta)?)}i)
       next if match.blank?
 
-      "#{match[1]}#{match[2]}"
+      "#{match[1]}"
     end
   end
 

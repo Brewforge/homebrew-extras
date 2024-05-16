@@ -50,6 +50,7 @@ In the Buggy folder, there are several manifests that the current contributors c
 |     Cask Name     |                             Site                             |                          Note                          |   Problem    |
 | :---------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------: |
 |  `goldendict-ng`  | [GoldenDict-NG](https://github.com/xiaoyifang/goldendict-ng) |          ![a](assets/a.svg)![1](assets/1.svg)          | fail to livecheck |
+|  `wox`  | [Wox](https://github.com/Wox-launcher/Wox) |          ![a](assets/a.svg)![1](assets/1.svg)          | fail to livecheck |
 
 ---
 
