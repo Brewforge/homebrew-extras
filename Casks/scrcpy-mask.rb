@@ -7,7 +7,7 @@ cask "scrcpy-mask" do
 
   url "https://github.com/AkiChase/scrcpy-mask/releases/download/v#{version}/scrcpy-mask_#{version}_#{arch}.dmg"
   name "scrcpy-mask"
-  desc "A Scrcpy client in Rust & Tarui aimed at providing mouse and key mapping to control Android device"
+  desc "Scrcpy client aimed at providing mouse and key mapping to control Android device"
   homepage "https://github.com/AkiChase/scrcpy-mask"
 
   livecheck do
