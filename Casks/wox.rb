@@ -10,13 +10,14 @@ cask "wox" do
   homepage "https://github.com/Wox-launcher/Wox"
 
   livecheck do
-    url "https://github.com/Wox-launcher/Wox/releases"
-    strategy :page_match do |page|
-      match = page.match(%r{href=.*?v(\d+(\.\d+)+(-nightly)?)/wox-mac-#{arch}-(\d{8}-[\d\w]{6})\.dmg}i)
-      next if match.blank?
+    # url "https://github.com/Wox-launcher/Wox/releases"
+    # strategy :page_match do |page|
+    #   match = page.match(%r{href=.*?v(\d+(\.\d+)+(-nightly)?)/wox-mac-#{arch}-(\d{8}-[\d\w]{6})\.dmg}i)
+    #   next if match.blank?
 
-      "#{match[1]},#{match[2]}"
-    end
+    #   "#{match[1]},#{match[2]}"
+    # end
+    skip "skip for now"
   end
 
   auto_updates true
