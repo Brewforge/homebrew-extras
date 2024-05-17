@@ -45,7 +45,7 @@
 
 ## ⚔️ Chalenge
 
-In the Buggy folder, there are several manifests that the current contributors cannot fix, welcome your help!
+There are several manifests that the current contributors cannot fix, welcome your help!
 
 |     Cask Name     |                             Site                             |                          Note                          |   Problem    |
 | :---------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------: |
