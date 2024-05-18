@@ -12,6 +12,8 @@ cask "quickrecorder" do
     strategy :github_latest
   end
 
+  auto_updates true
+
   app "QuickRecorder.app"
 
   zap trash: [
