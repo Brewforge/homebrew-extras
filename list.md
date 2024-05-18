@@ -10,11 +10,9 @@
 | :-------------: | :----------------------------------------------------------------: | :----------------------------------------------------: | :-------: |
 |   `aerospace`   |       [AeroSpace](https://github.com/nikitabobko/AeroSpace)        |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |      `airy-ai`      |                               [Airy](https://colink.in/)                                |                   ![b](assets/b.svg)![1](assets/1.svg)                   |  ×  |
-
 |     `barss`     |             [baRSS](https://relikd.de/projects/barss)              |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |   `butterfly`   |        [Butterfly](https://github.com/LinwoodDev/Butterfly)        |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 | `chatgpt-lencx` |         [ChatGPT-lencx](https://github.com/lencx/ChatGPT)          |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
-|   `cudatext`    |               [cudatext](https://cudatext.github.io)               |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |    `dvc-app`    |                       [DVC](https://dvc.org)                       |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 | `freefilesync`  |              [FreeFileSync](https://freefilesync.org)              |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
 |  `gridplayer`   |        [GridPlayer](https://github.com/vzhd1701/gridplayer)        |          ![a](assets/a.svg)![1](assets/1.svg)          |     ✓     |
@@ -38,7 +36,6 @@
 
 | Formula Name  |                         Site                         |                 Note                 | Auto-Bump |
 | :-----------: | :--------------------------------------------------: | :----------------------------------: | :-------: |
-|     `bun`     |                [bun](https://bun.sh/)                | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 | `chatgpt-cli` |      [ChatGPT](https://github.com/j178/chatgpt)      | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 |   `termscp`   |     [termscp](https://github.com/veeso/termscp)      | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 |  `typstyle`   | [typstyle](https://github.com/Enter-tainer/typstyle) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
@@ -49,6 +46,7 @@ There are several manifests that the current contributors cannot fix, welcome yo
 
 |     Cask Name     |                             Site                             |                          Note                          |   Problem    |
 | :---------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------: |
+|    `cudatext`    |               [CudaText](https://cudatext.github.io) |          ![a](assets/a.svg)![1](assets/1.svg)          | fail to livecheck |
 |  `goldendict-ng`  | [GoldenDict-NG](https://github.com/xiaoyifang/goldendict-ng) |          ![a](assets/a.svg)![1](assets/1.svg)          | fail to livecheck |
 |  `wox`  | [Wox](https://github.com/Wox-launcher/Wox) |          ![a](assets/a.svg)![1](assets/1.svg)          | fail to livecheck |
 
