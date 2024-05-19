@@ -12,6 +12,9 @@ cask "chatgpt-lencx" do
     strategy :github_latest
   end
 
+  auto_updates true
+  conflicts_with cask: "chatgpt"
+
   app "ChatGPT.app"
 
   uninstall quit: "com.lencx.chatgpt"
