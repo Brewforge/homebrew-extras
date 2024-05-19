@@ -14,10 +14,24 @@ cask "freefilesync" do
 
   auto_updates true
 
-  pkg "FreeFileSync_#{version}.pkg"
+  pkg "FreeFileSync_#{version}.pkg",
+      choices: [
+        {
+          "choiceIdentifier" => "installer_choice_1",
+          "choiceAttribute"  => "selected",
+          "attributeSetting" => 1,
+        },
+        {
+          "choiceIdentifier" => "installer_choice_2",
+          "choiceAttribute"  => "selected",
+          "attributeSetting" => 1,
+        },
+      ]
 
-  uninstall quit:    "org.freefilesync.FreeFileSync",
-            pkgutil: "org.freefilesync.RealTimeSync"
+  uninstall pkgutil: [
+    "org.freefilesync.pkg.FreeFileSync",
+    "org.freefilesync.pkg.RealTimeSync",
+  ]
 
   zap trash: [
     "~/Library/Application Support/FreeFileSync",
