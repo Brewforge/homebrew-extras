@@ -26,6 +26,6 @@ cask "easyspider" do
     "~/Library/Preferences/com.electron.easyspider.plist",
     "~/Library/Saved Application State/com.electron.easyspider.savedState",
     "~/Library/Saved Application State/com.google.Chrome.app.ahiigpfcghkbjfcibpojancebdfjmoop.savedState",
-    "~/Library/Saved Application State/com.google.Chrome.app.com.google.Chrome.app.nlalbmkafgmoifbeooblidblkmlhhpnc.savedState",
+    "~/Library/Saved Application State/com.google.Chrome.app.nlalbmkafgmoifbeooblidblkmlhhpnc.savedState",
   ]
 end

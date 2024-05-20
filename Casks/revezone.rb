@@ -1,11 +1,11 @@
 cask "revezone" do
   version "1.0.0-alpha.18"
-  sha256 "95986d845466153e541b2d09bf8025fa8c612771b7b47e8a70c74c6b080d1416"
+  sha256 "491b1a7ef3fc390420a5a2d5db39cb4cbf173cc7e488f58a079e01e16ade46fe"
 
   url "https://github.com/revezone/revezone/releases/download/#{version}/revezone-#{version}-arm64.dmg",
       verified: "github.com/revezone/revezone/"
   name "revezone"
-  desc "Lightweight Local-First Graphic-Centric Productivity Tool To Build Your Second Brain"
+  desc "Lightweight Local-First Graphic-Centric Productivity Tool"
   homepage "https://revezone.com/"
 
   livecheck do
@@ -17,5 +17,9 @@ cask "revezone" do
 
   app "revezone.app"
 
-  zap trash: []
+  zap trash: [
+    "~/Library/Application Support/revezone",
+    "~/Library/Preferences/revezone.plist",
+    "~/Library/Saved Application State/revezone.savedState",
+  ]
 end
