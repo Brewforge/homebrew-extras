@@ -47,9 +47,7 @@ There are several manifests that the current contributors cannot fix, welcome yo
 
 |    Cask Name    |                             Site                             |                 Note                 |      Problem      |
 | :-------------: | :----------------------------------------------------------: | :----------------------------------: | :---------------: |
-|   `cudatext`    |            [CudaText](https://cudatext.github.io)            | ![a](assets/a.svg)![1](assets/1.svg) | fail to livecheck |
-| `goldendict-ng` | [GoldenDict-NG](https://github.com/xiaoyifang/goldendict-ng) | ![a](assets/a.svg)![1](assets/1.svg) | fail to livecheck |
-|      `wox`      |          [Wox](https://github.com/Wox-launcher/Wox)          | ![a](assets/a.svg)![1](assets/1.svg) | fail to livecheck |
+|   `cudatext`    |            [CudaText](https://cudatext.github.io)            | ![a](assets/a.svg)![1](assets/1.svg) |  fails to brew audit |
 
 ---
 
