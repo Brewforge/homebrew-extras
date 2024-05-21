@@ -14,7 +14,7 @@ cask "goldendict-ng" do
   livecheck do
     # url "https://github.com/xiaoyifang/goldendict-ng/releases"
     # strategy :page_match do |page|
-    #   match = page.match(%r{href=.*?v(\d+(\.\d+)+)-(\w+\.[\d\w]+)/GoldenDict-(\d+(\.\d+)+)-Qt(\d+(\.\d+)+)-#{arch}\.dmg}i)
+    #   match = page.match(%r{href=.*?v(\d+(\.\d+)+)-(\w+\.\h{8})/GoldenDict-(\d+(\.\d+)+)-Qt(\d+(\.\d+)+)-#{arch}\.dmg}i)
     #   next if match.blank?
 
     #   "#{match[1]},#{match[4]},#{match[2]}"
