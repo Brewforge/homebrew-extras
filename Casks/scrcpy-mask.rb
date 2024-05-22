@@ -1,9 +1,9 @@
 cask "scrcpy-mask" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.3.1"
-  sha256 arm:   "221a768b97b992e52796e429b59e4ce62edb671c32ec4b82b443a0993abb9158",
-         intel: "54ab25014b12cdb7df143a58e5ad9685c57f7d67efaee6416b43eb9b92756547"
+  version "0.4.1"
+  sha256 arm:   "defa3ead91d8fea8963dec8565ba87d81041b7d429dde10084ac2476007e2ef2",
+         intel: "000ce9e5b7aa50b68e2c1883d10533225fc50ff1fae55f7cc800d1e2e38a7d17"
 
   url "https://github.com/AkiChase/scrcpy-mask/releases/download/v#{version}/scrcpy-mask_#{version}_#{arch}.dmg"
   name "scrcpy-mask"
