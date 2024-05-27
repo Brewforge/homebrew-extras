@@ -20,5 +20,10 @@ cask "imfile" do
 
   app "imFile.app"
 
-  zap trash: []
+  zap trash: [
+    "~/Library/Application Support/imFile",
+    "~/Library/Logs/imFile",
+    "~/Library/Preferences/app.imfile.native.plist",
+    "~/Library/Saved Application State/app.imfile.native.savedState",
+  ]
 end
