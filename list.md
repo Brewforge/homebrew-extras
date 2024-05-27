@@ -1,6 +1,8 @@
+<!-- markdownlint-disable MD041 -->
+
 > Software not found in this list can be viewed in the list below.
 >
-> [![Click to View List for Chinese](https://img.shields.io/badge/List_for_Chinese-red?logo=homebrew&label=Click%20to%20view)](https://github.com/Brewforge/homebrew-chinese/blob/main/%E5%88%97%E8%A1%A8.md)
+> [![Click to View List for Chinese](https://img.shields.io/badge/List_for_Chinese-red?style=for-the-badge&logo=homebrew&label=Click%20to%20view)](https://github.com/Brewforge/homebrew-chinese/blob/main/%E5%88%97%E8%A1%A8.md)
 
 # 🌍 For Worldwide
 
@@ -53,4 +55,4 @@ There are several manifests that the current contributors cannot fix, welcome yo
 
 > Software not found in this list can be viewed in the list below.
 >
-> [![Click to View List for Chinese](https://img.shields.io/badge/List_for_Chinese-red?logo=homebrew&label=Click%20to%20view)](https://github.com/Brewforge/homebrew-chinese/blob/main/%E5%88%97%E8%A1%A8.md)
+> [![Click to View List for Chinese](https://img.shields.io/badge/List_for_Chinese-red?style=for-the-badge&logo=homebrew&label=Click%20to%20view)](https://github.com/Brewforge/homebrew-chinese/blob/main/%E5%88%97%E8%A1%A8.md)

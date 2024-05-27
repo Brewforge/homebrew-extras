@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD033 -->
+
 # Homebrew-Extras
 
 ![Homebrew](https://img.shields.io/badge/-Homebrew-FBB040?labelColor=555555&logoColor=FFFFFF&logo=homebrew) ![CI](https://github.com/Brewforge/homebrew-extras/actions/workflows/main.yml/badge.svg) ![license](https://img.shields.io/github/license/Brewforge/homebrew-extras) ![code-size](https://img.shields.io/github/languages/code-size/Brewforge/homebrew-extras) ![repo-size](https://img.shields.io/github/repo-size/Brewforge/homebrew-extras)
@@ -10,7 +12,11 @@ Extras [Homebrew](https://github.com/Homebrew/brew) 🍺 Casks Not Included in t
 
 📦 List of Entries
 
-[![List](https://img.shields.io/badge/List-blue?logo=homebrew&label=Click%20to%20view)](list.md)
+<div style="text-align: center;">
+  <a href="list.md" style="margin: 0 10px;">
+    <img src="https://img.shields.io/badge/List-blue?style=for-the-badge&logo=homebrew&label=Click%20to%20view" alt="List">
+  </a>
+</div>
 
 ## 🏃 Get Started
 
