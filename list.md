@@ -19,6 +19,7 @@
 | `freefilesync`  |              [FreeFileSync](https://freefilesync.org)              |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
 |  `gridplayer`   |        [GridPlayer](https://github.com/vzhd1701/gridplayer)        |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
 |    `hiddify`    |                [Hiddify-Next](https://hiddify.com/)                |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
+|    `imfile`     |                    [imFile](https://imfile.io/)                    |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
 |     `later`     |                   [Later](https://getlater.app)                    |          ![a](assets/a.svg)![1](assets/1.svg)          |     ×     |
 |   `localsend`   |                 [LocalSend](https://localsend.org)                 |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
 |   `lyricsxjh`   | [LyricsX JH Fork](https://github.com/JH-Application-Forks/LyricsX) |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
@@ -47,9 +48,9 @@
 
 There are several manifests that the current contributors cannot fix, welcome your help!
 
-|    Cask Name    |                             Site                             |                 Note                 |      Problem      |
-| :-------------: | :----------------------------------------------------------: | :----------------------------------: | :---------------: |
-|   `cudatext`    |            [CudaText](https://cudatext.github.io)            | ![a](assets/a.svg)![1](assets/1.svg) |  fails to brew audit |
+| Cask Name  |                  Site                  |                 Note                 |       Problem       |
+| :--------: | :------------------------------------: | :----------------------------------: | :-----------------: |
+| `cudatext` | [CudaText](https://cudatext.github.io) | ![a](assets/a.svg)![1](assets/1.svg) | fails to brew audit |
 
 ---
 
