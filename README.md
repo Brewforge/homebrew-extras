@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD033 -->
-
 # Homebrew-Extras
 
 ![Homebrew](https://img.shields.io/badge/-Homebrew-FBB040?labelColor=555555&logoColor=FFFFFF&logo=homebrew) ![CI](https://github.com/Brewforge/homebrew-extras/actions/workflows/main.yml/badge.svg) ![license](https://img.shields.io/github/license/Brewforge/homebrew-extras) ![code-size](https://img.shields.io/github/languages/code-size/Brewforge/homebrew-extras) ![repo-size](https://img.shields.io/github/repo-size/Brewforge/homebrew-extras)
