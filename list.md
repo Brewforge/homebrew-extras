@@ -24,7 +24,7 @@
 |     `localsend`     |                     [LocalSend](https://localsend.org)                      |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
 |     `lyricsxjh`     |     [LyricsX JH Fork](https://github.com/JH-Application-Forks/LyricsX)      |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
 |        `noi`        |                     [Noi](https://github.com/lencx/Noi)                     |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
-| `openai-translator` | [Openai-Translator](https://github.com/openai-translator/openai-translator) | ![a](../homebrew-chinese/assets/a.svg)![1](../homebrew-chinese/assets/1.svg) |    ✓     |
+| `openai-translator` | [Openai-Translator](https://github.com/openai-translator/openai-translator) | ![a](assets/a.svg)![1](assets/1.svg) |    ✓     |
 |    `openstudio`     |              [OpenStudio](https://github.com/NREL/OpenStudio)               |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
 |      `peazip`       |                 [PeaZip](https://github.com/peazip/PeaZip)                  |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
 |      `peekai`       |             [peekai](https://prateekkeshari.gumroad.com/l/peek)             |            ![a](assets/a.svg)![1](assets/1.svg)![2](assets/2.svg)            |    ✓     |
