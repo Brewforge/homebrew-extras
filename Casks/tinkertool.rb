@@ -1,5 +1,5 @@
 cask "tinkertool" do
-  version "9.7"
+  version "9.8"
   sha256 :no_check
 
   url "https://www.bresink.com/download3.php?PHPSESSID=92a1feeb341686c3289ed317c51048d7"
