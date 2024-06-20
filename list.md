@@ -16,6 +16,7 @@
 |     `butterfly`     |            [Butterfly](https://github.com/LinwoodDev/Butterfly)             |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
 |   `chatgpt-lencx`   |              [ChatGPT-lencx](https://github.com/lencx/ChatGPT)              |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
 |      `dvc-app`      |                           [DVC](https://dvc.org)                            |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
+|      `escrcpy`      |                           [DVC](https://github.com/viarotel-org/escrcpy)                            |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
 |   `freefilesync`    |                  [FreeFileSync](https://freefilesync.org)                   |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
 |    `gridplayer`     |            [GridPlayer](https://github.com/vzhd1701/gridplayer)             |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
 |      `hiddify`      |                    [Hiddify-Next](https://hiddify.com/)                     |                     ![a](assets/a.svg)![1](assets/1.svg)                     |    ✓     |
