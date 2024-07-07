@@ -81,7 +81,6 @@
 | :-----------: | :-----------------------------------------: | :----------------------------------: | :-------: |
 | `chatgpt-cli` | [ChatGPT](https://github.com/j178/chatgpt)  | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 |   `termscp`   | [termscp](https://github.com/veeso/termscp) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
-|    `tabby`    | [TabbyML](https://github.com/TabbyML/tabby) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 
 ## ⚔️ Chalenge
 
