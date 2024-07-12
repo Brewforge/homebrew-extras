@@ -18,11 +18,11 @@ cask "hiddify" do
 
   auto_updates true
 
-  app "Hiddify Next.app"
+  app "Hiddify.app"
 
   preflight do
     system_command "xattr",
-                   args: ["-cr", "#{staged_path}/Hiddify Next.app"]
+                   args: ["-cr", "#{staged_path}/Hiddify.app"]
   end
 
   zap trash: [
