@@ -17,6 +17,7 @@
 |        `noi`        |                     [Noi](https://github.com/lencx/Noi)                     |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
 | `openai-translator` | [Openai-Translator](https://github.com/openai-translator/openai-translator) |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
 |      `peekai`       |             [peekai](https://prateekkeshari.gumroad.com/l/peek)             | ![a](assets/a.svg)![1](assets/1.svg)![2](assets/2.svg) |    ✓     |
+|       `vibe`        |                [vibe](https://github.com/thewh1teagle/vibe)                 |          ![a](assets/a.svg)![1](assets/1.svg)          |    ✓     |
 
 ### Download & Sync
 
