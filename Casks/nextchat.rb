@@ -1,6 +1,6 @@
 cask "nextchat" do
-  version "2.12.4"
-  sha256 "dc320203617ffd750065dd7d7325719fa249e64dd16e2cf6ddeae0912608fb49"
+  version "2.13.0"
+  sha256 "5e2c37e19037c24ccc6d6b1b1ed90869c1e72e1c85ac381db7a5c8ab756128db"
 
   url "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/releases/download/v#{version}/NextChat_#{version}_universal.dmg"
   name "NextChat"
