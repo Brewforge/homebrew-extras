@@ -78,10 +78,11 @@
 
 ## Formulae
 
-| Formula Name  |                    Site                     |                 Note                 | Auto-Bump |
-| :-----------: | :-----------------------------------------: | :----------------------------------: | :-------: |
-| `chatgpt-cli` | [ChatGPT](https://github.com/j178/chatgpt)  | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
-|   `termscp`   | [termscp](https://github.com/veeso/termscp) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
+| Formula Name  |                          Site                           |                 Note                 | Auto-Bump |
+| :-----------: | :-----------------------------------------------------: | :----------------------------------: | :-------: |
+| `chatgpt-cli` |       [ChatGPT](https://github.com/j178/chatgpt)        | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
+|   `termscp`   |       [termscp](https://github.com/veeso/termscp)       | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
+|    `wthrr`    | [wthrr](https://github.com/ttytm/wthrr-the-weathercrab) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 
 ## ⚔️ Chalenge
 
