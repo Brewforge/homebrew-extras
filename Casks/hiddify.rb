@@ -1,6 +1,6 @@
 cask "hiddify" do
-  version "1.5.2"
-  sha256 "bfd902f360609dcacbcbeb029a03573cb82babe9c535c0de45dd670196a38aa3"
+  version "2.0.5"
+  sha256 "71d4314ef0ce9d3bffb423a438ebeb9bae9ec8decfe0e17f5e6327201849e138"
 
   mirror = "https://mirror.ghproxy.com/"
   origin = "https://github.com/hiddify/hiddify-next/releases/download/v#{version}/Hiddify-MacOS.dmg"
