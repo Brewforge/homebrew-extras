@@ -4,7 +4,7 @@ cask "notchdrop" do
 
   url "https://github.com/Lakr233/NotchDrop/releases/download/#{version}/NotchDrop.zip"
   name "NotchDrop"
-  desc "Transform your MacBook's notch into a convenient file drop zone."
+  desc "Transform your MacBook's notch into a convenient file drop zone"
   homepage "https://github.com/Lakr233/NotchDrop"
 
   livecheck do
