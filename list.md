@@ -54,11 +54,12 @@
 
 ### Others
 
-| Cask Name |                    Site                    |                 Note                 | Auto-Bump |
-| :-------: | :----------------------------------------: | :----------------------------------: | :-------: |
-| `dvc-app` |           [DVC](https://dvc.org)           | ![a](assets/a.svg)![1](assets/1.svg) |    ✓     |
-| `hiddify` |    [Hiddify-Next](https://hiddify.com/)    | ![a](assets/a.svg)![1](assets/1.svg) |    ✓     |
-| `peazip`  | [PeaZip](https://github.com/peazip/PeaZip) | ![a](assets/a.svg)![1](assets/1.svg) |    ✓     |
+|       Cask Name       |                    Site                    |                 Note                 | Auto-Bump |
+| :-------------------: | :----------------------------------------: | :----------------------------------: | :-------: |
+|       `dvc-app`       |           [DVC](https://dvc.org)           | ![a](assets/a.svg)![1](assets/1.svg) |    ✓     |
+|       `hiddify`       |    [Hiddify-Next](https://hiddify.com/)    | ![a](assets/a.svg)![1](assets/1.svg) |    ✓     |
+|       `peazip`        | [PeaZip](https://github.com/peazip/PeaZip) | ![a](assets/a.svg)![1](assets/1.svg) |    ✓     |
+| `wpsoffice-installer` | [WPS Office](https://www.wps.com/) | ![b](assets/a.svg)![1](assets/1.svg) |    ✓     |
 
 ### Phone Controlers
 
