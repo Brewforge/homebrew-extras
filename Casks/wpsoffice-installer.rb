@@ -22,7 +22,6 @@ cask "wpsoffice-installer" do
 
   zap trash: [
     "/Application/WPS Office.app",
-    "/Application/WPS Office Installer.app",
     "~/Library/Application Support/CrashReporter/wpsoffice_1ACF1E2B-4D5C-504D-B6FE-65DDCCEC136A",
     "~/Library/Application Scripts/com.kingsoft.wpsoffice.mac.global",
     "~/Library/Caches/com.kingsoft.wpsoffice.mac.global.installer",
