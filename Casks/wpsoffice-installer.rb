@@ -8,8 +8,7 @@ cask "wpsoffice-installer" do
   homepage "https://www.wps.com/"
 
   livecheck do
-    url "https://www.wps.com/office/mac/"
-    regex(%r{Mac(?:/Linux)?\s+(\d+(?:\.\d+)+)}i)
+    skip "No version information available"
   end
 
   auto_updates true
