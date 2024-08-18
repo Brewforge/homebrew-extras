@@ -59,7 +59,7 @@
 |       `dvc-app`       |           [DVC](https://dvc.org)           | ![a](assets/a.svg)![1](assets/1.svg) |    ✓     |
 |       `hiddify`       |    [Hiddify-Next](https://hiddify.com/)    | ![a](assets/a.svg)![1](assets/1.svg) |    ✓     |
 |       `peazip`        | [PeaZip](https://github.com/peazip/PeaZip) | ![a](assets/a.svg)![1](assets/1.svg) |    ✓     |
-| `wpsoffice-installer` | [WPS Office](https://www.wps.com/) | ![b](assets/a.svg)![1](assets/1.svg) |    ✓     |
+| `wpsoffice-installer` |     [WPS Office](https://www.wps.com/)     | ![b](assets/a.svg)![1](assets/1.svg) |    ✓     |
 
 ### Phone Controlers
 
@@ -81,6 +81,7 @@
 
 | Formula Name  |                          Site                           |                 Note                 | Auto-Bump |
 | :-----------: | :-----------------------------------------------------: | :----------------------------------: | :-------: |
+|  `carapace`   | [Carapace](https://github.com/carapace-sh/carapace-bin) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 | `chatgpt-cli` |       [ChatGPT](https://github.com/j178/chatgpt)        | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 |   `termscp`   |       [termscp](https://github.com/veeso/termscp)       | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
 |    `wthrr`    | [wthrr](https://github.com/ttytm/wthrr-the-weathercrab) | ![a](assets/a.svg)![1](assets/1.svg) |     ×     |
