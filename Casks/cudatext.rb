@@ -12,22 +12,22 @@ cask "cudatext" do
   homepage "https://cudatext.github.io/index.html"
 
   livecheck do
-    url "https://sourceforge.net/projects/cudatext/files/release/"
-    regex(/title="(\d+(\.\d+){3})"/i)
-    strategy :page_match do |page, regex|
-      page.scan(regex).lazy.map do |match|
-        new_url = "#{url}#{match[0]}/"
-        version_page = Homebrew::Livecheck::Strategy.page_content(new_url)
+    # url "https://sourceforge.net/projects/cudatext/files/release/"
+    # regex(/title="(\d+(\.\d+){3})"/i)
+    # strategy :page_match do |page, regex|
+    #   page.scan(regex).lazy.map do |match|
+    #     new_url = "#{url}#{match[0]}/"
+    #     version_page = Homebrew::Livecheck::Strategy.page_content(new_url)
 
-        next if version_page[:content].blank?
+    #     next if version_page[:content].blank?
 
-        versions = version_page[:content].scan(/(\d+(\.\d+){3})\.dmg/i).map(&:first)
-        next if versions.blank?
+    #     versions = version_page[:content].scan(/(\d+(\.\d+){3})\.dmg/i).map(&:first)
+    #     next if versions.blank?
 
-        versions.max
-      end.compact_blank.first
-    end
-    # skip "skip for now"
+    #     versions.max
+    #   end.compact_blank.first
+    # end
+    skip "skip for now"
   end
 
   app "CudaText.app"
