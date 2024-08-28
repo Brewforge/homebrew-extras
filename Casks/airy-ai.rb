@@ -12,7 +12,9 @@ cask "airy-ai" do
   homepage "https://colink.in/"
 
   livecheck do
-    skip "No version information available"
+    url :url
+    regex(/Airy-v([^-]+)-mac/i)
+    strategy :header_match
   end
 
   app "Airy.app"
