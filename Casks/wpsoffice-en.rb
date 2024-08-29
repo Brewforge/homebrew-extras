@@ -1,23 +1,25 @@
-cask "wpsoffice-installer" do
-  version "0024.21300042"
+cask "wpsoffice-en" do
+  arch arm: "arm64", intel: "x64"
+  version "0024.21300060"
   sha256 :no_check
 
-  url "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/macwpsoffice/download/installer/WPS_Office_Installer_#{version}.zip"
+  url "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/macwpsoffice/download/installer/WPSOffice_#{arch}_0024.21300060.dmg",
+    verified: "wdl1.pcfg.cache.wpscdn.com/"
   name "WPS Office"
   desc "AI-Powered Office Suite for Everyone"
   homepage "https://www.wps.com/"
 
   livecheck do
-    skip "No version information available"
+    url :url
+    strategy :extract_plist
   end
 
   auto_updates true
   depends_on macos: ">= :el_capitan"
 
-  installer script: {
-    executable: "WPS Office Installer.app/Contents/MacOS/WPS Office Installer",
-    args:       ["-q"],
-  }
+  app "wpsoffice.app"
+
+  uninstall quit: "com.kingsoft.wpsoffice.mac.global"
 
   zap trash: [
     "/Application/WPS Office.app",
