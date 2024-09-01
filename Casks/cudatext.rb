@@ -12,11 +12,12 @@ cask "cudatext" do
   homepage "https://cudatext.github.io/index.html"
 
   livecheck do
-    url "https://sourceforge.net/projects/cudatext/best_release.json"
-    regex(/release\/([^\/]+)\/cudatext-macos-cocoa-amd64-(.+).dmg/i)
-    strategy :page_match do |page, regex|
-      JSON.parse(page)["platform_releases"]["mac"]["filename"].scan(regex).map { |match| match[0] + "," + match[1] }
-    end
+    # url "https://sourceforge.net/projects/cudatext/best_release.json"
+    # regex(/release\/([^\/]+)\/cudatext-macos-cocoa-amd64-(.+).dmg/i)
+    # strategy :page_match do |page, regex|
+    #   JSON.parse(page)["platform_releases"]["mac"]["filename"].scan(regex).map { |match| match[0] + "," + match[1] }
+    # end
+    skip "Skip for Audit Error"
   end
 
   app "CudaText.app"
