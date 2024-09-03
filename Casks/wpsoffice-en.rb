@@ -1,7 +1,7 @@
 cask "wpsoffice-en" do
   arch arm: "arm64", intel: "x64"
 
-  version "5.7.3,8095"
+  version "6.10.0,8196"
   sha256 :no_check
 
   url "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/macwpsoffice/download/installer/WPSOffice_#{arch}_0024.21300060.dmg",
