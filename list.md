@@ -61,6 +61,7 @@
 
 |   Cask Name    |                    Site                    |                 Note                 |
 | :------------: | :----------------------------------------: | :----------------------------------: |
+|    `gopeed`    |        [Gopeed](https://gopeed.com)        | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `hiddify`    |    [Hiddify-Next](https://hiddify.com/)    | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `imfile`    |        [imFile](https://imfile.io/)        | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `localsend`   |     [LocalSend](https://localsend.org)     | ![a](assets/a.svg)![1](assets/1.svg) |
