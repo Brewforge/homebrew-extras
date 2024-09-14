@@ -27,11 +27,10 @@ cask "goldendict-ng" do
   depends_on macos: ">= :sierra"
 
   app "GoldenDict-ng.app"
-  binary "#{appdir}/GoldenDict.app/Contents/MacOS/GoldenDict-ng"
 
   zap trash: [
-    "~/.goldendict",
-    "~/Library/Caches/GoldenDict-ng",
+    "/private/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/org.xiaoyifang",
+    "~/Library/Preferences/org.xiaoyifang.plist",
     "~/Library/Saved Application State/org.xiaoyifang.savedState",
   ]
 end
