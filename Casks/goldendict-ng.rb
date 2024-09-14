@@ -1,9 +1,9 @@
 cask "goldendict-ng" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "24.05.05,LiXia.ecd1138c,6.7.0"
-  sha256 arm:   "0d4d90b4a8cfb07070f2105bdadedc998bd4437528760716e07a7d904c84cc12",
-         intel: "a0699470f9a796a2a7e2619585b9c58ccd4527b1f7b9483d67b30abedd81cb66"
+  version "24.09.0,Release.316ec900,6.7.2"
+  sha256 arm:   "4c78ca07fc06c5433525db0e7f14638f9979e61c5b530b5e8c284728e22019c9",
+         intel: "724d97344cbf6231e4fdcf6ecfa4029c829b2749c0b2223f69480bb87a84634b"
 
   url "https://github.com/xiaoyifang/goldendict-ng/releases/download/v#{version.csv.first}-#{version.csv.second}/GoldenDict-ng-#{version.csv.first}-Qt#{version.csv.third}-macOS-#{arch}.dmg",
       verified: "github.com/xiaoyifang/goldendict-ng/"
@@ -26,8 +26,8 @@ cask "goldendict-ng" do
 
   depends_on macos: ">= :sierra"
 
-  app "GoldenDict.app"
-  binary "#{appdir}/GoldenDict.app/Contents/MacOS/GoldenDict"
+  app "GoldenDict-ng.app"
+  binary "#{appdir}/GoldenDict.app/Contents/MacOS/GoldenDict-ng"
 
   zap trash: [
     "~/.goldendict",
