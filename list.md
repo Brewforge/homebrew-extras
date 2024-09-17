@@ -82,10 +82,11 @@
 
 There are several manifests that the current contributors cannot fix, welcome your help!
 
-|       Cask Name       |                       Site                        |             Problem              |
-| :-------------------: | :-----------------------------------------------: | :------------------------------: |
-|      `cudatext`       | [cudatext](https://cudatext.github.io/index.html) |           Audit Error            |
-| `wpsoffice-installer` |        [WPS Office](https://www.wps.com/)         | No version information available |
+|       Cask Name       |                           Site                            |             Problem              |
+| :-------------------: | :-------------------------------------------------------: | :------------------------------: |
+|      `cudatext`       |     [cudatext](https://cudatext.github.io/index.html)     |           Audit Error            |
+|     `tinkertool`      | [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) |        Installation Error        |
+| `wpsoffice-installer` |            [WPS Office](https://www.wps.com/)             | No version information available |
 
 ---
 
