@@ -10,17 +10,17 @@ cask "wox" do
   homepage "https://github.com/Wox-launcher/Wox"
 
   livecheck do
-    # url "https://github.com/Wox-launcher/Wox/releases"
-    # regex(%r{/v?(\d+(?:\.\d+)+)(-nightly)?/wox-mac-#{arch}-(\d+-\h+)\.dmg$}i)
-    # strategy :github_latest do |json, regex|
-    #   json["assets"]&.map do |asset|
-    #     match = asset["browser_download_url"]&.match(regex)
-    #     next if match.blank?
+    url "https://github.com/Wox-launcher/Wox/releases"
+    regex(%r{/v?(\d+(?:\.\d+)+)(-nightly)?/wox-mac-#{arch}-(\d+-\h+)\.dmg$}i)
+    strategy :github_latest do |json, regex|
+      json["assets"]&.map do |asset|
+        match = asset["browser_download_url"]&.match(regex)
+        next if match.blank?
 
-    #     "#{match[1]}#{match[2]},#{match[3]}"
-    #   end
-    # end
-    skip "skip for now"
+        "#{match[1]}#{match[2]},#{match[3]}"
+      end
+    end
+    # skip "skip for now"
   end
 
   auto_updates true
