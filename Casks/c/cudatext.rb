@@ -1,11 +1,11 @@
 cask "cudatext" do
   arch arm: "aarch64", intel: "amd64"
 
-  version "1.210.0.0"
-  sha256 arm:   "b07faa4dd0adf72f3404b48414a666dd0ccd336206c5764b28f67ec82f6888b2",
+  version "1.217.0.0,1.216.6.0"
+  sha256 arm:   "f48caf287a91d46e09ba4423a02050331a74cba336bfe6a5a17e59714d9bec76",
          intel: "f49431d5bb658d0e3fc9bb44a01290234d0a3a1f71a7eec112fb8c84bda029cc"
 
-  url "http://downloads.sourceforge.net/project/cudatext/release/#{version.before_comma}/cudatext-macos-cocoa-amd64-#{version.after_comma}.dmg",
+  url "https://sourceforge.net/projects/cudatext/files/release/#{version.csv.first}/cudatext-macos-cocoa-#{arch}-#{version.csv.second}.dmg/download",
       verified: "sourceforge.net/projects/cudatext/"
   name "CudaText"
   desc "Text editor"
@@ -13,7 +13,7 @@ cask "cudatext" do
 
   livecheck do
     # url "https://sourceforge.net/projects/cudatext/best_release.json"
-    # regex(/release\/([^\/]+)\/cudatext-macos-cocoa-amd64-(.+).dmg/i)
+    # regex(%r{release/([^/]+)/cudatext-macos-cocoa-amd64-(.+).dmg}i)
     # strategy :page_match do |page, regex|
     #   JSON.parse(page)["platform_releases"]["mac"]["filename"].scan(regex).map { |match| match[0] + "," + match[1] }
     # end
@@ -21,6 +21,11 @@ cask "cudatext" do
   end
 
   app "CudaText.app"
+
+  preflight do
+    system_command "xattr",
+                   args: ["-cr", "#{staged_path}/CudaText.app"]
+  end
 
   zap trash: [
     "~/Library/Application Support/CudaText",
