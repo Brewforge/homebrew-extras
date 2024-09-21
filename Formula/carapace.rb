@@ -1,8 +1,6 @@
 class Carapace < Formula
   desc "Multi-shell multi-command argument completer"
   homepage "https://github.com/carapace-sh/carapace-bin"
-
-  version "1.0.6"
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
