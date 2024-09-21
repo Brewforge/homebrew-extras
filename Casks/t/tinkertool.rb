@@ -13,11 +13,10 @@ cask "tinkertool" do
     regex(/(\d+(?:\.\d+)+) \(Build \d+\)/i)
   end
 
+  app "TinkerTool.app"
   installer script: {
     executable: "#{staged_path}/Contents/MacOS/TinkerTool",
   }
-
-  app "TinkerTool.app"
 
   uninstall quit: "com.bresink.system.tinkertool"
 
