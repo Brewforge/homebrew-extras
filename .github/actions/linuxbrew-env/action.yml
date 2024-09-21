@@ -1,18 +1,18 @@
-name: Linuxbrew Action
+name: Homebrew Action
+description: Homebrew Action
 
 runs:
-  using: 'composite'
+  using: "composite"
 
   steps:
-    - name: Set up Linuxbrew
+    - name: Set up Homebrew
       shell: bash -ieo pipefail {0}
       run: |
-        sudo apt-get install build-essential procps curl file git
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-    - name: Add Linuxbrew to PATH
+    - name: Add Homebrew to PATH
       shell: bash -ieo pipefail {0}
       run: |
-        touch $HOME/.bashrc
-        (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> $HOME/.bashrc
-        eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+        touch $HOME/.bash_profile
+        (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> $HOME/.bash_profile
+        eval "$(/usr/local/bin/brew shellenv)"
