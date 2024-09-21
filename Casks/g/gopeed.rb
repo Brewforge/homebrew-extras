@@ -1,18 +1,15 @@
 cask "gopeed" do
-  version "1.5.9"
-  sha256 "2e3206fe2fea62c1920c7d9c8e4dd62c481a2ab375e3dc41ed914a40aefc1dca"
+  version "1.6.0"
+  sha256 "7b903e6ce3bca05218b067fbc5df933ed902fcd252b473aee0b661a4bca72235"
 
-  mirror = "https://mirror.ghproxy.com/"
-  origin = "https://github.com/GopeedLab/gopeed/releases/download/v#{version}/Gopeed-v#{version}-macos.dmg"
-
-  url "#{mirror}#{origin}",
-      verified: "mirror.ghproxy.com/"
+  url "https://github.com/GopeedLab/gopeed/releases/download/v#{version}/Gopeed-v#{version}-macos.dmg",
+      verified: "github.com/GopeedLab/gopeed/"
   name "Gopeed"
   desc "High speed downloader that supports all platforms"
   homepage "https://gopeed.com/"
 
   livecheck do
-    url origin.to_s
+    url :url
     strategy :github_latest
   end
 
