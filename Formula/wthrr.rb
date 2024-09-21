@@ -27,5 +27,4 @@ class Wthrr < Formula
     url :homepage
     strategy :github_latest
   end
-
 end
