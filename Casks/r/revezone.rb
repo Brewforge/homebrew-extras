@@ -11,10 +11,10 @@ cask "revezone" do
   livecheck do
     url "https://github.com/revezone/revezone/releases"
     strategy :page_match do |page|
-      match = page.match(%r{href=.*?(\d+(\.\d+){2}(-alpha\.\d+)?)}i)
+      match = page.match(/href=.*?(\d+(\.\d+){2}(-alpha\.\d+)?)/i)
       next if match.blank?
 
-      "#{match[1]}"
+      (match[1]).to_s
     end
   end
 
