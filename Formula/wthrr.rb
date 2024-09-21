@@ -18,14 +18,14 @@ class Wthrr < Formula
   elsif !OS.mac? && !Hardware::CPU.arm?
     url "https://github.com/ttytm/wthrr-the-weathercrab/releases/download/v1.2.0/wthrr-linux-x86_64"
     sha256 "fb2b78b1d1184e77aadedb02c887e786f4922b8bcaea0ab32d6963d33959b6e3"
-
-    livecheck do
-      url :homepage
-      strategy :github_latest
-    end
-
     def install
       bin.install "wthrr-linux-x86_64"
     end
   end
+
+  livecheck do
+    url :homepage
+    strategy :github_latest
+  end
+
 end
