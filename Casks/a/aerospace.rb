@@ -10,10 +10,10 @@ cask "aerospace" do
   livecheck do
     url "https://github.com/nikitabobko/AeroSpace/tags"
     strategy :page_match do |page|
-      match = page.match(%r{href=.*?v(\d+(\.\d+)+(-Beta)?)}i)
+      match = page.match(/href=.*?v(\d+(\.\d+)+(-Beta)?)/i)
       next if match.blank?
 
-      "#{match[1]}"
+      (match[1]).to_s
     end
   end
 
