@@ -1,7 +1,6 @@
 class Wthrr < Formula
   desc "Weather companion for the terminal. Rust app"
   homepage "https://github.com/ttytm/wthrr-the-weathercrab"
-  version "1.2.0"
   license "MIT"
 
   on_macos do

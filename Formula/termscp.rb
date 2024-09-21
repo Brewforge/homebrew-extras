@@ -1,7 +1,6 @@
 class Termscp < Formula
-  desc "Feature rich terminal file transfer and explorer with support for SCP/SFTP/FTP/S3/SMB/WebDAV"
+  desc "Feature rich terminal file transfer and explorer"
   homepage "https://termscp.veeso.dev/"
-  version "0.13.0"
   license "MIT"
 
   on_macos do

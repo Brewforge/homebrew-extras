@@ -1,7 +1,6 @@
 class ChatgptCli < Formula
   desc "Simple cli wrapper for ChatGPT API, powered by GPT-3.5-turbo model"
   homepage "https://github.com/j178/chatgpt"
-  version "1.3.4"
   license "MIT"
 
   on_macos do
