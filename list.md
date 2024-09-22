@@ -76,7 +76,6 @@
 |  `carapace`   | [Carapace](https://github.com/carapace-sh/carapace-bin) | ![a](assets/a.svg)![1](assets/1.svg) |
 | `chatgpt-cli` |       [ChatGPT](https://github.com/j178/chatgpt)        | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `termscp`   |       [termscp](https://github.com/veeso/termscp)       | ![a](assets/a.svg)![1](assets/1.svg) |
-|    `wthrr`    | [wthrr](https://github.com/ttytm/wthrr-the-weathercrab) | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ## ⚔️ Challenge
 
