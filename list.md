@@ -44,18 +44,17 @@
 |     `later`      |                    [Later](https://getlater.app)                    | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `aerospace`    |        [AeroSpace](https://github.com/nikitabobko/AeroSpace)        | ![a](assets/a.svg)![1](assets/1.svg) |
 | `lyricsx-mxiris` | [LyricsX-MxIris](https://github.com/MxIris-LyricsX-Project/LyricsX) | ![a](assets/a.svg)![1](assets/1.svg) |
-|   `tinkertool`   |      [TinkerTool](https://www.bresink.com/osx/TinkerTool.html)      | ![b](assets/b.svg)![1](assets/1.svg) |
 | `quickrecorder`  |     [QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)     | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ### Docs & Research
 
-|       Cask Name       |                         Site                         |                 Note                 |
-| :-------------------: | :--------------------------------------------------: | :----------------------------------: |
-|      `butterfly`      | [Butterfly](https://github.com/LinwoodDev/Butterfly) | ![a](assets/a.svg)![1](assets/1.svg) |
-|       `dvc-app`       |                [DVC](https://dvc.org)                | ![a](assets/a.svg)![1](assets/1.svg) |
-|     `openstudio`      |   [OpenStudio](https://github.com/NREL/OpenStudio)   | ![a](assets/a.svg)![1](assets/1.svg) |
-|      `revezone`       |          [revezone](https://revezone.com/)           | ![a](assets/a.svg)![1](assets/1.svg) |
-| `wpsoffice-installer` |          [WPS Office](https://www.wps.com/)          | ![b](assets/a.svg)![1](assets/1.svg) |
+|   Cask Name    |                         Site                         |                 Note                 |
+| :------------: | :--------------------------------------------------: | :----------------------------------: |
+|  `butterfly`   | [Butterfly](https://github.com/LinwoodDev/Butterfly) | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `dvc-app`    |                [DVC](https://dvc.org)                | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `openstudio`  |   [OpenStudio](https://github.com/NREL/OpenStudio)   | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `revezone`   |          [revezone](https://revezone.com/)           | ![a](assets/a.svg)![1](assets/1.svg) |
+| `wpsoffice-en` |          [WPS Office](https://www.wps.com/)          | ![b](assets/a.svg)![1](assets/1.svg) |
 
 ### Utilities
 
@@ -82,11 +81,10 @@
 
 There are several manifests that the current contributors cannot fix, welcome your help!
 
-|       Cask Name       |                           Site                            |             Problem              |
-| :-------------------: | :-------------------------------------------------------: | :------------------------------: |
-|      `cudatext`       |     [cudatext](https://cudatext.github.io/index.html)     |           Audit Error            |
-|     `tinkertool`      | [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) |        Installation Error        |
-| `wpsoffice-installer` |            [WPS Office](https://www.wps.com/)             | No version information available |
+|  Cask Name   |                           Site                            |      Problem       |
+| :----------: | :-------------------------------------------------------: | :----------------: |
+|  `cudatext`  |     [cudatext](https://cudatext.github.io/index.html)     |    Audit Error     |
+| `tinkertool` | [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) | Installation Error |
 
 ---
 
