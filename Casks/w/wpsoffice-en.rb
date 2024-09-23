@@ -1,7 +1,7 @@
 cask "wpsoffice-en" do
   arch arm: "arm64", intel: "x64"
 
-  lang = "zh-CN"
+  lang = "en-US"
   channel = "0024.21300060"
   hdid = "11a27203ebea456b23522df31cfd8095"
 
