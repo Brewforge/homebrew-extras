@@ -6,7 +6,7 @@ set -e
 # bump
 echo "> Running brew bump dry-run..."
 
-items=$(brew livecheck --tap brewforge/chinese --extract-plist --full-name --json || echo "[]")
+items=$(brew livecheck --tap brewforge/extras --extract-plist --full-name --json || echo "[]")
 
 for item in $(echo "$items" | jq -r '.[] | .formula, .cask'); do
   if [ "$item" == "null" ]; then
