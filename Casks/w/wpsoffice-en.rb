@@ -5,7 +5,7 @@ cask "wpsoffice-en" do
   channel = "0024.21300060"
   hdid = "11a27203ebea456b23522df31cfd8095"
 
-  version "6.10.0.8196"
+  version "6.10.1.8197"
   sha256 :no_check
 
   url "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/macwpsoffice/download/installer/WPSOffice_#{arch}_#{channel}.dmg",
