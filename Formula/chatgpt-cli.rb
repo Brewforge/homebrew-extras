@@ -4,17 +4,17 @@ class ChatgptCli < Formula
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/j178/chatgpt/releases/download/v1.3.4/chatgpt_Darwin_arm64.tar.gz"
-    sha256 "35a8ed4edeabacc61ebf2f020b004546fd25edd3f3f12909e62733fecc5a26be"
+    url "https://github.com/j178/chatgpt/releases/download/v1.3.5/chatgpt_Darwin_arm64.tar.gz"
+    sha256 "95901ded3112356a0b9485ba96c0286d5a55c89a646f3306611cabed42a72799"
   elsif OS.mac? && !Hardware::CPU.arm?
-    url "https://github.com/j178/chatgpt/releases/download/v1.3.4/chatgpt_Darwin_x86_64.tar.gz"
-    sha256 "aeb5bd7127a55cf198179cafb1d147de66e3e47e72fbbcaa5d63281c37ecde47"
+    url "https://github.com/j178/chatgpt/releases/download/v1.3.5/chatgpt_Darwin_x86_64.tar.gz"
+    sha256 "fc84ed339b19a609846bdf228a4c28bd8cefcb5765b984b720ac5ec33855b4e9"
   elsif !OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/j178/chatgpt/releases/download/v1.3.4/chatgpt_Linux_arm64.tar.gz"
-    sha256 "96c819d5b329c88d9f04cf10ec802eae05a5b9fda77600ed1e4ac213688ae771"
+    url "https://github.com/j178/chatgpt/releases/download/v1.3.5/chatgpt_Linux_arm64.tar.gz"
+    sha256 "afe8958d24ebaf06e2dcc7c487fd08f2f236868de8aea1bf39f8c5eeb8a8c38f"
   elsif !OS.mac? && !Hardware::CPU.arm?
-    url "https://github.com/j178/chatgpt/releases/download/v1.3.4/chatgpt_Linux_x86_64.tar.gz"
-    sha256 "fb2b78b1d1184e77aadedb02c887e786f4922b8bcaea0ab32d6963d33959b6e3"
+    url "https://github.com/j178/chatgpt/releases/download/v1.3.5/chatgpt_Linux_x86_64.tar.gz"
+    sha256 "9300540a1ed4bcbf2e6df5ff09cc6c046c4e87e6d78d9d8eb41186aeba792282"
   end
 
   livecheck do
@@ -24,5 +24,9 @@ class ChatgptCli < Formula
 
   def install
     bin.install "chatgpt"
+  end
+
+  test do
+    system "bin/chatgpt", "--version"
   end
 end
