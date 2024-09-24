@@ -1,6 +1,6 @@
 cask "aerospace" do
-  version "0.12.0-Beta"
-  sha256 "8801301b5eac72faa6dae04797cb7680eb175dfd23c8a0cd7e90a1bbb5811257"
+  version "0.14.2-Beta"
+  sha256 "c4e20fe75905413cbd45b086428e6024633397f5a166527e942b4c39a3029c1f"
 
   url "https://github.com/nikitabobko/AeroSpace/releases/download/v#{version}/AeroSpace-v#{version}.zip"
   name "AeroSpace"
@@ -8,13 +8,14 @@ cask "aerospace" do
   homepage "https://github.com/nikitabobko/AeroSpace"
 
   livecheck do
-    url "https://github.com/nikitabobko/AeroSpace/tags"
-    strategy :page_match do |page|
-      match = page.match(/href=.*?v(\d+(\.\d+)+(-Beta)?)/i)
-      next if match.blank?
+    # url "https://github.com/nikitabobko/AeroSpace/tags"
+    # strategy :page_match do |page|
+    #   match = page.match(/href=.*?v(\d+(\.\d+)+(-Beta)?)/i)
+    #   next if match.blank?
 
-      (match[1]).to_s
-    end
+    #   (match[1]).to_s
+    # end
+    "Cannot Bump As a Result of Github Pre-Release"
   end
 
   # NOTE: conflicts_with formula: is a stub and is not yet functional. :(
