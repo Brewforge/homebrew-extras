@@ -4,9 +4,9 @@ on:
   pull_request_target:
     branches:
       - "main"
-  push:
-    branches:
-      - "**"
+  # push:
+  #   branches:
+  #     - "**"
 
 concurrency:
   group: ${{ github.head_ref || github.ref_name }}
