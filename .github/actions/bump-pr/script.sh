@@ -49,7 +49,7 @@ for item in $(echo "$items" | jq -r '.[] | .formula, .cask'); do
     if [ -n "$is_cask" ]; then
       cat "$(brew edit --cask "$item" --print-path)"
     elif [ -n "$is_formula" ]; then
-      echo "TODO: cat $(brew edit "$item" --print-path)"
+      echo "mute"
       # cat "$(brew edit "$item" --print-path)"
     fi
 
