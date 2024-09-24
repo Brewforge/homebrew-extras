@@ -17,7 +17,7 @@ permissions: write-all
 
 jobs:
   bump-casks-formulae:
-    name: Bump casks & formulae
+    name: Bump casks
     if: github.repository == 'brewforge/homebrew-extras'
     runs-on: ${{ matrix.os }}
 

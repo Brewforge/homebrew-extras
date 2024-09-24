@@ -71,7 +71,7 @@ for item in $(echo "$items" | jq -r '.[] | .formula, .cask'); do
 
     echo "* Running brew bump-formula-pr $item --version=$item_version_latest $_BUMP_OPTIONS..."
     # brew bump-formula-pr $item --version=$item_version_latest $_BUMP_OPTIONS
-    echo -e "\033[0;33m* TDOO: brew bump-formula-pr $item --version=$item_version_latest $_BUMP_OPTIONS\033[0m"
+    # echo -e "\033[0;33m* TDOO: brew bump-formula-pr $item --version=$item_version_latest $_BUMP_OPTIONS\033[0m"
   fi
 
   echo "> Done for $item"
