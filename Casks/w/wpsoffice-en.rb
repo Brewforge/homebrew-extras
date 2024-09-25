@@ -7,7 +7,7 @@ cask "wpsoffice-en" do
 
   version "6.10.1.8197"
   sha256 arm:   "54685bed2768a6d389dbe1db490069a77af82deca293bf833499ce8c4a65f374",
-         intel: "aa46960c8766a14cfc8c55571dcd407d0349af8de7f0f281ff6a15d4ac5bf7f0"
+         intel: "781b76209bdcb2d020602dcc1b3fc22410b13214b9c8d9a30ced679eb4d24974"
 
   url "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/macwpsoffice/download/installer/WPSOffice_#{arch}_#{channel}.dmg",
       verified: "wdl1.pcfg.cache.wpscdn.com/"
