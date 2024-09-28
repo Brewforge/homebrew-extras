@@ -1,5 +1,5 @@
 ﻿cask "pareto-security" do
-  version "1.7.85"
+  version "1.7.87"
   sha256 :no_check
 
   url "https://github.com/ParetoSecurity/pareto-mac/releases/download/#{version}/ParetoSecurity.dmg",
