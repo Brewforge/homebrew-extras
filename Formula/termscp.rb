@@ -20,7 +20,7 @@ class Termscp < Formula
 
   test do
     require "pty"
-    PTY.spawn(bin/"termscp", "127.0.0.1") do |_r, _w, pid|
+    PTY.spawn(bin/"termscp", "config") do |_r, _w, pid|
       sleep 10
       Process.kill 9, pid
     end
