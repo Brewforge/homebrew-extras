@@ -1,9 +1,9 @@
 cask "ecopaste" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "fde655338768c73f4e136ace5abbd4bf9fa133af1d2fe8b82473cdb79329b2d2",
-         intel: "ddd3eeb89626335f9ab0552b4021df62f2d972580386f015301d8e81d6e38e42"
+  version "0.2.0"
+  sha256 arm:   "71f45412cb73e628093e06edbd50293cd5a9981b9bd98f07bed20634782246da",
+         intel: "725081365222f8aa3cebc71e3fa89ffa09a592f03c47dcf7aab35926298dd8ec"
 
   mirror = "https://mirror.ghproxy.com/"
   origin = "https://github.com/EcoPasteHub/EcoPaste/releases/latest/download/EcoPaste_#{arch}.app.tar.gz"
