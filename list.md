@@ -72,11 +72,10 @@
 
 ## Formulae
 
-| Formula Name  |                          Site                           |                 Note                 |
-| :-----------: | :-----------------------------------------------------: | :----------------------------------: |
-|    `alist`    |             [AList](https://alist.nn.ci/zh)             | ![a](assets/a.svg)![1](assets/1.svg) |
-|  `carapace`   | [Carapace](https://github.com/carapace-sh/carapace-bin) | ![a](assets/a.svg)![1](assets/1.svg) |
-| `chatgpt-cli` |       [ChatGPT](https://github.com/j178/chatgpt)        | ![a](assets/a.svg)![1](assets/1.svg) |
+| Formula Name |                          Site                           |                 Note                 |
+| :----------: | :-----------------------------------------------------: | :----------------------------------: |
+|   `alist`    |             [AList](https://alist.nn.ci/zh)             | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `carapace`  | [Carapace](https://github.com/carapace-sh/carapace-bin) | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ## ⚔️ Challenge
 
