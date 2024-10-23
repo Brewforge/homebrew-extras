@@ -12,8 +12,6 @@
 
 |    Cask Name    |                                Site                                |                 Note                 |
 | :-------------: | :----------------------------------------------------------------: | :----------------------------------: |
-| `alist-desktop` |   [AList Desktop](https://github.com/alist-org/desktop-release)    | ![b](assets/b.svg)![2](assets/2.svg) |
-| `alist-helper`  |     [Alist-Helper](https://github.com/Xmarmalade/alisthelper)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `butterfly`   |        [Butterfly](https://github.com/LinwoodDev/Butterfly)        | ![a](assets/a.svg)![1](assets/1.svg) |
 | `freefilesync`  |              [FreeFileSync](https://freefilesync.org)              | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `gopeed`     |                    [Gopeed](https://gopeed.com)                    | ![a](assets/a.svg)![1](assets/1.svg) |
@@ -74,7 +72,6 @@
 
 | Formula Name |                          Site                           |                 Note                 |
 | :----------: | :-----------------------------------------------------: | :----------------------------------: |
-|   `alist`    |             [AList](https://alist.nn.ci/zh)             | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `carapace`  | [Carapace](https://github.com/carapace-sh/carapace-bin) | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ## ⚔️ Challenge
