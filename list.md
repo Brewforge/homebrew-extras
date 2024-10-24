@@ -68,12 +68,6 @@
 | `corsixth` | [CorsixTH](https://github.com/CorsixTH/CorsixTH) | ![a](assets/a.svg)![1](assets/1.svg) |
 | `ryujinx`  |          [Ryujinx](https://ryujinx.org)          | ![a](assets/a.svg)![1](assets/1.svg) |
 
-## Formulae
-
-| Formula Name |                          Site                           |                 Note                 |
-| :----------: | :-----------------------------------------------------: | :----------------------------------: |
-|  `carapace`  | [Carapace](https://github.com/carapace-sh/carapace-bin) | ![a](assets/a.svg)![1](assets/1.svg) |
-
 ## ⚔️ Challenge
 
 There are several manifests that the current contributors cannot fix, welcome your help!
