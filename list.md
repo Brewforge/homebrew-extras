@@ -20,7 +20,6 @@
 |    `imfile`     |                    [imFile](https://imfile.io/)                    | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `keyviz`     |           [KeyViz](https://github.com/mulaRahul/keyviz)            | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `peazip`     |             [PeaZip](https://github.com/peazip/PeaZip)             | ![a](assets/a.svg)![1](assets/1.svg) |
-|   `localsend`   |                 [LocalSend](https://localsend.org)                 | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `revezone`    |                 [revezone](https://revezone.com/)                  | ![a](assets/a.svg)![1](assets/1.svg) |
 | `pixel-perfect` | [Pixel Perfect](https://github.com/cormiertyshawn895/PixelPerfect) | ![a](assets/a.svg)![1](assets/1.svg) |
 | `wpsoffice-en`  |                 [WPS Office](https://www.wps.com/)                 | ![b](assets/a.svg)![1](assets/1.svg) |
