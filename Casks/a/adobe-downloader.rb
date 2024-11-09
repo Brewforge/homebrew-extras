@@ -15,5 +15,10 @@ cask "adobe-downloader" do
   app "Adobe Downloader.app"
 
   zap trash: [
+    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.x1a0he.macOS.Adobe-Downloader",
+    "~/Library/Caches/com.x1a0he.macOS.Adobe-Downloader",
+    "~/Library/HTTPStorages/com.x1a0he.macOS.Adobe-Downloader.binarycookies",
+    "~/Library/HTTPStorages/com.x1a0he.macOS.Adobe-Downloader",
+    "~/Library/Preferences/com.x1a0he.macOS.Adobe-Downloader.plist",
   ]
 end
