@@ -20,8 +20,12 @@ cask "vibe" do
   app "vibe.app"
 
   zap trash: [
+    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/github.com.thewh1teagle.vibe",
+    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/github.com.thewh1teagle.vibe",
     "~/Library/Application Support/github.com.thewh1teagle.vibe",
     "~/Library/Caches/thewh1teagle.vibe.plist",
+    "~/Library/Preferences/github.com.thewh1teagle.vibe.plist",
+    "~/Library/WebKit/github.com.thewh1teagle.vibe",
     "~/Library/WebKit/thewh1teagle.vibe.plist",
   ]
 end
