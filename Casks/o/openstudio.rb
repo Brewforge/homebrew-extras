@@ -1,9 +1,9 @@
 cask "openstudio" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "3.8.0,f953b6fcaf"
-  sha256 arm:   "c907ab49949fc518f7366609a6b953ebb5a4f7740d5f47efe68411c134a3bc36",
-         intel: "7c652525bc0d472e50f97afd46fd0118fbaa023e08c40e024a9ed88e80e8873d"
+  version "3.9.0,c77fbb9569"
+  sha256 arm:   "dd87ea981e63b245084e072257478d7b8dccc74ff816c99bb1e3d1981eafaccc",
+         intel: "a81803bb704f860a21de73b74cc9b0101c7344cbbe28e4de1ab2edfffae0a45b"
 
   url "https://github.com/NREL/OpenStudio/releases/download/v#{version.csv.first}/OpenStudio-#{version.csv.first}+#{version.csv.second}-Darwin-#{arch}.dmg"
   name "OpenStudio"
