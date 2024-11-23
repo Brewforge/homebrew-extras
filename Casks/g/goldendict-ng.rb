@@ -24,9 +24,21 @@ cask "goldendict-ng" do
     end
   end
 
-  depends_on macos: ">= :sierra"
+  auto_updates true
+  conflicts_with cask: "goldendict"
+  depends_on macos: ">= :monterey"
 
-  app "GoldenDict-ng.app"
+  app "GoldenDict-ng.app", target: "GoldenDict.app"
+  # shim script (https://github.com/Homebrew/homebrew-cask/issues/18809)
+  shimscript = "#{staged_path}/goldendict.wrapper.sh"
+  binary shimscript, target: "goldendict"
+
+  preflight do
+    File.write shimscript, <<~EOS
+      #!/bin/sh
+      exec '#{appdir}/GoldenDict.app/Contents/MacOS/goldendict' "$@"
+    EOS
+  end
 
   zap trash: [
     "/private/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/org.xiaoyifang",
