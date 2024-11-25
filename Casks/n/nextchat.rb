@@ -8,9 +8,8 @@ cask "nextchat" do
   homepage "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web"
 
   livecheck do
-    # url :url
-    # strategy :github_latest
-    skip "no macos build available"
+    url :url
+    strategy :github_latest
   end
 
   app "NextChat.app"
