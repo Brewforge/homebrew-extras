@@ -1,9 +1,9 @@
 cask "escrcpy" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.27.3"
-  sha256 arm:   "4716103364cda9f557da963a6e196c39a5a30613650ea2f3dfb7f7e9763e3b62",
-         intel: "a7485e50a5337e07cf807632fa1f76658ca244f2fe488ced364a3d66922b9e13"
+  version "1.27.4"
+  sha256 arm:   "7bf1e772d7ef513ec1a4a844697ce9a598e3f3bcba583115f22bc923240741b5",
+         intel: "30ff6aad9c3b855b5530c66b246d7ec4522034654fd21365193e42c3d6ba56b4"
 
   mirror = "https://mirror.ghproxy.com/"
   origin = "https://github.com/viarotel-org/escrcpy/releases/download/v#{version}/Escrcpy-#{version}-mac-#{arch}.dmg"
