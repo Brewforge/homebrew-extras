@@ -2,7 +2,7 @@ cask "tinkertool" do
   version "10.0"
   sha256 :no_check
 
-  url "https://bresink.biz/download3.php?PHPSESSID=f1bjvspkef6q63s5cc9q5gse9i",
+  url "https://www.bresink.biz/download3.php?PHPSESSID=f1bjvspkef6q63s5cc9q5gse9i",
       verified: "bresink.biz/"
   name "TinkerTool"
   desc "Gives you access to additional system preference settings"
@@ -14,9 +14,6 @@ cask "tinkertool" do
   end
 
   app "TinkerTool.app"
-  installer script: {
-    executable: "#{staged_path}/Contents/MacOS/TinkerTool",
-  }
 
   uninstall quit: "com.bresink.system.tinkertool"
 

@@ -74,7 +74,6 @@ There are several manifests that the current contributors cannot fix, welcome yo
 
 |  Cask Name   |                           Site                            |      Problem       |
 | :----------: | :-------------------------------------------------------: | :----------------: |
-|  `cudatext`  |     [cudatext](https://cudatext.github.io/index.html)     |    Audit Error     |
 | `tinkertool` | [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) | Installation Error |
 
 ---
