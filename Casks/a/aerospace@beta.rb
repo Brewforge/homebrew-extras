@@ -1,4 +1,4 @@
-cask "aerospace" do
+cask "aerospace@beta" do
   version "0.16.0-Beta"
   sha256 "1396dfed7c7d1fe6a421c7253649c705f63768a1f3ef89197a585abcf2a7543b"
 
@@ -8,16 +8,21 @@ cask "aerospace" do
   homepage "https://github.com/nikitabobko/AeroSpace"
 
   livecheck do
-    # url "https://github.com/nikitabobko/AeroSpace/tags"
-    # strategy :page_match do |page|
-    #   match = page.match(/href=.*?v(\d+(\.\d+)+(-Beta)?)/i)
-    #   next if match.blank?
+    url :url
+    regex(/^v?(\d+(\.\d+)+(-Beta)?)$/i)
+    strategy :github_releases do |json, regex|
+      json.map do |release|
+        next if release["draft"]
 
-    #   (match[1]).to_s
-    # end
-    "Cannot Bump As a Result of Github Pre-Release"
+        match = release["tag_name"]&.match(regex)
+        next if match.blank?
+
+        match[1]
+      end
+    end
   end
 
+  auto_updates true
   # NOTE: conflicts_with formula: is a stub and is not yet functional. :(
   # https://github.com/Homebrew/homebrew-cask/issues/12822
   # conflicts_with formula: "aerospace-cli"
@@ -57,8 +62,10 @@ cask "aerospace" do
 
   postflight do
     system "xattr", "-d", "com.apple.quarantine", "#{staged_path}/AeroSpace-v#{version}/bin/aerospace"
-    system "xattr", "-d", "com.apple.quarantine", "/Applications/AeroSpace.app"
   end
 
-  zap trash: "~/Library/Preferences/bobko.aerospace.plist"
+  zap trash: [
+    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/bobko.aerospace",
+    "~/Library/Preferences/bobko.aerospace.plist",
+  ]
 end
