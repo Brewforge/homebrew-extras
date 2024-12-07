@@ -20,4 +20,8 @@ cask "qtscrcpy" do
   app "QtScrcpy.app"
 
   zap trash: "~/Library/Saved Application State/rankun.QtScrcpy.savedState"
+
+  caveats do
+    requires_rosetta
+  end
 end
