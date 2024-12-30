@@ -19,6 +19,7 @@ cask "noi" do
   zap trash: [
     "~/Library/Application Support/Noi",
     "~/Library/Logs/Noi",
+    "~/Library/Preferences/com.electron.noi.plist",
     "~/Library/Preferences/com.lencx.noi.plist",
     "~/Library/Saved Application State/com.electron.noi.savedState",
   ]
