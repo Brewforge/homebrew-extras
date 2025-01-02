@@ -18,11 +18,11 @@ cask "peazip" do
   app "PeaZip.app"
 
   postflight do
-    system_command "/usr/bin/open", args: ["#{staged_path}/macOS service menus/PeaZip, add to archive.workflow"]
+    system_command "/usr/bin/open", args: ["#{staged_path}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/PeaZip, add to archive.workflow"]
     system_command "/usr/bin/open",
-                   args: ["#{staged_path}/macOS service menus/PeaZip, extract here (smart new folder).workflow"]
-    system_command "/usr/bin/open", args: ["#{staged_path}/macOS service menus/PeaZip, extract....workflow"]
-    system_command "/usr/bin/open", args: ["#{staged_path}/macOS service menus/PeaZip, open file or folder.workflow"]
+                   args: ["#{staged_path}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/PeaZip, extract here (smart new folder).workflow"]
+    system_command "/usr/bin/open", args: ["#{staged_path}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/PeaZip, extract....workflow"]
+    system_command "/usr/bin/open", args: ["#{staged_path}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/PeaZip, open file or folder.workflow"]
   end
 
   zap trash: [
