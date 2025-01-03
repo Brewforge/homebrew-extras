@@ -5,7 +5,7 @@ cask "wpsoffice-en" do
   channel = "0024.21300060"
   hdid = "11a27203ebea456b23522df31cfd8095"
 
-  version "6.10.2.8397"
+  version "6.11.0.8603"
   sha256 arm:   "8d922751369855ac070b3fcdcf36f6abdf14157f7827efe69830004072cee140",
          intel: "b8911c6ece98ba068896feba3fa28f18d63db783de6a462c198f97f65be23462"
 
