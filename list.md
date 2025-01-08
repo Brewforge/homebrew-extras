@@ -38,14 +38,15 @@
 
 ### macOS Only
 
-|     Cask Name      |                                Site                                 |                 Note                 |
-| :----------------: | :-----------------------------------------------------------------: | :----------------------------------: |
-| `adobe-downloader` |   [Adobe Downloader](https://github.com/X1a0He/Adobe-Downloader)    | ![a](assets/a.svg)![1](assets/1.svg) |
-|  `aerospace@beta`  |        [AeroSpace](https://github.com/nikitabobko/AeroSpace)        | ![a](assets/a.svg)![1](assets/1.svg) |
-|      `barss`       |              [baRSS](https://relikd.de/projects/barss)              | ![a](assets/a.svg)![1](assets/1.svg) |
-|      `later`       |                    [Later](https://getlater.app)                    | ![a](assets/a.svg)![1](assets/1.svg) |
-|  `lyricsx-mxiris`  | [LyricsX-MxIris](https://github.com/MxIris-LyricsX-Project/LyricsX) | ![a](assets/a.svg)![1](assets/1.svg) |
-|  `quickrecorder`   |     [QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)     | ![a](assets/a.svg)![1](assets/1.svg) |
+|      Cask Name      |                                Site                                 |                 Note                 |
+| :-----------------: | :-----------------------------------------------------------------: | :----------------------------------: |
+| `adobe-downloader`  |   [Adobe Downloader](https://github.com/X1a0He/Adobe-Downloader)    | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `aerospace@beta`   |        [AeroSpace](https://github.com/nikitabobko/AeroSpace)        | ![a](assets/a.svg)![1](assets/1.svg) |
+|       `barss`       |              [baRSS](https://relikd.de/projects/barss)              | ![a](assets/a.svg)![1](assets/1.svg) |
+|       `later`       |                    [Later](https://getlater.app)                    | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `lyricsx-mxiris`   | [LyricsX-MxIris](https://github.com/MxIris-LyricsX-Project/LyricsX) | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `quickrecorder`   |     [QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)     | ![a](assets/a.svg)![1](assets/1.svg) |
+| `sequential-viewer` |       [Sequential](https://github.com/chuchusoft/Sequential)        | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ### Android
 
