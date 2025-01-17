@@ -1,9 +1,9 @@
 cask "vibe" do
   arch arm: "aarch64", intel: "x64"
 
-  version "3.0.0"
-  sha256 arm:   "375ff6091023d2644e7821786fed9b29eddbaa8ec6584b6cbe0c92ecb6375536",
-         intel: "33a4d73d66efd420d4da0c427875b2e12291b70153f0d35abe10e9b5c9995fdf"
+  version "3.0.1"
+  sha256 arm:   "14d5ed9efed5071bbff28ddac3f0d53f6dcb8a90f19c4faad8a9a99d374dddbd",
+         intel: "4c9835d48175ce68532681a4339c68b5a758a87ea9af4676d0d175c9334a3c6f"
 
   url "https://github.com/thewh1teagle/vibe/releases/download/v#{version}/vibe_#{version}_#{arch}.dmg"
   name "vibe"
