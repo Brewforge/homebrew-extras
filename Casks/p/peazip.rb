@@ -17,16 +17,36 @@ cask "peazip" do
 
   app "PeaZip.app"
 
-  service_menu = "#{staged_path}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/PeaZip"
+  service_menu = "#{staged_path}/PeaZip.app/Contents/Resources/share/batch/macOS service menus"
   postflight do
     system_command "/usr/bin/open",
-                   args: ["#{service_menu}, add to archive.workflow"]
+                   args: ["#{service_menu}/PeaZip, add to archive.workflow"]
     system_command "/usr/bin/open",
-                   args: ["#{service_menu}, extract here (smart new folder).workflow"]
+                   args: ["#{service_menu}/PeaZip, add to Brotli.workflow"]
     system_command "/usr/bin/open",
-                   args: ["##{service_menu}, extract....workflow"]
+                   args: ["#{service_menu}/PeaZip, add to BZ2.workflow"]
     system_command "/usr/bin/open",
-                   args: ["#{service_menu}, open file or folder.workflow"]
+                   args: ["#{service_menu}/PeaZip, add to GZ.workflow"]
+    system_command "/usr/bin/open",
+                   args: ["#{service_menu}/PeaZip, add to TAR.workflow"]
+    system_command "/usr/bin/open",
+                   args: ["#{service_menu}/PeaZip, add to XZ.workflow"]
+    system_command "/usr/bin/open",
+                   args: ["#{service_menu}/PeaZip, add to Zstd.workflow"]
+    system_command "/usr/bin/open",
+                   args: ["#{service_menu}/PeaZip, convert.workflow"]
+    system_command "/usr/bin/open",
+                   args: ["#{service_menu}/PeaZip, extract here (smart new folder).workflow"]
+    system_command "/usr/bin/open",
+                   args: ["#{service_menu}/PeaZip, extract to Desktop.workflow"]
+    system_command "/usr/bin/open",
+                   args: ["#{service_menu}/PeaZip, extract to Documents.workflow"]
+    system_command "/usr/bin/open",
+                   args: ["#{service_menu}/PeaZip, extract to Downloads.workflow"]
+    system_command "/usr/bin/open",
+                   args: ["#{service_menu}/PeaZip, extract....workflow"]
+    system_command "/usr/bin/open",
+                   args: ["#{service_menu}/PeaZip, open file or folder.workflow"]
   end
 
   zap trash: [
