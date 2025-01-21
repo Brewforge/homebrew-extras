@@ -1,19 +1,31 @@
 cask "ryujinx" do
-  version "1.1.1402"
-  sha256 "eb49d0cf48339c16bb78415ff6367b354689da3f9506d6d1ad7e1ed621ceb747"
+  version "49574a9"
+  sha256 "a1d908595b9a6abdf607cd2b5d1af8f6fc761964e1538df1825bb8f736732fcc"
 
-  url "https://github.com/Ryujinx/release-channel-master/releases/download/#{version}/test-ava-ryujinx-#{version}-macos_universal.app.tar.gz",
-      verified: "github.com/Ryujinx/release-channel-master/"
+  url "https://github.com/ryujinx-mirror/ryujinx/releases/download/#{version}/ryujinx-r.#{version}-macos_universal.app.tar.gz"
   name "Ryujinx"
-  desc "Simple, experimental Nintendo Switch emulator"
-  homepage "https://ryujinx.org/"
+  desc "Nintendo Switch emulator written in C#"
+  homepage "https://github.com/ryujinx-mirror/ryujinx"
 
   livecheck do
-    url :url
-    strategy :github_latest
+    url "https://github.com/ryujinx-mirror/ryujinx/releases"
+    regex(%r{ryujinx-r\.([\d\w]{7})-macos_universal\.app\.tar\.gz}i)
+    strategy :github_latest do |json, regex|
+      json["assets"]&.map do |asset|
+        match = asset["browser_download_url"]&.match(regex)
+        next if match.blank?
+
+        "#{match[1]}"
+      end
+    end
   end
 
   app "ryujinx.app"
 
-  zap trash: "~/Library/Saved Application State/org.ryujinx.Ryujinx.savedState"
+  zap trash: [
+    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/org.ryujinx.Ryujinx",
+    "~/Library/Application Support/Ryujinx",
+    "~/Library/Logs/Ryujinx",
+    "~/Library/Preferences/org.ryujinx.Ryujinx.plist",
+  ]
 end

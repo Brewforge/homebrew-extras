@@ -64,10 +64,11 @@
 
 ### Games & Media
 
-| Cask Name  |                       Site                       |                 Note                 |
-| :--------: | :----------------------------------------------: | :----------------------------------: |
-| `corsixth` | [CorsixTH](https://github.com/CorsixTH/CorsixTH) | ![a](assets/a.svg)![1](assets/1.svg) |
-| `ryujinx`  |          [Ryujinx](https://ryujinx.org)          | ![a](assets/a.svg)![1](assets/1.svg) |
+|     Cask Name     |                         Site                          |                 Note                 |
+| :---------------: | :---------------------------------------------------: | :----------------------------------: |
+|    `corsixth`     |   [CorsixTH](https://github.com/CorsixTH/CorsixTH)    | ![a](assets/a.svg)![1](assets/1.svg) |
+|     `ryujinx`     | [Ryujinx](https://github.com/ryujinx-mirror/ryujinx)  | ![a](assets/a.svg)![1](assets/1.svg) |
+| `ryujinx-ryubing` | [Ryujinx-Ryubing](https://github.com/Ryubing/Ryujinx) | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ## ⚔️ Challenge
 
