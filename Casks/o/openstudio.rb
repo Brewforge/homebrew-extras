@@ -12,11 +12,14 @@ cask "openstudio" do
 
   livecheck do
     url "https://github.com/NREL/OpenStudio/releases"
-    strategy :page_match do |page|
-      match = page.match(/href=.*-(\d+(?:\.\d+)+)\+([\d\w]+)-Darwin-.*\.dmg/)
-      next if match.blank?
+    regex(%r{(\d+(\.\d+){2}).+([\d\w]{10})-Darwin-.+\.dmg}i)
+    strategy :github_latest do |json, regex|
+      json["assets"]&.map do |asset|
+        match = asset["browser_download_url"]&.match(regex)
+        next if match.blank?
 
-      "#{match[1]},#{match[2]}"
+        "#{match[1]},#{match[3]}"
+      end
     end
   end
 
