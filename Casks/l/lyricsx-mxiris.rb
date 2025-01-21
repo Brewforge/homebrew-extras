@@ -1,6 +1,6 @@
 cask "lyricsx-mxiris" do
-  version "1.7.0,2024-10-04"
-  sha256 "7d39fdeb333881212818fe33b2e73c21c680f7a91cb55d49ab526bde4a64c38b"
+  version "1.7.1,2468"
+  sha256 "69a8610776845beed87f3db7c057b2429e0c443a269c92506254f1489aad0c33"
 
   url "https://github.com/MxIris-LyricsX-Project/LyricsX/releases/download/v#{version.csv.first}/LyricsX_#{version.csv.first}+#{version.csv.second}.zip"
   name "LyricsX"
@@ -22,7 +22,7 @@ cask "lyricsx-mxiris" do
 
   conflicts_with cask: "lyricsx"
 
-  app "LyricsX #{version.csv.second} #{version.csv.third}/LyricsX.app"
+  app "LyricsX.app"
 
   zap trash: [
     "~/Library/Application Scripts/com.JH.LyricsX",
