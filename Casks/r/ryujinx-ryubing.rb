@@ -1,6 +1,6 @@
 cask "ryujinx-ryubing" do
-  version "1.2.80"
-  sha256 "a1d908595b9a6abdf607cd2b5d1af8f6fc761964e1538df1825bb8f736732fcc"
+  version "1.2.81"
+  sha256 "ad444ebe3cd03ee1cda30723f7f8d16e4319f6c2374e9d2f9ad8f19adf04a724"
 
   url "https://github.com/Ryubing/Ryujinx/releases/download/#{version}/ryujinx-#{version}-macos_universal.app.tar.gz"
   name "Ryujinx"
