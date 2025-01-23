@@ -9,7 +9,7 @@ cask "lyricsx-mxiris" do
 
   livecheck do
     url "https://github.com/MxIris-LyricsX-Project/LyricsX/releases"
-    regex(%r{LyricsX_(\d+(\.\d+){2}).+(\d{4})\.zip}i)
+    regex(/LyricsX_(\d+(\.\d+){2}).+(\d{4})\.zip/i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|
         match = asset["browser_download_url"]&.match(regex)
