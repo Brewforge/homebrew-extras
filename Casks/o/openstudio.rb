@@ -12,7 +12,7 @@ cask "openstudio" do
 
   livecheck do
     url "https://github.com/NREL/OpenStudio/releases"
-    regex(%r{(\d+(\.\d+){2}).+([\d\w]{10})-Darwin-.+\.dmg}i)
+    regex(/(\d+(\.\d+){2}).+([\d\w]{10})-Darwin-.+\.dmg/i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|
         match = asset["browser_download_url"]&.match(regex)
