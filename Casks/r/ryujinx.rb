@@ -9,13 +9,13 @@ cask "ryujinx" do
 
   livecheck do
     url "https://github.com/ryujinx-mirror/ryujinx/releases"
-    regex(%r{ryujinx-r\.([\d\w]{7})-macos_universal\.app\.tar\.gz}i)
+    regex(/ryujinx-r\.([\d\w]{7})-macos_universal\.app\.tar\.gz/i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|
         match = asset["browser_download_url"]&.match(regex)
         next if match.blank?
 
-        "#{match[1]}"
+        (match[1]).to_s
       end
     end
   end
