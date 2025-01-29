@@ -74,9 +74,9 @@
 
 There are several manifests that the current contributors cannot fix, welcome your help!
 
-|  Cask Name   |                           Site                            |      Problem       |
-| :----------: | :-------------------------------------------------------: | :----------------: |
-| `tinkertool` | [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) | Installation Error |
+|  Cask Name   |                         Site                          |    Problem     |
+| :----------: | :---------------------------------------------------: | :------------: |
+| `tinkertool` | [TinkerTool](https://bresink.com/osx/TinkerTool.html) | Download Error |
 
 ---
 

@@ -9,8 +9,9 @@ cask "tinkertool" do
   homepage "https://bresink.com/osx/TinkerTool.html"
 
   livecheck do
-    url "https://bresink.com/osx/0TinkerTool/download.php"
-    regex(/(\d+(?:\.\d+)+) \(Build \d+\)/i)
+    # url "https://bresink.com/osx/0TinkerTool/download.php"
+    # regex(/(\d+(?:\.\d+)+) \(Build \d+\)/i)
+    skip "download error"
   end
 
   app "TinkerTool.app"
