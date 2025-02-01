@@ -1,6 +1,6 @@
 # Homebrew-Extras
 
-![Homebrew](https://img.shields.io/badge/-Homebrew-FBB040?labelColor=555555&logoColor=FFFFFF&logo=homebrew) ![CI](https://github.com/Brewforge/homebrew-extras/actions/workflows/schedule.yml/badge.svg) ![license](https://img.shields.io/github/license/Brewforge/homebrew-extras) ![code-size](https://img.shields.io/github/languages/code-size/Brewforge/homebrew-extras) ![repo-size](https://img.shields.io/github/repo-size/Brewforge/homebrew-extras)
+![Homebrew](https://img.shields.io/badge/-Homebrew-FBB040?labelColor=555555&logoColor=FFFFFF&logo=homebrew) ![CI](https://github.com/Brewforge/homebrew-extras/actions/workflows/bump.yml/badge.svg) ![CI-intel](https://github.com/Brewforge/homebrew-extras/actions/workflows/bump-intel.yml/badge.svg) ![license](https://img.shields.io/github/license/Brewforge/homebrew-extras) ![code-size](https://img.shields.io/github/languages/code-size/Brewforge/homebrew-extras) ![repo-size](https://img.shields.io/github/repo-size/Brewforge/homebrew-extras)
 
 Extras [Homebrew](https://github.com/Homebrew/brew) 🍺 Casks Not Included in the Official Repos.
 

@@ -28,6 +28,7 @@
 
 |      Cask Name      |                                    Site                                     |                          Note                          |
 | :-----------------: | :-------------------------------------------------------------------------: | :----------------------------------------------------: |
+|       `5ire`        |                          [5ire](https://5ire.app/)                          |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |      `airy-ai`      |                         [Airy](https://colink.in/)                          |          ![b](assets/b.svg)![1](assets/1.svg)          |
 |   `chatgpt-lencx`   |              [ChatGPT-lencx](https://github.com/lencx/ChatGPT)              |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |   `cherry-studio`   |        [Cherry Studio](https://github.com/kangfenmao/cherry-studio)         |          ![a](assets/a.svg)![1](assets/1.svg)          |
