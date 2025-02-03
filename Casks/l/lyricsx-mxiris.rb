@@ -2,7 +2,7 @@ cask "lyricsx-mxiris" do
   version "1.7.2-fixup,2550"
   sha256 "7de72a29d98a6de19637fd41b683ecee010f4fe038ef4678b2448172b049e259"
 
-  short_version = version.csv.first.split("-")[0]
+  short_version = version.split(".")[0..1].join(".") + "." + version.split(".")[2][0]
   url "https://github.com/MxIris-LyricsX-Project/LyricsX/releases/download/v#{version.csv.first}/LyricsX_#{short_version}+#{version.csv.second}.zip"
   name "LyricsX"
   desc "Ultimate Lyrics App"
