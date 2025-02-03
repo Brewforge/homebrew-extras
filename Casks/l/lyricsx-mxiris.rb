@@ -2,7 +2,7 @@ cask "lyricsx-mxiris" do
   version "1.7.2,2501"
   sha256 "e9896efdd7aad62d750a84a533fc3e7066c804f91d64de402f9c093195bf2a69"
 
-  url "https://github.com/MxIris-LyricsX-Project/LyricsX/releases/download/v#{version.csv.first}/LyricsX_#{version.csv.first}+#{version.csv.second}.zip"
+  url "https://github.com/MxIris-LyricsX-Project/LyricsX/releases/download/v#{version.csv.first}/LyricsX_#{version.csv.second}+#{version.csv.third}.zip"
   name "LyricsX"
   desc "Ultimate Lyrics App"
   homepage "https://github.com/MxIris-LyricsX-Project/LyricsX"
@@ -15,7 +15,7 @@ cask "lyricsx-mxiris" do
         match = asset["browser_download_url"]&.match(regex)
         next if match.blank?
 
-        "#{match[1]},#{match[5]}"
+        "#{match[1]},#{match[3]},#{match[5]}"
       end
     end
   end
