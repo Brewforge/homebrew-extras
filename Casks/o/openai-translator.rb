@@ -3,7 +3,6 @@ cask "openai-translator" do
   sha256 "6df834fe74f099d16947706722123c7b89e30157745037341d9caf1ee935a153"
 
   url "https://github.com/openai-translator/openai-translator/releases/download/v#{version}/OpenAI.Translator_#{version}_aarch64.dmg"
-
   name "OpenAI Translator"
   desc "Cross-platform Translatior based on ChatGPT API"
   homepage "https://github.com/openai-translator/openai-translator"

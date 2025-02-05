@@ -3,7 +3,6 @@ cask "tmexclude" do
   sha256 "2884526ff5ba06e966923d1555822baf7b6e6dea5ce66b24dee2ff2f5d7619a9"
 
   url "https://github.com/PhotonQuantum/tmexclude/releases/download/v#{version}/TimeMachine.Exclude_#{version}_universal.dmg"
-
   name "TimeMachine Exclude"
   desc "Exclude undesired files (node_modules, target, etc) from your TimeMachine backup"
   homepage "https://github.com/PhotonQuantum/tmexclude"
