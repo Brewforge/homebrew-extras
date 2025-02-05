@@ -2,17 +2,14 @@ cask "hiddify" do
   version "2.0.5"
   sha256 "71d4314ef0ce9d3bffb423a438ebeb9bae9ec8decfe0e17f5e6327201849e138"
 
-  mirror = "https://mirror.ghproxy.com/"
-  origin = "https://github.com/hiddify/hiddify-next/releases/download/v#{version}/Hiddify-MacOS.dmg"
+  url "https://github.com/hiddify/hiddify-next/releases/download/v#{version}/Hiddify-MacOS.dmg"
 
-  url "#{mirror}#{origin}",
-      verified: "mirror.ghproxy.com/"
   name "Hiddify"
   desc "Multi-Platform Auto-Proxy Client"
   homepage "https://hiddify.com/"
 
   livecheck do
-    url origin.to_s
+    url :url
     strategy :github_latest
   end
 
