@@ -5,17 +5,13 @@ cask "escrcpy" do
   sha256 arm:   "c8b2963fab435c74f3b1d8d1d884a3ef499f035edeb8824e70b9cb5d2e0398f8",
          intel: "cdaec02014bb934fbf8f78bb9f9032d3e625e7860ae4a7baafdb7b695b809107"
 
-  mirror = "https://mirror.ghproxy.com/"
-  origin = "https://github.com/viarotel-org/escrcpy/releases/download/v#{version}/Escrcpy-#{version}-mac-#{arch}.dmg"
-
-  url "#{mirror}#{origin}",
-      verified: "mirror.ghproxy.com/"
+  url "https://github.com/viarotel-org/escrcpy/releases/download/v#{version}/Escrcpy-#{version}-mac-#{arch}.dmg"
   name "Escrcpy"
   desc "Graphical Scrcpy to display and control Android, devices powered by Electron"
   homepage "https://github.com/viarotel-org/escrcpy/"
 
   livecheck do
-    url origin.to_s
+    url :url
     strategy :github_latest
   end
 

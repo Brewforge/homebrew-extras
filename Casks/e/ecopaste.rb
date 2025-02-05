@@ -2,20 +2,16 @@ cask "ecopaste" do
   arch arm: "aarch64", intel: "x64"
 
   version "0.5.0"
-  sha256 arm:   "b4f7f6eab80c9d54591fffdce20a602ffbb64641f393cf41c4588b2055d158b5",
+  sha256 arm:   "323dfa9bfb088e44ff5f9cd2e0d7f6e402f2eb9010a017faa22bd1653837cfed",
          intel: "adc0550f8ffbe37215eeab05f2851ce6b0a8e636518df882a720e06620459876"
 
-  mirror = "https://mirror.ghproxy.com/"
-  origin = "https://github.com/EcoPasteHub/EcoPaste/releases/latest/download/EcoPaste_#{arch}.app.tar.gz"
-
-  url "#{mirror}#{origin}",
-      verified: "mirror.ghproxy.com/"
+  url "https://github.com/EcoPasteHub/EcoPaste/releases/download/v#{version}/EcoPaste_#{version}_#{arch}.dmg"
   name "EcoPaste"
   desc "Open source clipboard management tools"
   homepage "https://github.com/EcoPasteHub/EcoPaste"
 
   livecheck do
-    url origin.to_s
+    url :url
     strategy :github_latest
   end
 
