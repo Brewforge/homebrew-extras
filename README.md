@@ -63,6 +63,10 @@ brew ls
 brew help
 ```
 
+## 🌟 STAR ME
+
+[![Star History](https://starchart.cc/Brewforge/homebrew-extras.svg?variant=adaptive)](https://starchart.cc/Brewforge/homebrew-extras)
+
 ## ✨ Contributing
 
 Please directly initiate a [pull request](https://github.com/Brewforge/homebrew-extras/compare) or [issue](https://github.com/Brewforge/homebrew-extras/issues/new/choose).
