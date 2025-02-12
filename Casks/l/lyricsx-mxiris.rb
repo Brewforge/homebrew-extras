@@ -2,15 +2,14 @@ cask "lyricsx-mxiris" do
   version "1.7.2-fixup,2550"
   sha256 "7de72a29d98a6de19637fd41b683ecee010f4fe038ef4678b2448172b049e259"
 
-  short_version = version.split(".")[0..1].join(".") + "." + version.split(".")[2][0]
-  url "https://github.com/MxIris-LyricsX-Project/LyricsX/releases/download/v#{version.csv.first}/LyricsX_#{short_version}+#{version.csv.second}.zip"
+  url "https://github.com/MxIris-LyricsX-Project/LyricsX/releases/download/v#{version.csv.first}/LyricsX_#{version.csv.first}+#{version.csv.second}.zip"
   name "LyricsX"
   desc "Ultimate Lyrics App"
   homepage "https://github.com/MxIris-LyricsX-Project/LyricsX"
 
   livecheck do
     url "https://github.com/MxIris-LyricsX-Project/LyricsX/releases"
-    regex(%r{(\d+(\.\d+){2}.+)/LyricsX_.+(\d{4})\.zip}i)
+    regex(%r{(\d+(\.\d+){2})/LyricsX_.+(\d{4})\.zip}i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|
         match = asset["browser_download_url"]&.match(regex)
