@@ -10,19 +10,18 @@
 
 ### Daily Use
 
-|    Cask Name    |                                Site                                |                 Note                 |
-| :-------------: | :----------------------------------------------------------------: | :----------------------------------: |
-|   `butterfly`   |        [Butterfly](https://github.com/LinwoodDev/Butterfly)        | ![a](assets/a.svg)![1](assets/1.svg) |
-| `freefilesync`  |              [FreeFileSync](https://freefilesync.org)              | ![a](assets/a.svg)![1](assets/1.svg) |
-|    `gopeed`     |                    [Gopeed](https://gopeed.com)                    | ![a](assets/a.svg)![1](assets/1.svg) |
-|  `gridplayer`   |        [GridPlayer](https://github.com/vzhd1701/gridplayer)        | ![a](assets/a.svg)![1](assets/1.svg) |
-|    `hiddify`    |                [Hiddify-Next](https://hiddify.com/)                | ![a](assets/a.svg)![1](assets/1.svg) |
-|    `imfile`     |                    [imFile](https://imfile.io/)                    | ![a](assets/a.svg)![1](assets/1.svg) |
-|    `keyviz`     |           [KeyViz](https://github.com/mulaRahul/keyviz)            | ![a](assets/a.svg)![1](assets/1.svg) |
-|    `peazip`     |             [PeaZip](https://github.com/peazip/PeaZip)             | ![a](assets/a.svg)![1](assets/1.svg) |
-|   `revezone`    |                 [revezone](https://revezone.com/)                  | ![a](assets/a.svg)![1](assets/1.svg) |
-| `pixel-perfect` | [Pixel Perfect](https://github.com/cormiertyshawn895/PixelPerfect) | ![a](assets/a.svg)![1](assets/1.svg) |
-| `wpsoffice-en`  |                 [WPS Office](https://www.wps.com/)                 | ![b](assets/a.svg)![1](assets/1.svg) |
+|   Cask Name    |                         Site                         |                 Note                 |
+| :------------: | :--------------------------------------------------: | :----------------------------------: |
+|  `butterfly`   | [Butterfly](https://github.com/LinwoodDev/Butterfly) | ![a](assets/a.svg)![1](assets/1.svg) |
+| `freefilesync` |       [FreeFileSync](https://freefilesync.org)       | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `gopeed`    |             [Gopeed](https://gopeed.com)             | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `gridplayer`  | [GridPlayer](https://github.com/vzhd1701/gridplayer) | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `hiddify`    |         [Hiddify-Next](https://hiddify.com/)         | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `imfile`    |             [imFile](https://imfile.io/)             | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `keyviz`    |    [KeyViz](https://github.com/mulaRahul/keyviz)     | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `peazip`    |      [PeaZip](https://github.com/peazip/PeaZip)      | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `revezone`   |          [revezone](https://revezone.com/)           | ![a](assets/a.svg)![1](assets/1.svg) |
+| `wpsoffice-en` |          [WPS Office](https://www.wps.com/)          | ![b](assets/a.svg)![1](assets/1.svg) |
 
 ### AI Clients
 
@@ -44,23 +43,19 @@
 |  `aerospace@beta`   |        [AeroSpace](https://github.com/nikitabobko/AeroSpace)        | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `barss`       |              [baRSS](https://relikd.de/projects/barss)              | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `lyricsx-mxiris`   | [LyricsX-MxIris](https://github.com/MxIris-LyricsX-Project/LyricsX) | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `pixel-perfect`   | [Pixel Perfect](https://github.com/cormiertyshawn895/PixelPerfect)  | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `quickrecorder`   |     [QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)     | ![a](assets/a.svg)![1](assets/1.svg) |
 | `sequential-viewer` |       [Sequential](https://github.com/chuchusoft/Sequential)        | ![a](assets/a.svg)![1](assets/1.svg) |
 
-### Android
+### Development
 
 |   Cask Name   |                          Site                          |                 Note                 |
 | :-----------: | :----------------------------------------------------: | :----------------------------------: |
+|   `dvc-app`   |                 [DVC](https://dvc.org)                 | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `escrcpy`   |     [DVC](https://github.com/viarotel-org/escrcpy)     | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `qtscrcpy`   |   [QtScrcpy](https://github.com/barry-ran/QtScrcpy)    | ![a](assets/a.svg)![1](assets/1.svg) |
 | `scrcpy-mask` | [scrcpy-mask](https://github.com/AkiChase/scrcpy-mask) | ![a](assets/a.svg)![1](assets/1.svg) |
-
-### Research
-
-|  Cask Name   |                       Site                       |                 Note                 |
-| :----------: | :----------------------------------------------: | :----------------------------------: |
-|  `dvc-app`   |              [DVC](https://dvc.org)              | ![a](assets/a.svg)![1](assets/1.svg) |
-| `openstudio` | [OpenStudio](https://github.com/NREL/OpenStudio) | ![a](assets/a.svg)![1](assets/1.svg) |
+| `openstudio`  |    [OpenStudio](https://github.com/NREL/OpenStudio)    | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ### Games & Media
 
