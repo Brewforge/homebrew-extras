@@ -84,7 +84,7 @@ brew help
 |      `airy-ai`      |                         [Airy](https://colink.in/)                          |          ![b](assets/b.svg)![1](assets/1.svg)          |
 |   `chatgpt-lencx`   |              [ChatGPT-lencx](https://github.com/lencx/ChatGPT)              |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |        `noi`        |                     [Noi](https://github.com/lencx/Noi)                     |          ![a](assets/a.svg)![1](assets/1.svg)          |
-| `openai-translator` | [Openai-Translator](https://github.com/openai-translator/openai-translator) |          ![a](assets/a.svg)![1](assets/1.svg)          |
+| `openai-translator` | [OpenAI-Translator](https://github.com/openai-translator/openai-translator) |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |      `peekai`       |             [peekai](https://prateekkeshari.gumroad.com/l/peek)             | ![a](assets/a.svg)![1](assets/1.svg)![2](assets/2.svg) |
 |       `vibe`        |                [vibe](https://github.com/thewh1teagle/vibe)                 |          ![a](assets/a.svg)![1](assets/1.svg)          |
 
@@ -105,7 +105,7 @@ brew help
 |   Cask Name   |                          Site                          |                 Note                 |
 | :-----------: | :----------------------------------------------------: | :----------------------------------: |
 |   `dvc-app`   |                 [DVC](https://dvc.org)                 | ![a](assets/a.svg)![1](assets/1.svg) |
-|   `escrcpy`   |     [DVC](https://github.com/viarotel-org/escrcpy)     | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `escrcpy`   |   [escrcpy](https://github.com/viarotel-org/escrcpy)   | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `qtscrcpy`   |   [QtScrcpy](https://github.com/barry-ran/QtScrcpy)    | ![a](assets/a.svg)![1](assets/1.svg) |
 | `scrcpy-mask` | [scrcpy-mask](https://github.com/AkiChase/scrcpy-mask) | ![a](assets/a.svg)![1](assets/1.svg) |
 | `openstudio`  |    [OpenStudio](https://github.com/NREL/OpenStudio)    | ![a](assets/a.svg)![1](assets/1.svg) |
