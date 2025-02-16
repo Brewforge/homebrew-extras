@@ -3,6 +3,7 @@
 > Software not found in this list can be viewed in the list below.
 >
 > [![Click to View List for Chinese](https://img.shields.io/badge/List_for_Chinese-red?style=for-the-badge&logo=homebrew&label=Click%20to%20view)](https://github.com/Brewforge/homebrew-chinese/blob/main/%E5%88%97%E8%A1%A8.md)
+> [![Click to View List for CLI](https://img.shields.io/badge/List_for_CLI-red?style=for-the-badge&logo=homebrew&label=Click%20to%20view)](https://github.com/Brewforge/homebrew-more/blob/main/list.md)
 
 # 🌍 For Worldwide
 
@@ -78,3 +79,4 @@ There are several manifests that the current contributors cannot fix, welcome yo
 > Software not found in this list can be viewed in the list below.
 >
 > [![Click to View List for Chinese](https://img.shields.io/badge/List_for_Chinese-red?style=for-the-badge&logo=homebrew&label=Click%20to%20view)](https://github.com/Brewforge/homebrew-chinese/blob/main/%E5%88%97%E8%A1%A8.md)
+> [![Click to View List for CLI](https://img.shields.io/badge/List_for_CLI-red?style=for-the-badge&logo=homebrew&label=Click%20to%20view)](https://github.com/Brewforge/homebrew-more/blob/main/list.md)

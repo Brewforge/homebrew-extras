@@ -1,4 +1,4 @@
-name: bump
+name: schedule
 
 on:
   # pull_request:
