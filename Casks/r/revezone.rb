@@ -14,7 +14,7 @@ cask "revezone" do
       match = page.match(/href=.*?(\d+(\.\d+){2}(-alpha\.\d+)?)/i)
       next if match.blank?
 
-      (match[1]).to_s
+      match[1].to_s
     end
   end
 
