@@ -24,6 +24,9 @@ cask "stirling-pdf" do
   uninstall quit:   "com.stirling.software.pdf",
             delete: "/Applications/Stirling PDF.app"
 
-  zap trash: ["/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.stirling.software.pdf",
-              "~/Library/Preferences/com.stirling.software.pdf.plist"]
+  zap trash: [
+    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.stirling.software.pdf",
+    "~/Library/Application Support/Stirling-PDF",
+    "~/Library/Preferences/com.stirling.software.pdf.plist",
+  ]
 end
