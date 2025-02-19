@@ -74,6 +74,7 @@ brew help
 |    `keyviz`    |    [KeyViz](https://github.com/mulaRahul/keyviz)     | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `peazip`    |      [PeaZip](https://github.com/peazip/PeaZip)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `revezone`   |          [revezone](https://revezone.com/)           | ![a](assets/a.svg)![1](assets/1.svg) |
+| `stirling-pdf` |       [Stirling PDF](https://stirlingpdf.com/)       | ![a](assets/a.svg)![1](assets/1.svg) |
 | `wpsoffice-en` |          [WPS Office](https://www.wps.com/)          | ![b](assets/a.svg)![1](assets/1.svg) |
 
 ### AI Clients
