@@ -7,24 +7,16 @@ body:
       label: Cask name
     validations:
       required: true
-  - type: dropdown
+  - type: input
     attributes:
-      label: GUI or CLI
-      options:
-        - GUI
-        - CLI
+      label: Official website
     validations:
       required: true
   - type: input
     attributes:
-      label: Software official website
+      label: Lastest release date
     validations:
       required: true
-  - type: input
-    attributes:
-      label: Last version
-    validations:
-      required: false
   - type: input
     attributes:
       label: Description
@@ -34,7 +26,7 @@ body:
     attributes:
       label: Download URL
     validations:
-      required: false
+      required: true
   - type: dropdown
     attributes:
       label: Charging model
