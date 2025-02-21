@@ -20,7 +20,7 @@ cask "wox" do
     #     "#{match[1]}#{match[2]},#{match[3]}"
     #   end
     # end
-    # skip "skip for now"
+    skip "skip for now"
   end
 
   auto_updates true

@@ -104,13 +104,14 @@ brew help
 
 ### Development
 
-|   Cask Name   |                          Site                          |                 Note                 |
-| :-----------: | :----------------------------------------------------: | :----------------------------------: |
-|   `dvc-app`   |                 [DVC](https://dvc.org)                 | ![a](assets/a.svg)![1](assets/1.svg) |
-|   `escrcpy`   |   [escrcpy](https://github.com/viarotel-org/escrcpy)   | ![a](assets/a.svg)![1](assets/1.svg) |
-|  `qtscrcpy`   |   [QtScrcpy](https://github.com/barry-ran/QtScrcpy)    | ![a](assets/a.svg)![1](assets/1.svg) |
-| `scrcpy-mask` | [scrcpy-mask](https://github.com/AkiChase/scrcpy-mask) | ![a](assets/a.svg)![1](assets/1.svg) |
-| `openstudio`  |    [OpenStudio](https://github.com/NREL/OpenStudio)    | ![a](assets/a.svg)![1](assets/1.svg) |
+|    Cask Name     |                          Site                          |                 Note                 |
+| :--------------: | :----------------------------------------------------: | :----------------------------------: |
+|    `dvc-app`     |                 [DVC](https://dvc.org)                 | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `escrcpy`     |   [escrcpy](https://github.com/viarotel-org/escrcpy)   | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `qtscrcpy`    |   [QtScrcpy](https://github.com/barry-ran/QtScrcpy)    | ![a](assets/a.svg)![1](assets/1.svg) |
+| `qtscrcpy-intel` |   [QtScrcpy](https://github.com/barry-ran/QtScrcpy)    | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `scrcpy-mask`   | [scrcpy-mask](https://github.com/AkiChase/scrcpy-mask) | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `openstudio`   |    [OpenStudio](https://github.com/NREL/OpenStudio)    | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ### Games & Media
 

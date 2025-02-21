@@ -18,6 +18,7 @@ cask "quickrecorder" do
 
   zap trash: [
     "~/Library/Preferences/com.lihaoyun6.QuickRecorder",
+    "~/Library/Preferences/com.lihaoyun6.QuickRecorder.plist",
     "~/Library/Saved Application State/com.lihaoyun6.QuickRecorder.savedState",
   ]
 end
