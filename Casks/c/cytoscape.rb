@@ -23,7 +23,7 @@ cask "cytoscape" do
   }
 
   uninstall script: {
-    executable: "Applications/Cytoscape_v#{version}/Cytoscape Uninstaller.app/Contents/MacOS/JavaApplicationStub",
+    executable: "/Applications/Cytoscape_v#{version}/Cytoscape Uninstaller.app/Contents/MacOS/JavaApplicationStub",
     args:       ["-q"],
   }
 
