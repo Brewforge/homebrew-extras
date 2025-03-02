@@ -16,13 +16,7 @@ cask "stirling-pdf" do
   auto_updates true
   depends_on macos: ">= :sonoma"
 
-  installer script: {
-    executable: "Stirling PDF.app/Contents/MacOS/Stirling PDF",
-    args:       ["-q"],
-  }
-
-  uninstall quit:   "com.stirling.software.pdf",
-            delete: "/Applications/Stirling PDF.app"
+  app "Stirling-PDF.app"
 
   zap trash: [
     "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.stirling.software.pdf",

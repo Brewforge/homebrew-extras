@@ -65,7 +65,9 @@ brew help
 
 |   Cask Name    |                         Site                         |                 Note                 |
 | :------------: | :--------------------------------------------------: | :----------------------------------: |
+|   `dvc-app`    |                [DVC](https://dvc.org)                | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `butterfly`   | [Butterfly](https://github.com/LinwoodDev/Butterfly) | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `cytoscape`   |          [Cytoscape](https://cytoscape.org)          | ![a](assets/a.svg)![1](assets/1.svg) |
 | `freefilesync` |       [FreeFileSync](https://freefilesync.org)       | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `gopeed`    |             [Gopeed](https://gopeed.com)             | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `gridplayer`  | [GridPlayer](https://github.com/vzhd1701/gridplayer) | ![a](assets/a.svg)![1](assets/1.svg) |
@@ -74,6 +76,7 @@ brew help
 |    `keyviz`    |    [KeyViz](https://github.com/mulaRahul/keyviz)     | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `peazip`    |      [PeaZip](https://github.com/peazip/PeaZip)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `oculante`   |   [Oculante](https://github.com/woelper/oculante)    | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `openstudio`  |   [OpenStudio](https://github.com/NREL/OpenStudio)   | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `revezone`   |          [Revezone](https://revezone.com/)           | ![a](assets/a.svg)![1](assets/1.svg) |
 | `stirling-pdf` |       [Stirling PDF](https://stirlingpdf.com/)       | ![a](assets/a.svg)![1](assets/1.svg) |
 | `wpsoffice-en` |          [WPS Office](https://www.wps.com/)          | ![b](assets/a.svg)![1](assets/1.svg) |
@@ -107,12 +110,10 @@ brew help
 
 |    Cask Name     |                          Site                          |                 Note                 |
 | :--------------: | :----------------------------------------------------: | :----------------------------------: |
-|    `dvc-app`     |                 [DVC](https://dvc.org)                 | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `escrcpy`     |   [escrcpy](https://github.com/viarotel-org/escrcpy)   | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `qtscrcpy`    |   [QtScrcpy](https://github.com/barry-ran/QtScrcpy)    | ![a](assets/a.svg)![1](assets/1.svg) |
 | `qtscrcpy-intel` |   [QtScrcpy](https://github.com/barry-ran/QtScrcpy)    | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `scrcpy-mask`   | [scrcpy-mask](https://github.com/AkiChase/scrcpy-mask) | ![a](assets/a.svg)![1](assets/1.svg) |
-|   `openstudio`   |    [OpenStudio](https://github.com/NREL/OpenStudio)    | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ### Games & Media
 
