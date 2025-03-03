@@ -18,7 +18,7 @@ cask "dropclock" do
 
   zap trash: [
     "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.Wrkx.Dropclock",
+    "~/Library/Application Scripts/com.Wrkx.Dropclock",
     "~/Library/Containers/com.Wrkx.Dropclock",
-    "~/Library/Application Scripts/com.Wrkx.Dropclock"
   ]
 end
