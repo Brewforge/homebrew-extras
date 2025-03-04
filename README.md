@@ -73,6 +73,7 @@ brew help
 |   `hiddify`    |         [Hiddify-Next](https://hiddify.com/)         | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `imfile`    |             [imFile](https://imfile.io/)             | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `keyviz`    |    [KeyViz](https://github.com/mulaRahul/keyviz)     | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `lrcget`    |  [LRCGET](https://github.com/tranxuanthang/lrcget)   | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `musicat`    |   [Musicat](https://github.com/basharovV/musicat)    | ![a](assets/a.svg)![1](assets/1.svg) |
 |    `peazip`    |      [PeaZip](https://github.com/peazip/PeaZip)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `oculante`   |   [Oculante](https://github.com/woelper/oculante)    | ![a](assets/a.svg)![1](assets/1.svg) |
