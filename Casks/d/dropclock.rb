@@ -4,7 +4,7 @@ cask "dropclock" do
 
   url "https://github.com/WrkX/Dropclock/releases/download/#{version}/Dropclock.dmg"
   name "ChatGPT"
-  desc "Lightweight and intuitive application designed to make creating timers as quick and seamless as possible"
+  desc "Creating timers as quick and seamless as possible"
   homepage "https://github.com/WrkX/Dropclock"
 
   livecheck do
