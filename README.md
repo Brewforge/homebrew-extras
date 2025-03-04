@@ -97,6 +97,7 @@ brew help
 | `adobe-downloader`  |   [Adobe Downloader](https://github.com/X1a0He/Adobe-Downloader)    | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `aerospace@beta`   |        [AeroSpace](https://github.com/nikitabobko/AeroSpace)        | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `barss`       |              [baRSS](https://relikd.de/projects/barss)              | ![a](assets/a.svg)![1](assets/1.svg) |
+|      `dorion`       |             [dorion](https://github.com/SpikeHD/Dorion)             | ![a](assets/a.svg)![1](assets/1.svg) |
 |     `dropclock`     |           [dropclock](https://github.com/WrkX/Dropclock)            | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `lyricsx-mxiris`   | [LyricsX-MxIris](https://github.com/MxIris-LyricsX-Project/LyricsX) | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `pixel-perfect`   | [Pixel Perfect](https://github.com/cormiertyshawn895/PixelPerfect)  | ![a](assets/a.svg)![1](assets/1.svg) |
