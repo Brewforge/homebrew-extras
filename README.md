@@ -65,6 +65,7 @@ brew help
 
 |        Cask Name         |                         Site                         |                 Note                 |
 | :----------------------: | :--------------------------------------------------: | :----------------------------------: |
+|       `anx-reader`       |  [Anx Reader](https://github.com/Anxcye/anx-reader)  | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `butterfly`        | [Butterfly](https://github.com/LinwoodDev/Butterfly) | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `dorion`         |     [dorion](https://github.com/SpikeHD/Dorion)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |      `freefilesync`      |       [FreeFileSync](https://freefilesync.org)       | ![a](assets/a.svg)![1](assets/1.svg) |
