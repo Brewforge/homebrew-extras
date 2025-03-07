@@ -23,6 +23,6 @@ cask "stirling-pdf" do
   zap trash: []
 
   caveats do
-    depends_on_java "9+"
+    depends_on_java "21"
   end
 end
