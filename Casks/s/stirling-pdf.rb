@@ -1,8 +1,8 @@
 cask "stirling-pdf" do
   version "0.43.2"
-  sha256 "8c0f8c9946bae45b3d8f6ec0b8c88a85687f4b743b1a2a3aa638655dadf7f38e"
+  sha256 "580d5f22d470ef740e6f0ee9e98ffa84f068d04dc5ff4cac3c2c3b07651f490f"
 
-  url "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v#{version}/Stirling-PDF-mac-installer.dmg",
+  url "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v#{version}/Stirling-PDF.jar",
       verified: "github.com/Stirling-Tools/Stirling-PDF/"
   name "Stirling PDF"
   desc "Robust, locally hosted web-based PDF manipulation tool using Docker"
@@ -14,13 +14,15 @@ cask "stirling-pdf" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  container type: :naked
 
-  app "Stirling-PDF.app"
+  artifact "Stirling-PDF.jar", target: "#{appdir}/Stirling-PDF.jar"
 
-  zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.stirling.software.pdf",
-    "~/Library/Application Support/Stirling-PDF",
-    "~/Library/Preferences/com.stirling.software.pdf.plist",
-  ]
+  uninstall delete: "/Applications/Stirling-PDF.jar"
+
+  zap trash: []
+
+  caveats do
+    depends_on_java "9+"
+  end
 end
