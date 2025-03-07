@@ -22,7 +22,8 @@ cask "dorion" do
   zap trash: [
     "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.spikehd.dorion",
     "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/com.spikehd.dorion",
-    "~/Library/Application Support/Dorion",
+    "~/Library/Application Support/com.spikehd.dorion",
+    "~/Library/Application Support/dorion",
     "~/Library/Caches/com.spikehd.dorion",
     "~/Library/HTTPStorages/com.spikehd.dorion.binarycookies",
     "~/Library/Preferences/com.dorion.plist",
