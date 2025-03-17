@@ -134,6 +134,12 @@ brew help
 |     `ryujinx`     | [Ryujinx](https://github.com/ryujinx-mirror/ryujinx)  | ![a](assets/a.svg)![1](assets/1.svg) |
 | `ryujinx-ryubing` | [Ryujinx-Ryubing](https://github.com/Ryubing/Ryujinx) | ![a](assets/a.svg)![1](assets/1.svg) |
 
+### CLI
+
+|       Cask Name        |                                  Site                                   | Language |                 Note                 |
+| :--------------------: | :---------------------------------------------------------------------: | :------: | :----------------------------------: |
+| `excalidraw-converter` | [Excalidraw-Converter](https://github.com/sindrel/excalidraw-converter) |    Go    | ![a](assets/a.svg)![1](assets/1.svg) |
+
 ## ⚔️ Challenge
 
 There are several manifests that the current contributors cannot fix, welcome your help!
