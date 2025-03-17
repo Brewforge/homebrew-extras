@@ -19,5 +19,5 @@ cask "shiroa" do
     strategy :github_latest
   end
 
-  binary "shiroa"
+  binary "shiroa-#{arch}-#{os}/shiroa"
 end
