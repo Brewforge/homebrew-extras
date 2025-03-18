@@ -145,9 +145,9 @@ brew help
 
 There are several manifests that the current contributors cannot fix, welcome your help!
 
-|  Cask Name   |                         Site                          |    Problem     |
-| :----------: | :---------------------------------------------------: | :------------: |
-| `tinkertool` | [TinkerTool](https://bresink.com/osx/TinkerTool.html) | Download Error |
+|  Cask Name   |                         Site                          |                Problem                |
+| :----------: | :---------------------------------------------------: | :-----------------------------------: |
+| `tinkertool` | [TinkerTool](https://bresink.com/osx/TinkerTool.html) | cannot obtain available info directly |
 
 ## 🌟 STAR ME
 
