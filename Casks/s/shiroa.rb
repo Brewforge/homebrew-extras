@@ -1,6 +1,5 @@
 cask "shiroa" do
   arch arm: "aarch64", intel: "x86_64"
-
   os macos: "apple-darwin", linux: "unknown-linux-gnu"
 
   version "0.3.0"

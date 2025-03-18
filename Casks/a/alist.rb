@@ -1,6 +1,5 @@
 cask "alist" do
   arch arm: "arm64", intel: "amd64"
-
   os macos: "darwin", linux: "linux"
 
   version "3.43.0"
