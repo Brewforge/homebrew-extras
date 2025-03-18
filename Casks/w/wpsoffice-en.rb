@@ -13,7 +13,7 @@ cask "wpsoffice-en" do
       verified: "wdl1.pcfg.cache.wpscdn.com/"
   name "WPS Office"
   desc "AI-Powered Office Suite for Everyone"
-  homepage "https://www.wps.com/"
+  homepage "https://wps.com/"
 
   livecheck do
     url "https://api-web-param-us.wps.com/onlineParamByFunc?funcName=Mac_Update&version=#{version}&hdid=#{hdid}&lang=#{lang}&channel=#{channel}&devicetype=mac"

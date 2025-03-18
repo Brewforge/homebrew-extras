@@ -2,16 +2,15 @@ cask "tinkertool" do
   version "10.0"
   sha256 :no_check
 
-  url "https://www.bresink.biz/download3.php?PHPSESSID=f1bjvspkef6q63s5cc9q5gse9i",
+  url "https://bresink.biz/download3.php?PHPSESSID=f1bjvspkef6q63s5cc9q5gse9i",
       verified: "bresink.biz/"
   name "TinkerTool"
   desc "Gives you access to additional system preference settings"
   homepage "https://bresink.com/osx/TinkerTool.html"
 
   livecheck do
-    # url "https://bresink.com/osx/0TinkerTool/download.php"
-    # regex(/(\d+(?:\.\d+)+) \(Build \d+\)/i)
-    skip "download error"
+    url "https://bresink.com/osx/0TinkerTool/download.php"
+    regex(/(\d+(?:\.\d+)+) \(Build \d+\)/i)
   end
 
   app "TinkerTool.app"

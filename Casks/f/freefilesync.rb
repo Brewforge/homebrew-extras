@@ -2,10 +2,10 @@ cask "freefilesync" do
   version "14.2"
   sha256 "6f30510cc7d4c8d145476ef2ed5620877671a4334de4a6ff503ef3ae252c193d"
 
-  url "https://www.freefilesync.org/download/FreeFileSync_#{version}_macOS.zip"
+  url "https://freefilesync.org/download/FreeFileSync_#{version}_macOS.zip"
   name "FreeFileSync"
   desc "Folder comparison and synchronization software"
-  homepage "https://www.freefilesync.org/"
+  homepage "https://freefilesync.org/"
 
   livecheck do
     url "https://freefilesync.org/download.php"
