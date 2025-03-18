@@ -1,26 +1,26 @@
 cask "wox" do
   arch arm: "arm64", intel: "arm64"
 
-  version "2.0.0-nightly,20241017-6f3dc6"
-  sha256 "1fac179aa598d5c4973f0dfb188b15096a852942e6e8c9d498150eab1a0cc379"
+  version "2.0.0-beta.1"
+    sha256 arm:   "40e19037328f0a2237d23c2fa442c972697a2fb429794f05934600ef8a8ffb61",
+         intel: "22479889d413a70c5f5372dfca46f134a5f5216255a667fa8457d2190fe1ad42"
 
-  url "https://github.com/Wox-launcher/Wox/releases/download/v#{version.csv.first}/wox-mac-#{arch}-#{version.csv.second}.dmg"
+  url "https://github.com/Wox-launcher/Wox/releases/download/v#{version.csv.first}/wox-mac-#{arch}.dmg"
   name "Wox"
   desc "Cross-platform launcher that simply works"
   homepage "https://github.com/Wox-launcher/Wox"
 
   livecheck do
-    # url "https://github.com/Wox-launcher/Wox/releases"
-    # regex(%r{/v?(\d+(?:\.\d+)+)(-nightly)?/wox-mac-#{arch}-(\d+-\h+)\.dmg$}i)
-    # strategy :github_latest do |json, regex|
-    #   json["assets"]&.map do |asset|
-    #     match = asset["browser_download_url"]&.match(regex)
-    #     next if match.blank?
+    url "https://github.com/Wox-launcher/Wox/releases"
+    regex(%r{/v?(\d+(?:\.\d+)+)(-beta\.\d)?/wox-mac-#{arch}\.dmg$}i)
+    strategy :github_latest do |json, regex|
+      json["assets"]&.map do |asset|
+        match = asset["browser_download_url"]&.match(regex)
+        next if match.blank?
 
-    #     "#{match[1]}#{match[2]},#{match[3]}"
-    #   end
-    # end
-    skip "skip for now"
+        "#{match[1]}#{match[2]}"
+      end
+    end
   end
 
   auto_updates true
