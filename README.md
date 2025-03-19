@@ -77,6 +77,7 @@ brew help
 |         `keyviz`         |    [KeyViz](https://github.com/mulaRahul/keyviz)     | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `lrcget`         |  [LRCGET](https://github.com/tranxuanthang/lrcget)   | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `musicat`         |   [Musicat](https://github.com/basharovV/musicat)    | ![a](assets/a.svg)![1](assets/1.svg) |
+|         `muzik`          |   [Muzik](https://muzik-apps.github.io/muzik-web/)   | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `peazip`         |      [PeaZip](https://github.com/peazip/PeaZip)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `oculante`        |   [Oculante](https://github.com/woelper/oculante)    | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `revezone`        |          [Revezone](https://revezone.com/)           | ![a](assets/a.svg)![1](assets/1.svg) |
