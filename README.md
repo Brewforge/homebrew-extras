@@ -138,10 +138,11 @@ brew help
 
 ### CLI
 
-| Cask Name |                        Site                        | Language |                 Note                 |
-| :-------: | :------------------------------------------------: | :------: | :----------------------------------: |
-|  `alist`  |          [AList](https://alist.nn.ci/zh)           |    Go    | ![a](assets/a.svg)![1](assets/1.svg) |
-| `shiroa`  | [shiroa](https://github.com/Myriad-Dreamin/shiroa) |   Rust   | ![a](assets/a.svg)![1](assets/1.svg) |
+| Cask Name  |                        Site                         | Language |                 Note                 |
+| :--------: | :-------------------------------------------------: | :------: | :----------------------------------: |
+|  `alist`   |           [AList](https://alist.nn.ci/zh)           |    Go    | ![a](assets/a.svg)![1](assets/1.svg) |
+| `json-tui` | [AList](https://github.com/ArthurSonzogni/json-tui) |   C++    | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `shiroa`  | [shiroa](https://github.com/Myriad-Dreamin/shiroa)  |   Rust   | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ## ⚔️ Challenge
 
