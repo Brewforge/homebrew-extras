@@ -1,6 +1,6 @@
 cask "butterfly" do
-  version "2.2.4"
-  sha256 "b54712ac1582e1b8472c91f87afddb8b6aef156b7af21faaaf83fbc669e11e79"
+  version "2.3.0"
+  sha256 "f46eb8d1f5a679ede1d9e166b25fd994b48696279ff57df0fbda3641a78be523"
 
   url "https://github.com/LinwoodDev/Butterfly/releases/download/v#{version}/linwood-butterfly-macos.dmg"
   name "Butterfly"
