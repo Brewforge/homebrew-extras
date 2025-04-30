@@ -33,10 +33,6 @@ jobs:
       image: ghcr.io/homebrew/ubuntu22.04:master
     env:
       HOMEBREW_SIMULATE_MACOS_ON_LINUX: 1
-    outputs:
-      testing_formulae: ${{ steps.formulae-detect.outputs.testing_formulae }}
-      added_formulae: ${{ steps.formulae-detect.outputs.added_formulae }}
-      deleted_formulae: ${{ steps.formulae-detect.outputs.deleted_formulae }}
     steps:
       - name: Set up Homebrew
         id: set-up-homebrew
