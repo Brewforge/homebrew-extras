@@ -1,6 +1,6 @@
 cask "stirling-pdf" do
-  version "0.45.6"
-  sha256 "8560054730548a7d22af450583478de9ce67627fde60b88c0a2538c9cd651c9f"
+  version "0.46.0"
+  sha256 "b46a7f7dfbeee10cb28475fc5bf7106d822ee157e0681216c3ece97692306368"
 
   url "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v#{version}/Stirling-PDF.jar",
       verified: "github.com/Stirling-Tools/Stirling-PDF/"
