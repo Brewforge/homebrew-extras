@@ -9,8 +9,7 @@ cask "stirling-pdf-installer" do
   homepage "https://stirlingpdf.com/"
 
   livecheck do
-    url :url
-    strategy :github_latest
+    skip "installer error"
   end
 
   auto_updates true

@@ -141,9 +141,10 @@ brew help
 
 There are several manifests that the current contributors cannot fix, welcome your help!
 
-|  Cask Name   |                         Site                          |                Problem                |
-| :----------: | :---------------------------------------------------: | :-----------------------------------: |
-| `tinkertool` | [TinkerTool](https://bresink.com/osx/TinkerTool.html) | cannot obtain available info directly |
+|        Cask Name         |                         Site                          |                Problem                |
+| :----------------------: | :---------------------------------------------------: | :-----------------------------------: |
+|       `tinkertool`       | [TinkerTool](https://bresink.com/osx/TinkerTool.html) | cannot obtain available info directly |
+| `stirling-pdf-installer` |       [Stirling PDF](https://stirlingpdf.com/)        |    dialogbox hinders installation     |
 
 ## 🌟 STAR ME
 

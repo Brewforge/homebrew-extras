@@ -24,5 +24,9 @@ cask "stirling-pdf" do
 
   caveats do
     depends_on_java "21"
+    <<~EOS
+      Launch Stirling-PDF.jar from the Applications folder by
+      java -jar #{appdir}/Stirling-PDF.jar
+    EOS
   end
 end
