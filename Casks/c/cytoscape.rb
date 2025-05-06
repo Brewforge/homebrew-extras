@@ -10,7 +10,7 @@ cask "cytoscape" do
       verified: "github.com/cytoscape/cytoscape/"
   name "Cytoscape"
   desc "Open source platform for network analysis and visualization"
-  homepage "http://cytoscape.org/"
+  homepage "https://cytoscape.org/"
 
   livecheck do
     url :url
