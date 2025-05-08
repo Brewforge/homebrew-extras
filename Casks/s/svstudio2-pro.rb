@@ -1,6 +1,6 @@
 cask "svstudio2-pro" do
   version "2.0.7"
-  sha256 "c5bdeaee2e30bf15340c976fcffa0bed8e80c0b444fa18e0b509e169cb8c0985"
+  sha256 :no_check
 
   url "https://download.dreamtonics.com/svstudio2/svstudio2-pro-setup-latest.pkg"
   name "Synthesizer V Studio 2 Pro"
@@ -10,10 +10,10 @@ cask "svstudio2-pro" do
   pkg "svstudio2-pro-setup-latest.pkg"
 
   uninstall pkgutil: [
-    "com.dreamtonics.svstudio2.pro",
+    "com.dreamtonics.svstudio2.aaxplugin",
     "com.dreamtonics.svstudio2.auplugin",
+    "com.dreamtonics.svstudio2.pro",
     "com.dreamtonics.svstudio2.vst3plugin",
-    "com.dreamtonics.svstudio2.aaxplugin"
   ]
 
   zap trash: [
@@ -21,7 +21,7 @@ cask "svstudio2-pro" do
     "~/Library/Caches/com.dreamtonics.svstudio2.pro",
     "~/Library/HTTPStorages/com.dreamtonics.svstudio2.pro",
     "~/Library/HTTPStorages/com.dreamtonics.svstudio2.pro.binarycookies",
-    "~/Library/WebKit/com.dreamtonics.svstudio2.pro",
     "~/Library/Preferences/com.dreamtonics.svstudio2.pro.plist",
+    "~/Library/WebKit/com.dreamtonics.svstudio2.pro",
   ]
 end
