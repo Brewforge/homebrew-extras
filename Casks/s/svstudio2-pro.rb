@@ -18,5 +18,10 @@ cask "svstudio2-pro" do
 
   zap trash: [
     "~/Library/Application Support/Dreamtonics/Synthesizer V Studio 2",
+    "~/Library/Caches/com.dreamtonics.svstudio2.pro",
+    "~/Library/HTTPStorages/com.dreamtonics.svstudio2.pro",
+    "~/Library/HTTPStorages/com.dreamtonics.svstudio2.pro.binarycookies",
+    "~/Library/WebKit/com.dreamtonics.svstudio2.pro",
+    "~/Library/Preferences/com.dreamtonics.svstudio2.pro.plist",
   ]
 end
