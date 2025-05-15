@@ -1,6 +1,6 @@
 cask "qtscrcpy-intel" do
-  version "3.1.3,5.15.2"
-  sha256 "3a09c7fe8711f11031195f94004508fa4eb5696ad70b91bd52d69b4c6558bb4a"
+  version "3.2.0,5.15.2"
+  sha256 "5a606f08318f1056c9b9e202f388ab4c7fb09f5617d0b270f266e62d752aa947"
 
   url "https://github.com/barry-ran/QtScrcpy/releases/download/v#{version.csv.first}/QtScrcpy-mac-x64-Qt#{version.csv.second}-v#{version.csv.first}.dmg"
   name "QtScrcpy"
