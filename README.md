@@ -78,7 +78,6 @@ brew help
 |         `peazip`         |      [PeaZip](https://github.com/peazip/PeaZip)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `oculante`        |   [Oculante](https://github.com/woelper/oculante)    | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `revezone`        |          [Revezone](https://revezone.com/)           | ![a](assets/a.svg)![1](assets/1.svg) |
-|      `stirling-pdf`      |       [Stirling PDF](https://stirlingpdf.com/)       | ![a](assets/a.svg)![1](assets/1.svg) |
 | `stirling-pdf-installer` |       [Stirling PDF](https://stirlingpdf.com/)       | ![a](assets/a.svg)![1](assets/1.svg) |
 |          `tyx`           |            [TyX](https://tyx-editor.com/)            | ![a](assets/a.svg)![1](assets/1.svg) |
 |      `wpsoffice-en`      |            [WPS Office](https://wps.com/)            | ![b](assets/a.svg)![1](assets/1.svg) |
