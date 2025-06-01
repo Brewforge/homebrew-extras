@@ -1,9 +1,9 @@
 cask "tyx" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.13"
-  sha256 arm:   "dd9c48f8e881180ad63d7cdcdd67279c1e91970524ea9c1ddad955362f7c1bf5",
-         intel: "560609f665e22c747223b017317aaafb596ed6105bfae6c54c204b971e401ddb"
+  version "0.1.14"
+  sha256 arm:   "9745c356926a424403daecc970fc03228d63c5715139cd9a1ffedc5862cd76c7",
+         intel: "778fd08a28edf51f329cb3e1d8dd0408fb153875f27d30c83b51f1c2291f25a8"
 
   url "https://github.com/tyx-editor/TyX/releases/download/v#{version}/TyX_#{version}_#{arch}.dmg",
       verified: "github.com/tyx-editor/TyX/"
