@@ -1,11 +1,11 @@
 cask "nextchat" do
-  version "2.15.8"
-  sha256 "0dcc6d75b7afbd986c091e0d70691afc9361526a65f8483eefe2cbe25c6f90dd"
+  version "2.16.0"
+  sha256 :no_check
 
-  url "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/releases/download/v#{version}/NextChat_#{version}_universal.dmg"
+  url "https://file.nextchat.club/app/macos-latest.dmg"
   name "NextChat"
   desc "Cross-platform ChatGPT/Gemini UI"
-  homepage "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web"
+  homepage "https://nextchat.club/download"
 
   livecheck do
     url :url
