@@ -8,7 +8,7 @@ cask "sequential-viewer" do
   homepage "https://github.com/chuchusoft/Sequential/"
 
   livecheck do
-    url "https://github.com/chuchusoft/Sequential/releases"
+    url :url
     regex(%r{/v(\d+(\.\d+){2})/Sequential\.app\.(\d{4}(-\d{2}){2})\.(\d+(\.\d+){2})}i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|
