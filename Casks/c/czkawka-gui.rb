@@ -2,7 +2,7 @@ cask "czkawka-gui" do
   arch arm: "_arm", intel: ""
   os macos: "mac", linux: "linux"
 
-  version "8.0.0"
+  version "9.0.0"
   sha256 arm:          "4096cab9c9f68b0911b89e3b2d5d2ee814ecceaf111fc061df3c2d1e450a2003",
          x86_64:       "fd4d1fed905c4959a19beba24c1acfaf17d48618c056ced78b134104fbc519d1",
          arm64_linux:  "ce401a5877a30065d79be5ba9b390eed79dd7ab00284dfeb470b8d6e7ed82a5f",
