@@ -75,6 +75,7 @@ brew help
 |        `hiddify`         |         [Hiddify-Next](https://hiddify.com/)         | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `imfile`         |             [imFile](https://imfile.io/)             | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `keyviz`         |    [KeyViz](https://github.com/mulaRahul/keyviz)     | ![a](assets/a.svg)![1](assets/1.svg) |
+|     `landrop-latest`     |           [LANDrop](https://landrop.app/)            | ![a](assets/a.svg)![1](assets/1.svg) |
 |     `mogan-research`     |         [Mogan Research](https://mogan.app)          | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `peazip`         |      [PeaZip](https://github.com/peazip/PeaZip)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `oculante`        |   [Oculante](https://github.com/woelper/oculante)    | ![a](assets/a.svg)![1](assets/1.svg) |
