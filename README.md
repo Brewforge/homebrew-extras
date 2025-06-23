@@ -63,26 +63,27 @@ brew help
 
 ### General Use
 
-|        Cask Name         |                         Site                         |                 Note                 |
-| :----------------------: | :--------------------------------------------------: | :----------------------------------: |
-|       `alexandria`       |   [Alexandria](https://github.com/btpf/Alexandria)   | ![a](assets/a.svg)![1](assets/1.svg) |
-|       `anx-reader`       |  [Anx Reader](https://github.com/Anxcye/anx-reader)  | ![a](assets/a.svg)![1](assets/1.svg) |
-|       `butterfly`        | [Butterfly](https://github.com/LinwoodDev/Butterfly) | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `dorion`         |     [dorion](https://github.com/SpikeHD/Dorion)      | ![a](assets/a.svg)![1](assets/1.svg) |
-|      `freefilesync`      |       [FreeFileSync](https://freefilesync.org)       | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `gopeed`         |             [Gopeed](https://gopeed.com)             | ![a](assets/a.svg)![1](assets/1.svg) |
-|       `gridplayer`       | [GridPlayer](https://github.com/vzhd1701/gridplayer) | ![a](assets/a.svg)![1](assets/1.svg) |
-|        `hiddify`         |         [Hiddify-Next](https://hiddify.com/)         | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `imfile`         |             [imFile](https://imfile.io/)             | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `keyviz`         |    [KeyViz](https://github.com/mulaRahul/keyviz)     | ![a](assets/a.svg)![1](assets/1.svg) |
-|     `landrop-latest`     |           [LANDrop](https://landrop.app/)            | ![a](assets/a.svg)![1](assets/1.svg) |
-|     `mogan-research`     |         [Mogan Research](https://mogan.app)          | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `peazip`         |      [PeaZip](https://github.com/peazip/PeaZip)      | ![a](assets/a.svg)![1](assets/1.svg) |
-|        `oculante`        |   [Oculante](https://github.com/woelper/oculante)    | ![a](assets/a.svg)![1](assets/1.svg) |
-|        `revezone`        |          [Revezone](https://revezone.com/)           | ![a](assets/a.svg)![1](assets/1.svg) |
-| `stirling-pdf-installer` |       [Stirling PDF](https://stirlingpdf.com/)       | ![a](assets/a.svg)![1](assets/1.svg) |
-|          `tyx`           |            [TyX](https://tyx-editor.com/)            | ![a](assets/a.svg)![1](assets/1.svg) |
-|      `wpsoffice-en`      |            [WPS Office](https://wps.com/)            | ![b](assets/a.svg)![1](assets/1.svg) |
+|        Cask Name         |                             Site                             |                 Note                 |
+| :----------------------: | :----------------------------------------------------------: | :----------------------------------: |
+|       `alexandria`       |       [Alexandria](https://github.com/btpf/Alexandria)       | ![a](assets/a.svg)![1](assets/1.svg) |
+|       `anx-reader`       |      [Anx Reader](https://github.com/Anxcye/anx-reader)      | ![a](assets/a.svg)![1](assets/1.svg) |
+|       `butterfly`        |     [Butterfly](https://github.com/LinwoodDev/Butterfly)     | ![a](assets/a.svg)![1](assets/1.svg) |
+|         `dorion`         |         [dorion](https://github.com/SpikeHD/Dorion)          | ![a](assets/a.svg)![1](assets/1.svg) |
+|      `freefilesync`      |           [FreeFileSync](https://freefilesync.org)           | ![a](assets/a.svg)![1](assets/1.svg) |
+|     `goldendict-ng`      | [GoldenDict-ng](https://xiaoyifang.github.io/goldendict-ng/) | ![a](assets/a.svg)![1](assets/1.svg) |
+|         `gopeed`         |                 [Gopeed](https://gopeed.com)                 | ![a](assets/a.svg)![1](assets/1.svg) |
+|       `gridplayer`       |     [GridPlayer](https://github.com/vzhd1701/gridplayer)     | ![a](assets/a.svg)![1](assets/1.svg) |
+|        `hiddify`         |             [Hiddify-Next](https://hiddify.com/)             | ![a](assets/a.svg)![1](assets/1.svg) |
+|         `imfile`         |                 [imFile](https://imfile.io/)                 | ![a](assets/a.svg)![1](assets/1.svg) |
+|         `keyviz`         |        [KeyViz](https://github.com/mulaRahul/keyviz)         | ![a](assets/a.svg)![1](assets/1.svg) |
+|     `landrop-latest`     |               [LANDrop](https://landrop.app/)                | ![a](assets/a.svg)![1](assets/1.svg) |
+|     `mogan-research`     |             [Mogan Research](https://mogan.app)              | ![a](assets/a.svg)![1](assets/1.svg) |
+|         `peazip`         |          [PeaZip](https://github.com/peazip/PeaZip)          | ![a](assets/a.svg)![1](assets/1.svg) |
+|        `oculante`        |       [Oculante](https://github.com/woelper/oculante)        | ![a](assets/a.svg)![1](assets/1.svg) |
+|        `revezone`        |              [Revezone](https://revezone.com/)               | ![a](assets/a.svg)![1](assets/1.svg) |
+| `stirling-pdf-installer` |           [Stirling PDF](https://stirlingpdf.com/)           | ![a](assets/a.svg)![1](assets/1.svg) |
+|          `tyx`           |                [TyX](https://tyx-editor.com/)                | ![a](assets/a.svg)![1](assets/1.svg) |
+|      `wpsoffice-en`      |                [WPS Office](https://wps.com/)                | ![b](assets/a.svg)![1](assets/1.svg) |
 
 ### AI Clients
 

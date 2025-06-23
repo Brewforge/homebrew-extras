@@ -62,7 +62,6 @@ for item in $(echo "$items" | jq -r '.[] | .cask'); do
 
     echo "* Running brew bump-cask-pr $item --version=$item_version_latest $_BUMP_OPTIONS..."
     brew bump-cask-pr "$item" --version="$item_version_latest" $_BUMP_OPTIONS
-    # echo "* TDOO: brew bump-cask-pr $item --version=$item_version_latest $_BUMP_OPTIONS"
   fi
 
   echo "> Done for $item"

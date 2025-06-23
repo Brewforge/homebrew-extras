@@ -9,7 +9,7 @@ cask "goldendict-ng" do
       verified: "github.com/xiaoyifang/goldendict-ng/"
   name "GoldenDict"
   desc "Next Generation GoldenDict"
-  homepage "https://goldendict.org/"
+  homepage "https://xiaoyifang.github.io/goldendict-ng/"
 
   livecheck do
     url "https://github.com/xiaoyifang/goldendict-ng/releases"
