@@ -19,6 +19,7 @@ cask "czkawka-gui" do
   end
 
   conflicts_with cask: "brewforge/more/czkawka-cli"
+  depends_on formula: "gtk4"
 
   binary "#{os}_czkawka_gui#{arch}", target: "czkawka"
 end
