@@ -71,7 +71,7 @@ brew help
 |         `dorion`         |         [dorion](https://github.com/SpikeHD/Dorion)          | ![a](assets/a.svg)![1](assets/1.svg) |
 |      `freefilesync`      |           [FreeFileSync](https://freefilesync.org)           | ![a](assets/a.svg)![1](assets/1.svg) |
 |     `goldendict-ng`      | [GoldenDict-ng](https://xiaoyifang.github.io/goldendict-ng/) | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `gopeed`         |                 [Gopeed](https://gopeed.com)                 | ![a](assets/a.svg)![1](assets/1.svg) |
+|       `gopeed-app`       |                 [Gopeed](https://gopeed.com)                 | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `gridplayer`       |     [GridPlayer](https://github.com/vzhd1701/gridplayer)     | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `hiddify`         |             [Hiddify-Next](https://hiddify.com/)             | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `imfile`         |                 [imFile](https://imfile.io/)                 | ![a](assets/a.svg)![1](assets/1.svg) |
@@ -104,7 +104,7 @@ brew help
 |     `musicat`     |    [Musicat](https://github.com/basharovV/musicat)    | ![a](assets/a.svg)![1](assets/1.svg) |
 |      `muzik`      |   [Muzik](https://muzik-apps.github.io/muzik-web/)    | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `rune-music`    |             [Rune](https://rune.not.ci/)              | ![a](assets/a.svg)![1](assets/1.svg) |
-|    `corsixth`     |   [CorsixTH](https://github.com/CorsixTH/CorsixTH)    | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `corsixth-app`   |   [CorsixTH](https://github.com/CorsixTH/CorsixTH)    | ![a](assets/a.svg)![1](assets/1.svg) |
 |     `ryujinx`     | [Ryujinx](https://github.com/ryujinx-mirror/ryujinx)  | ![a](assets/a.svg)![1](assets/1.svg) |
 | `ryujinx-ryubing` | [Ryujinx-Ryubing](https://github.com/Ryubing/Ryujinx) | ![a](assets/a.svg)![1](assets/1.svg) |
 

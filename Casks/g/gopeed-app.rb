@@ -1,4 +1,4 @@
-cask "gopeed" do
+cask "gopeed-app" do
   version "1.7.0"
   sha256 "72a4b307c6d0a34e0318d7fce9c61a1ab857407f18f845fc6b007d7911aae7cc"
 
@@ -20,5 +20,6 @@ cask "gopeed" do
   zap trash: [
     "~/Library/Application Scripts/com.gopeed",
     "~/Library/Containers/com.gopeed",
+    "~/Library/Preferences/com.gopeed.gopeed.plist",
   ]
 end

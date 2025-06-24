@@ -1,4 +1,4 @@
-cask "corsixth" do
+cask "corsixth-app" do
   arch arm: "arm64", intel: "x86_64"
 
   version "0.68.0"
