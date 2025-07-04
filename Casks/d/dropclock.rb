@@ -1,6 +1,6 @@
 cask "dropclock" do
-  version "1.4"
-  sha256 "08d517b07609d3d95f6c2ffba056b0368b6e05a698314030b661d24d36888045"
+  version "1.5"
+  sha256 "25676eb0d1b6f045e011410fd92924f4aeee165f787cda096116d273ec7aee40"
 
   url "https://github.com/WrkX/Dropclock/releases/download/#{version}/Dropclock.dmg"
   name "ChatGPT"
