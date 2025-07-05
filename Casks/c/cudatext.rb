@@ -1,9 +1,9 @@
 cask "cudatext" do
   arch arm: "aarch64", intel: "amd64"
 
-  version "1.223.6.0"
-  sha256 arm:   "5f2f424c3d0cee2afd6826715de7fda096b5664e43dbfc15347b8794acd5eb7a",
-         intel: "a46a873511022257f5677e9d0285b9b5dd9d98f8d26ae43a8b844661e805e915"
+  version "1.225.0.0"
+  sha256 arm:   "f5b28759ab7dd8214d382c503462f0cf53a20d812831b46cc497e80b8a60476a",
+         intel: "3dff03a1a87fec4fb71c0e818cef939a86a0a07ee7ec8279053755d430089e39"
 
   url "https://downloads.sourceforge.net/cudatext/release/#{version}/cudatext-macos-cocoa-#{arch}-#{version}.dmg.zip?viasf=1",
       verified: "sourceforge.net/cudatext/"
