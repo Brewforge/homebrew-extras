@@ -146,7 +146,7 @@ There are several manifests that the current contributors cannot fix, welcome yo
 |        Cask Name         |                         Site                          |                Problem                |
 | :----------------------: | :---------------------------------------------------: | :-----------------------------------: |
 |       `tinkertool`       | [TinkerTool](https://bresink.com/osx/TinkerTool.html) | cannot obtain available info directly |
-| `stirling-pdf-installer` |       [Stirling PDF](https://stirlingpdf.com/)        |    dialogbox hinders installation     |
+| `stirling-pdf-installer` |       [Stirling PDF](https://stirlingpdf.com/)        |     Agreement handle is required      |
 
 ## 🌟 STAR ME
 

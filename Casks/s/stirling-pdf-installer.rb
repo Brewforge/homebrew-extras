@@ -1,9 +1,9 @@
 cask "stirling-pdf-installer" do
   arch arm: "", intel: "-x86_64"
 
-  version "0.45.6"
-  sha256 arm:   "7d4a821084129e0c48be17811e7f6c3114c8b4cd605cae100b38d2d36e7a63a3",
-         intel: "c0120a15ecef004302eba6262a3dfa8dbd24a4a22c3816af2070014b830a5e20"
+  version "1.0.1"
+  sha256 arm:   "32b907511025ee0830b3bf3dcadca8f011fc7366cb6b6fab08c389d5c6f82f94",
+         intel: "2b4fd5460fa9b25308b6acb677e767426975e6f0729ba6eab93b5daecdb4a2a7"
 
   url "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v#{version}/Stirling-PDF-mac#{arch}-installer.dmg",
       verified: "github.com/Stirling-Tools/Stirling-PDF/"
@@ -12,8 +12,7 @@ cask "stirling-pdf-installer" do
   homepage "https://stirlingpdf.com/"
 
   livecheck do
-    url :url
-    strategy :github_latest
+    skip "Agreement handle is required"
   end
 
   auto_updates true
