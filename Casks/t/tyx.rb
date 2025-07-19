@@ -1,6 +1,6 @@
 cask "tyx" do
-  version "0.2.2"
-  sha256 "2798b3fadea23307e5316ab0ac6575a482880cd3dc869d818c2cea9c81da9af6"
+  version "0.2.3"
+  sha256 "53f6abee4186490224d50d4216b8c7d8668e56f959fe33d4fe70ca207aeb161f"
 
   url "https://github.com/tyx-editor/TyX/releases/download/v#{version}/TyX_#{version}_aarch64.dmg",
       verified: "github.com/tyx-editor/TyX/"
