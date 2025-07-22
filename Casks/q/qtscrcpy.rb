@@ -11,16 +11,8 @@ cask "qtscrcpy" do
   homepage "https://github.com/barry-ran/QtScrcpy"
 
   livecheck do
-    url "https://github.com/barry-ran/QtScrcpy/releases"
-    regex(/QtScrcpy-mac-arm64-Qt(\d+(\.\d+)+)-v?(\d+(\.\d+)+)\.dmg$/i)
-    strategy :github_latest do |json, regex|
-      json["assets"]&.map do |asset|
-        match = asset["browser_download_url"]&.match(regex)
-        next if match.blank?
-
-        "#{match[3]},#{match[1]}"
-      end
-    end
+    url :url
+    strategy :github_latest
   end
 
   auto_updates true
