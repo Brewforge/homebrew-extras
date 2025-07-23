@@ -1,6 +1,6 @@
 cask "adobe-downloader" do
-  version "2.1.0"
-  sha256 "e770b14fb636aef555bf832d0a81dc7c3ac38f4cf9b06f96d1fff5b5b8900c27"
+  version "2.1.1"
+  sha256 "1ab4f3a6a35fd55ed4a6077894e322e2547ff7dbfc60d32e97634b54ee61cbdc"
 
   url "https://github.com/X1a0He/Adobe-Downloader/releases/download/#{version}/Adobe.Downloader.dmg"
   name "Adobe Downloader"
