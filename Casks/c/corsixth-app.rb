@@ -1,11 +1,8 @@
 cask "corsixth-app" do
-  arch arm: "arm64", intel: "x86_64"
+  version "0.69.0"
+  sha256 "5afa1f71a660e6a4e91662aea9bb8cf2f1227e1fe7dec6b636678ca7ef6e9a4f"
 
-  version "0.68.0"
-  sha256 arm:   "60b1a94f94e0aaf2cbd2dcd865287cf2332610e474a851681c17a8b586e5ae03",
-         intel: "195a6a9e3ac1e70673222b4075db23ba1b357fa2026b1a2e5f2168b8ddd4eacb"
-
-  url "https://github.com/CorsixTH/CorsixTH/releases/download/v#{version}/CorsixTH-#{version}-#{arch}.dmg"
+  url "https://github.com/CorsixTH/CorsixTH/releases/download/v#{version}/CorsixTH-#{version}.dmg"
   name "CorsixTH"
   desc "Open source clone of Theme Hospital"
   homepage "https://github.com/CorsixTH/CorsixTH/"
