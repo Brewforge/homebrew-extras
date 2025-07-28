@@ -8,7 +8,7 @@ cask "ryujinx" do
   homepage "https://github.com/ryujinx-mirror/ryujinx"
 
   livecheck do
-    url "https://github.com/ryujinx-mirror/ryujinx/releases"
+    url :url
     regex(/ryujinx-r\.([\d\w]{7})-macos_universal\.app\.tar\.gz/i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|

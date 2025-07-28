@@ -12,7 +12,7 @@ cask "goldendict-ng" do
   homepage "https://xiaoyifang.github.io/goldendict-ng/"
 
   livecheck do
-    url "https://github.com/xiaoyifang/goldendict-ng/releases"
+    url :url
     regex(%r{/v(\d{2}(\.\d{1,2}){2})-(\w+\.\h+)/.+-Qt(\d+(\.\d+)+)-macOS-#{arch}\.dmg$}i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|

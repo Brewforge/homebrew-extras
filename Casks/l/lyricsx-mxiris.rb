@@ -8,7 +8,7 @@ cask "lyricsx-mxiris" do
   homepage "https://github.com/MxIris-LyricsX-Project/LyricsX"
 
   livecheck do
-    url "https://github.com/MxIris-LyricsX-Project/LyricsX/releases"
+    url :url
     regex(%r{(\d+(\.\d+){2})/LyricsX_.+(\d{4})\.zip}i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|

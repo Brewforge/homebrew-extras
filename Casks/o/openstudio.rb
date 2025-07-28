@@ -11,7 +11,7 @@ cask "openstudio" do
   homepage "https://github.com/NREL/OpenStudio/"
 
   livecheck do
-    url "https://github.com/NREL/OpenStudio/releases"
+    url :url
     regex(/(\d+(\.\d+){2}).+([\d\w]{10})-Darwin-.+\.dmg/i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|

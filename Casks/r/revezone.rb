@@ -9,7 +9,7 @@ cask "revezone" do
   homepage "https://revezone.com/"
 
   livecheck do
-    url "https://github.com/revezone/revezone/releases"
+    url :url
     strategy :page_match do |page|
       match = page.match(/href=.*?(\d+(\.\d+){2}(-alpha\.\d+)?)/i)
       next if match.blank?

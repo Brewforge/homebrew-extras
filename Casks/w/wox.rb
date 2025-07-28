@@ -11,7 +11,7 @@ cask "wox" do
   homepage "https://github.com/Wox-launcher/Wox"
 
   livecheck do
-    url "https://github.com/Wox-launcher/Wox/releases"
+    url :url
     regex(%r{/v?(\d+(?:\.\d+)+)(-beta\.\d)?/wox-mac-#{arch}\.dmg$}i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|
