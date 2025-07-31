@@ -69,7 +69,6 @@ brew help
 |       `anx-reader`       |      [Anx Reader](https://github.com/Anxcye/anx-reader)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `butterfly`        |     [Butterfly](https://github.com/LinwoodDev/Butterfly)     | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `dorion`         |         [dorion](https://github.com/SpikeHD/Dorion)          | ![a](assets/a.svg)![1](assets/1.svg) |
-|      `freefilesync`      |           [FreeFileSync](https://freefilesync.org)           | ![a](assets/a.svg)![1](assets/1.svg) |
 |     `goldendict-ng`      | [GoldenDict-ng](https://xiaoyifang.github.io/goldendict-ng/) | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `gopeed-app`       |                 [Gopeed](https://gopeed.com)                 | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `gridplayer`       |     [GridPlayer](https://github.com/vzhd1701/gridplayer)     | ![a](assets/a.svg)![1](assets/1.svg) |
