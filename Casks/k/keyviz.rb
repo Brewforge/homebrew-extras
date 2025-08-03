@@ -1,6 +1,6 @@
 cask "keyviz" do
-  version "2.0.0a2"
-  sha256 "ac50b8a00b2b8e4cd4f5dc020b574bb304d1191eb3e4510da50231076be8b86f"
+  version "2.0.0a3"
+  sha256 "258c7b3d297942c2a7f7b6579884915b606fc4b3867fea86637e67ae04734f04"
 
   url "https://github.com/mulaRahul/keyviz/releases/download/v#{version}/keyviz-v#{version}-macos.dmg"
   name "keyviz"
