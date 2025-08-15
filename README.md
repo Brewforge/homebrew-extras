@@ -64,7 +64,7 @@ brew help
 ### General Use
 
 |        Cask Name         |                             Site                             |                 Note                 |
-| :----------------------: | :----------------------------------------------------------: | :----------------------------------: |
+|:------------------------:|:------------------------------------------------------------:|:------------------------------------:|
 |       `alexandria`       |       [Alexandria](https://github.com/btpf/Alexandria)       | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `anx-reader`       |      [Anx Reader](https://github.com/Anxcye/anx-reader)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `butterfly`        |     [Butterfly](https://github.com/LinwoodDev/Butterfly)     | ![a](assets/a.svg)![1](assets/1.svg) |
@@ -76,7 +76,7 @@ brew help
 |         `imfile`         |                 [imFile](https://imfile.io/)                 | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `keyviz`         |        [KeyViz](https://github.com/mulaRahul/keyviz)         | ![a](assets/a.svg)![1](assets/1.svg) |
 |     `landrop-latest`     |               [LANDrop](https://landrop.app/)                | ![a](assets/a.svg)![1](assets/1.svg) |
-|     `mogan-research`     |             [Mogan Research](https://mogan.app)              | ![a](assets/a.svg)![1](assets/1.svg) |
+|         `mogan`          |            [Mogan STEM Suite](https://mogan.app)             | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `notegen`         |              [NoteGen](https://notegen.top/en/)              | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `peazip`         |          [PeaZip](https://github.com/peazip/PeaZip)          | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `oculante`        |       [Oculante](https://github.com/woelper/oculante)        | ![a](assets/a.svg)![1](assets/1.svg) |
@@ -88,7 +88,7 @@ brew help
 ### AI Clients
 
 |      Cask Name      |                                    Site                                     |                          Note                          |
-| :-----------------: | :-------------------------------------------------------------------------: | :----------------------------------------------------: |
+|:-------------------:|:---------------------------------------------------------------------------:|:------------------------------------------------------:|
 |      `airy-ai`      |                         [Airy](https://colink.in/)                          |          ![b](assets/b.svg)![1](assets/1.svg)          |
 |   `chatgpt-lencx`   |              [ChatGPT-lencx](https://github.com/lencx/ChatGPT)              |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |        `noi`        |                     [Noi](https://github.com/lencx/Noi)                     |          ![a](assets/a.svg)![1](assets/1.svg)          |
@@ -100,7 +100,7 @@ brew help
 ### Media & Games
 
 |     Cask Name     |                         Site                          |                 Note                 |
-| :---------------: | :---------------------------------------------------: | :----------------------------------: |
+|:-----------------:|:-----------------------------------------------------:|:------------------------------------:|
 |     `lrcget`      |   [LRCGET](https://github.com/tranxuanthang/lrcget)   | ![a](assets/a.svg)![1](assets/1.svg) |
 |     `musicat`     |    [Musicat](https://github.com/basharovV/musicat)    | ![a](assets/a.svg)![1](assets/1.svg) |
 |      `muzik`      |   [Muzik](https://muzik-apps.github.io/muzik-web/)    | ![a](assets/a.svg)![1](assets/1.svg) |
@@ -112,7 +112,7 @@ brew help
 ### Phone & Dev
 
 |   Cask Name   |                          Site                          |                 Note                 |
-| :-----------: | :----------------------------------------------------: | :----------------------------------: |
+|:-------------:|:------------------------------------------------------:|:------------------------------------:|
 |   `dvc-app`   |                 [DVC](https://dvc.org)                 | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `escrcpy`   |   [escrcpy](https://github.com/viarotel-org/escrcpy)   | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `qtscrcpy`   |   [QtScrcpy](https://github.com/barry-ran/QtScrcpy)    | ![a](assets/a.svg)![1](assets/1.svg) |
@@ -121,7 +121,7 @@ brew help
 ### macOS Only
 
 |      Cask Name      |                                Site                                 |                 Note                 |
-| :-----------------: | :-----------------------------------------------------------------: | :----------------------------------: |
+|:-------------------:|:-------------------------------------------------------------------:|:------------------------------------:|
 | `adobe-downloader`  |   [Adobe Downloader](https://github.com/X1a0He/Adobe-Downloader)    | ![a](assets/a.svg)![1](assets/1.svg) |
 |  `aerospace@beta`   |        [AeroSpace](https://github.com/nikitabobko/AeroSpace)        | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `barss`       |              [baRSS](https://relikd.de/projects/barss)              | ![a](assets/a.svg)![1](assets/1.svg) |
@@ -134,7 +134,7 @@ brew help
 ### Research
 
 |  Cask Name   |                       Site                       |                 Note                 |
-| :----------: | :----------------------------------------------: | :----------------------------------: |
+|:------------:|:------------------------------------------------:|:------------------------------------:|
 | `cytoscape`  |        [Cytoscape](https://cytoscape.org)        | ![a](assets/a.svg)![1](assets/1.svg) |
 | `openstudio` | [OpenStudio](https://github.com/NREL/OpenStudio) | ![a](assets/a.svg)![1](assets/1.svg) |
 
@@ -143,7 +143,7 @@ brew help
 There are several manifests that the current contributors cannot fix, welcome your help!
 
 |        Cask Name         |                         Site                          |                Problem                |
-| :----------------------: | :---------------------------------------------------: | :-----------------------------------: |
+|:------------------------:|:-----------------------------------------------------:|:-------------------------------------:|
 |       `tinkertool`       | [TinkerTool](https://bresink.com/osx/TinkerTool.html) | cannot obtain available info directly |
 | `stirling-pdf-installer` |       [Stirling PDF](https://stirlingpdf.com/)        |     Agreement handle is required      |
 
