@@ -19,8 +19,8 @@ cask "mogan" do
   app "MoganSTEM.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/app.mogan.research",
+    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/app.mogan",
     "~/Library/Application Support/XmacsLabs",
-    "~/Library/Saved Application State/app.mogan.research.savedState",
+    "~/Library/Preferences/app.mogan.plist",
   ]
 end
