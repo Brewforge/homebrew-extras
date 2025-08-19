@@ -89,7 +89,6 @@ brew help
 
 |      Cask Name      |                                    Site                                     |                          Note                          |
 |:-------------------:|:---------------------------------------------------------------------------:|:------------------------------------------------------:|
-|      `airy-ai`      |                         [Airy](https://colink.in/)                          |          ![b](assets/b.svg)![1](assets/1.svg)          |
 |   `chatgpt-lencx`   |              [ChatGPT-lencx](https://github.com/lencx/ChatGPT)              |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |        `noi`        |                     [Noi](https://github.com/lencx/Noi)                     |          ![a](assets/a.svg)![1](assets/1.svg)          |
 | `openai-translator` | [OpenAI-Translator](https://github.com/openai-translator/openai-translator) |          ![a](assets/a.svg)![1](assets/1.svg)          |

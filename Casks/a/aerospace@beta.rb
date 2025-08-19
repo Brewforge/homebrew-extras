@@ -24,9 +24,6 @@ cask "aerospace@beta" do
   end
 
   auto_updates true
-  # NOTE: conflicts_with formula: is a stub and is not yet functional. :(
-  # https://github.com/Homebrew/homebrew-cask/issues/12822
-  # conflicts_with formula: "aerospace-cli"
   conflicts_with cask: "aerospace-dev"
   depends_on macos: ">= :ventura" # macOS 13
 
