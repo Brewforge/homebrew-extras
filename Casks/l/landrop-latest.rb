@@ -9,6 +9,13 @@ cask "landrop-latest" do
   desc "Drop any files to any devices on your LAN"
   homepage "https://landrop.app/"
 
+  livecheck do
+    # url :homepage
+    # regex(%r{(\d+(\.\d+){2})}i)
+    skip "No livecheck"
+  end
+
+  auto_updates true
   depends_on macos: ">= :high_sierra"
 
   app "LANDrop.app"

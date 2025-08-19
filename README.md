@@ -98,15 +98,13 @@ brew help
 
 ### Media & Games
 
-|     Cask Name     |                         Site                          |                 Note                 |
-|:-----------------:|:-----------------------------------------------------:|:------------------------------------:|
-|     `lrcget`      |   [LRCGET](https://github.com/tranxuanthang/lrcget)   | ![a](assets/a.svg)![1](assets/1.svg) |
-|     `musicat`     |    [Musicat](https://github.com/basharovV/musicat)    | ![a](assets/a.svg)![1](assets/1.svg) |
-|      `muzik`      |   [Muzik](https://muzik-apps.github.io/muzik-web/)    | ![a](assets/a.svg)![1](assets/1.svg) |
-|   `rune-music`    |             [Rune](https://rune.not.ci/)              | ![a](assets/a.svg)![1](assets/1.svg) |
-|  `corsixth-app`   |   [CorsixTH](https://github.com/CorsixTH/CorsixTH)    | ![a](assets/a.svg)![1](assets/1.svg) |
-|     `ryujinx`     | [Ryujinx](https://github.com/ryujinx-mirror/ryujinx)  | ![a](assets/a.svg)![1](assets/1.svg) |
-| `ryujinx-ryubing` | [Ryujinx-Ryubing](https://github.com/Ryubing/Ryujinx) | ![a](assets/a.svg)![1](assets/1.svg) |
+|   Cask Name    |                       Site                        |                 Note                 |
+|:--------------:|:-------------------------------------------------:|:------------------------------------:|
+|    `lrcget`    | [LRCGET](https://github.com/tranxuanthang/lrcget) | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `musicat`    |  [Musicat](https://github.com/basharovV/musicat)  | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `muzik`     | [Muzik](https://muzik-apps.github.io/muzik-web/)  | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `rune-music`  |           [Rune](https://rune.not.ci/)            | ![a](assets/a.svg)![1](assets/1.svg) |
+| `corsixth-app` | [CorsixTH](https://github.com/CorsixTH/CorsixTH)  | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ### Phone & Dev
 

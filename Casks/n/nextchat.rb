@@ -8,7 +8,7 @@ cask "nextchat" do
   homepage "https://nextchat.club/download"
 
   livecheck do
-    url :url
+    url "https://github.com/ChatGPTNextWeb/NextChat"
     strategy :github_latest
   end
 

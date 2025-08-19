@@ -10,11 +10,16 @@ cask "revezone" do
 
   livecheck do
     url :url
-    strategy :page_match do |page|
-      match = page.match(/href=.*?(\d+(\.\d+){2}(-alpha\.\d+)?)/i)
-      next if match.blank?
+    regex(/href=.*?(\d+(\.\d+){2}(-alpha\.\d+)?)/i)
+    strategy :github_releases do |json, regex|
+      json.map do |release|
+        next if release["draft"]
 
-      match[1].to_s
+        match = release["tag_name"]&.match(regex)
+        next if match.blank?
+
+        match[1]
+      end
     end
   end
 
