@@ -12,14 +12,13 @@ cask "nextchat" do
     strategy :github_latest
   end
 
-  app "NextChat.app"
-
-  uninstall quit: "com.yida.chatgpt.next.web"
+  app "NextChatAI.app"
 
   zap trash: [
-    "~/Library/Application Support/com.yida.chatgpt.next.web",
-    "~/Library/Caches/com.yida.chatgpt.next.web",
-    "~/Library/Saved Application State/com.yida.chatgpt.next.web.savedState",
-    "~/Library/WebKit/com.yida.chatgpt.next.web",
+    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/dev.nextchat.app",
+    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/dev.nextchat.app",
+    "~/Library/Application Support/dev.nextchat.app",
+    "~/Library/Caches/dev.nextchat.app",
+    "~/Library/WebKit/dev.nextchat.app",
   ]
 end
