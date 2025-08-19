@@ -1,5 +1,5 @@
 cask "nextchat" do
-  version "2.16.0"
+  version "2.16.1"
   sha256 :no_check
 
   url "https://file.nextchat.club/app/macos-latest.dmg"
