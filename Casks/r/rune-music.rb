@@ -1,6 +1,6 @@
 cask "rune-music" do
-  version "1.1.0"
-  sha256 "42ecbbd7cda5514afbf5147a561948ec86776af33614e5dad464404dd4663e1d"
+  version "2.0.0-alpha.8"
+  sha256 "956cd8c2da0978393df823acd07a85bce148d68dbe99198c9e82f7a39403fa89"
 
   url "https://github.com/Losses/rune/releases/download/v#{version}/Rune-v#{version}-macOS.dmg",
       verified: "github.com/Losses/rune/"
@@ -10,7 +10,17 @@ cask "rune-music" do
 
   livecheck do
     url :url
-    strategy :github_latest
+    regex(/^v?(\d+(\.\d+)+(-alpha\.\d+)?)$/i)
+    strategy :github_releases do |json, regex|
+      json.map do |release|
+        next if release["draft"]
+
+        match = release["tag_name"]&.match(regex)
+        next if match.blank?
+
+        match[1]
+      end
+    end
   end
 
   auto_updates true
