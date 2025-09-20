@@ -6,7 +6,7 @@ cask "wpsoffice-en" do
   hdid = "11a27203ebea456b23522df31cfd8095"
 
   version "8699"
-  sha256 arm:   "a613a851f967890226797eb755530ce120c4fd263b24e8b43c1d5d6c82fd2565",
+  sha256 arm:   "7aa402cd41c3afbfe33a3b0b308b9c207bac02fef33649897993e3ead9c8fe5a",
          intel: "0de6b2f7cbb751a13db9ea9632c2038d52fd829be7fd3643b14f0e90ed40e8b0"
 
   url "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/macwpsoffice/download/installer/WPSOffice_#{arch}_#{channel}.dmg",
