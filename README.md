@@ -84,12 +84,12 @@ brew help
 | `stirling-pdf-installer` |           [Stirling PDF](https://stirlingpdf.com/)           | ![a](assets/a.svg)![1](assets/1.svg) |
 |          `tyx`           |                [TyX](https://tyx-editor.com/)                | ![a](assets/a.svg)![1](assets/1.svg) |
 |      `wpsoffice-en`      |                [WPS Office](https://wps.com/)                | ![b](assets/a.svg)![1](assets/1.svg) |
+|      `ytdownloader`      |          [YTDownloader](https://ytdn.netlify.app/)           | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ### AI Clients
 
 |      Cask Name      |                                    Site                                     |                          Note                          |
 |:-------------------:|:---------------------------------------------------------------------------:|:------------------------------------------------------:|
-|   `chatgpt-lencx`   |              [ChatGPT-lencx](https://github.com/lencx/ChatGPT)              |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |        `noi`        |                     [Noi](https://github.com/lencx/Noi)                     |          ![a](assets/a.svg)![1](assets/1.svg)          |
 | `openai-translator` | [OpenAI-Translator](https://github.com/openai-translator/openai-translator) |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |      `pearai`       |                        [pearai](https://trypear.ai)                         | ![a](assets/a.svg)![1](assets/1.svg)![3](assets/3.svg) |
