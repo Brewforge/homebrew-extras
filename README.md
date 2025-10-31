@@ -93,7 +93,7 @@ brew help
 |      Cask Name      |                                    Site                                     |                          Note                          |
 |:-------------------:|:---------------------------------------------------------------------------:|:------------------------------------------------------:|
 |        `noi`        |                     [Noi](https://github.com/lencx/Noi)                     |          ![a](assets/a.svg)![1](assets/1.svg)          |
-| `openai-translator` | [OpenAI-Translator](https://github.com/openai-translator/openai-translator) |          ![a](assets/a.svg)![1](assets/1.svg)          |
+| `nextai-translator` | [NextAI-Translator](https://github.com/nextai-translator/nextai-translator) |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |      `pearai`       |                        [pearai](https://trypear.ai)                         | ![a](assets/a.svg)![1](assets/1.svg)![3](assets/3.svg) |
 |      `peekai`       |             [peekai](https://prateekkeshari.gumroad.com/l/peek)             | ![a](assets/a.svg)![1](assets/1.svg)![2](assets/2.svg) |
 |       `vibe`        |                [vibe](https://github.com/thewh1teagle/vibe)                 |          ![a](assets/a.svg)![1](assets/1.svg)          |
