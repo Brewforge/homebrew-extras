@@ -12,6 +12,8 @@ cask "anx-reader" do
     strategy :github_latest
   end
 
+  depends_on macos: ">=:monterey"
+
   app "AnxReader.app"
 
   zap trash: [
