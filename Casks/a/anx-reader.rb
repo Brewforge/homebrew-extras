@@ -1,6 +1,6 @@
 cask "anx-reader" do
-  version "1.7.0"
-  sha256 "38286cf3685fb9ff10191171d1e4e0896611619d5b9a3a831eaa85efd00a47c5"
+  version "1.9.1"
+  sha256 "4d7dc03cedd1231b0ad7745e3608f8bad541ac45ae91712716c079aa5d6828a7"
 
   url "https://github.com/Anxcye/anx-reader/releases/download/v#{version}/Anx-Reader-macos-#{version}.dmg"
   name "AnxReader"
