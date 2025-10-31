@@ -1,6 +1,6 @@
 cask "rune-music" do
-  version "2.0.0-alpha.8"
-  sha256 "956cd8c2da0978393df823acd07a85bce148d68dbe99198c9e82f7a39403fa89"
+  version "2.0.0-alpha.9"
+  sha256 "0e6797b280e9059765a02bc007d43b6ee1f1a6ab34b0616195b82298cfa79ef8"
 
   url "https://github.com/Losses/rune/releases/download/v#{version}/Rune-v#{version}-macOS.dmg",
       verified: "github.com/Losses/rune/"
