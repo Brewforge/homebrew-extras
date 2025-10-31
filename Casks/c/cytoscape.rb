@@ -1,9 +1,9 @@
 cask "cytoscape" do
   arch arm: "aarch64", intel: "x64"
 
-  version "3.10.3"
-  sha256 arm:   "246d0a9137b33f1381976a8b12caa3810d8593e3b86e7801a48836e2dafa64fd",
-         intel: "195a6a9e3ac1e70673222b4075db23ba1b357fa2026b1a2e5f2168b8ddd4eacb"
+  version "3.10.4"
+  sha256 arm:   "aacfa17a564db5993da006a05e7b661aa2eb6e8ec0d132f0c4d3af74f62e0d2c",
+         intel: "f1d898cc07ab0c74e02a559c97224e7f0fd84094e66f50f9e263c686efdae93c"
 
   version2 = version.tr(".", "_")
   url "https://github.com/cytoscape/cytoscape/releases/download/#{version}/Cytoscape_#{version2}_macos_#{arch}.dmg",
