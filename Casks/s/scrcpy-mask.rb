@@ -1,11 +1,8 @@
 cask "scrcpy-mask" do
-  arch arm: "aarch64", intel: "x64"
+  version "0.7.1"
+  sha256 "784d84fc2ebb7c5c84d8b4d13fe1ef0fdfa179c525787da8aa567bf589278c79"
 
-  version "0.6.0"
-  sha256 arm:   "18eab001e121f01dc6243a71c04280d4a8f40b25fc15f62a6ccd6765aef32ddb",
-         intel: "c0120a15ecef004302eba6262a3dfa8dbd24a4a22c3816af2070014b830a5e20"
-
-  url "https://github.com/AkiChase/scrcpy-mask/releases/download/v#{version}/scrcpy-mask_#{version}_#{arch}.dmg"
+  url "https://github.com/AkiChase/scrcpy-mask/releases/download/v#{version}/scrcpy-mask-macos-arm64.dmg"
   name "scrcpy-mask"
   desc "Scrcpy client aimed at providing mouse and key mapping to control Android device"
   homepage "https://github.com/AkiChase/scrcpy-mask"

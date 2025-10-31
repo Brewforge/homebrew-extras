@@ -10,7 +10,7 @@ cask "revezone" do
 
   livecheck do
     url :url
-    regex(/href=.*?(\d+(\.\d+){2}(-alpha\.\d+)?)/i)
+    regex(/(\d+(\.\d){2})(-alpha\.\d+)?/i)
     strategy :github_releases do |json, regex|
       json.map do |release|
         next if release["draft"]
@@ -18,7 +18,7 @@ cask "revezone" do
         match = release["tag_name"]&.match(regex)
         next if match.blank?
 
-        match[1]
+        "#{match[1]}#{match[3]}"
       end
     end
   end
