@@ -13,7 +13,13 @@ cask "cudatext" do
 
   livecheck do
     url "https://sourceforge.net/projects/cudatext/best_release.json"
-    regex(%r{release/([^/]+)/cudatext-macos-cocoa-#{arch}-(\d+(\.\d+)+).dmg}i)
+    strategy :page_match do |page|
+      data = JSON.parse(page)["platform_releases"]["mac"]["url"]
+      match = data.match(/cudatext-macos-cocoa-#{arch}-(\d+(\.\d+)+)\.dmg\.zip/i)
+      next if match.blank?
+
+      match[1].to_s
+    end
   end
 
   app "CudaText.app"
