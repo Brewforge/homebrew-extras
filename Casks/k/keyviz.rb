@@ -10,7 +10,7 @@ cask "keyviz" do
   livecheck do
     url "https://github.com/mulaRahul/keyviz/tags"
     strategy :page_match do |page|
-      match = page.match(/href=.*?v(\d+(\.\d+)+(a\d)?)/i)
+      match = page.match(/href=.*?v(\d+(\.\d+){2}(a\d)?)/i)
       next if match.blank?
 
       match[1].to_s
