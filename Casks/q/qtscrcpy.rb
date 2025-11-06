@@ -1,9 +1,9 @@
 cask "qtscrcpy" do
   arch arm: "arm64-Qt6.5.3", intel: "x64-Qt5.15.2"
 
-  version "3.3.1"
-  sha256 arm:   "23adbaa7e63f404a2ac91963910e7fc03e59d66b5d8a3b4c6c7addddf69fcb40",
-         intel: "6e24143b23511b9c33d0752f93da80bcd27a732386dc9e418dfdb495542904b4"
+  version "3.3.3"
+  sha256 arm:   "f3d69030129277a1b86aab28086442deb4c23c20e6af0ea68313c1b553b2e0e3",
+         intel: "2ed9e53285ba5504c55891e4cf0a6d74d6d2240cecfd04b2e53d09088277e252"
 
   url "https://github.com/barry-ran/QtScrcpy/releases/download/v#{version}/QtScrcpy-mac-#{arch}-v#{version}.dmg"
   name "QtScrcpy"
