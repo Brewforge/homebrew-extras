@@ -12,7 +12,7 @@ cask "dvc-app" do
     regex(/href=.*?dvc-(\d+(\.\d+)+)/i)
   end
 
-  depends_on macos: ">= :mojave"
+  depends_on macos: ">= :big_sur"
 
   pkg "dvc-#{version}.pkg"
 
