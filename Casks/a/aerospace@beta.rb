@@ -25,7 +25,7 @@ cask "aerospace@beta" do
 
   auto_updates true
   conflicts_with cask: "aerospace-dev"
-  depends_on macos: ">= :ventura" # macOS 13
+  depends_on macos: ">= :sonoma" # macOS 13
 
   app "AeroSpace-v#{version}/AeroSpace.app"
   binary "AeroSpace-v#{version}/bin/aerospace"
