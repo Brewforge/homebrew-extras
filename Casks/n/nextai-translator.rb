@@ -1,9 +1,9 @@
 cask "nextai-translator" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.6.3"
-  sha256 arm:   "46529f0efcfecf49f67e3d4765619a0db362dba501d51f6a8b5ac781a7e69238",
-         intel: "928bdd97657bfb8504d6748f5e171f1f34b7ab44dc600fccdff5235ca47a8dc5"
+  version "0.6.4"
+  sha256 arm:   "02d5621a5015e7e1f0f4bc61da58731d609cc0d408b31fcd2c1b3066fd126880",
+         intel: "a2f9ebdf9640804a6ed4ba4e3deb5f08fbe09479ab5498db35310b4c65349322"
 
   url "https://github.com/nextai-translator/nextai-translator/releases/download/v#{version}/NextAI.Translator_#{version}_#{arch}.dmg"
   name "NextAI Translator"
