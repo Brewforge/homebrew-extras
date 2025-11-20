@@ -5,7 +5,7 @@ cask "nextai-translator" do
   sha256 arm:   "46529f0efcfecf49f67e3d4765619a0db362dba501d51f6a8b5ac781a7e69238",
          intel: "928bdd97657bfb8504d6748f5e171f1f34b7ab44dc600fccdff5235ca47a8dc5"
 
-  url "https://github.com/nextai-translator/nextai-translator/releases/download/v#{version}/NextAI.Translator_#{version}_#{arch}_darwin.dmg"
+  url "https://github.com/nextai-translator/nextai-translator/releases/download/v#{version}/NextAI.Translator_#{version}_#{arch}.dmg"
   name "NextAI Translator"
   desc "Cross-platform Translatior based on ChatGPT API"
   homepage "https://github.com/nextai-translator/nextai-translator"
