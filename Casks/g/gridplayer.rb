@@ -1,6 +1,6 @@
 cask "gridplayer" do
-  version "0.5.3"
-  sha256 "6885adfdea4329726273dba2560b4bd7329f2f9c64946b1fc4f54de314758551"
+  version "0.5.4"
+  sha256 "067399c16311e3467ebedb5276b2c3c98c624c126727845570f60e1be166b6bb"
 
   url "https://github.com/vzhd1701/gridplayer/releases/download/v#{version}/GridPlayer.#{version}.dmg"
   name "gridplayer"
