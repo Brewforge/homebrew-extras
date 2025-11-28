@@ -1,9 +1,9 @@
 cask "ytsage" do
   arch arm: "arm64", intel: "x64"
 
-  version "4.9.2"
-  sha256 arm:   "1308fcd0c6277918e8a45eaba81f877bf27204bd684320941d5e8920365042fd",
-         intel: "6b4f1dbd7014aeb1466b7a4c1b918d1c0a22e20cd3bd495684e475dca0d4ed25"
+  version "4.9.5"
+  sha256 arm:   "a580e8bdefa9578b18035847217e54094d4900001ffdae504cb0786810070d30",
+         intel: "50b1506b6db9948d61471c5704510b59a7ca10d270daa40cf289e51a8fff606c"
 
   url "https://github.com/oop7/YTSage/releases/download/v#{version}/YTSage-v#{version}-#{arch}.dmg"
   name "YTSage"
