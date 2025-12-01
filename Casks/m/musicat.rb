@@ -1,9 +1,9 @@
 cask "musicat" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.14.1"
-  sha256 arm:   "84fa076150b71bd3d56d483d8da40cfcfbaf7613862c4d4f36d577d2b623f672",
-         intel: "aae399d56b91fce62608a604f7fce952039d6c22498a8729c6e4669ab41e9eee"
+  version "0.15.0"
+  sha256 arm:   "13cdf3ff9b21155b844a8f1272ec7660b2620e87c45ae0fee6ccbf1cf26b60ca",
+         intel: "d52819ee00375bd4b6b7f0c28ff793006e0b6ad780fa924dc6863b0937511b92"
 
   url "https://github.com/basharovV/musicat/releases/download/v#{version}/Musicat_#{version}_#{arch}.dmg"
   name "Musicat"
