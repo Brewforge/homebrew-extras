@@ -1,9 +1,9 @@
 cask "mogan" do
   arch arm: "arm", intel: "x64"
 
-  version "2025.2.0"
-  sha256 arm:   "5e2564d8f6bdd5e6a88e286c82c5a925d5519e2dc66165e2774a34bae6851c97",
-         intel: "bb633c872187de6d93e60dbf05fe0da2dbea08475cc67e7406e401e150d021e8"
+  version "2025.2.1"
+  sha256 arm:   "003b71c2ade42d0c0ac85f2e262c7c1f149401dee33615086b1b902f558a4d80",
+         intel: "96cce6e61ad09efd671c659c67e0b2e309ac2b6ea59465d8104915dad1e4fa9a"
 
   url "https://github.com/XmacsLabs/mogan/releases/download/v#{version}/MoganSTEM-v#{version}-#{arch}.dmg",
       verified: "github.com/XmacsLabs/mogan/releases/download/"
