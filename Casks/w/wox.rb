@@ -1,18 +1,15 @@
 cask "wox" do
-  arch arm: "arm64", intel: "amd64"
-
   version "2.0.0-beta.5"
-  sha256 arm:   "90707e62d3f3590b77ea85283cd9d93b297ed223f10bd813dadbbfdef431f8a9",
-         intel: "8f1bbeb1d69a8e5d9e690835abcb5f61bf8419f710df26f0e1a75bfd9e0b095d"
+  sha256 "90707e62d3f3590b77ea85283cd9d93b297ed223f10bd813dadbbfdef431f8a9"
 
-  url "https://github.com/Wox-launcher/Wox/releases/download/v#{version.csv.first}/wox-mac-#{arch}.dmg"
+  url "https://github.com/Wox-launcher/Wox/releases/download/v#{version.csv.first}/wox-mac-arm64.dmg"
   name "Wox"
   desc "Cross-platform launcher that simply works"
   homepage "https://github.com/Wox-launcher/Wox"
 
   livecheck do
     url :url
-    regex(%r{/v?(\d+(?:\.\d+)+)(-beta\.\d)?/wox-mac-#{arch}\.dmg$}i)
+    regex(%r{/v?(\d+(?:\.\d+)+)(-beta\.\d)?/wox-mac-arm64\.dmg$}i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|
         match = asset["browser_download_url"]&.match(regex)
