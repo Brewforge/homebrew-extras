@@ -1,11 +1,8 @@
 cask "mogan" do
-  arch arm: "arm", intel: "x64"
-
   version "2025.2.1"
-  sha256 arm:   "003b71c2ade42d0c0ac85f2e262c7c1f149401dee33615086b1b902f558a4d80",
-         intel: "96cce6e61ad09efd671c659c67e0b2e309ac2b6ea59465d8104915dad1e4fa9a"
+  sha256 "003b71c2ade42d0c0ac85f2e262c7c1f149401dee33615086b1b902f558a4d80"
 
-  url "https://github.com/XmacsLabs/mogan/releases/download/v#{version}/MoganSTEM-v#{version}-#{arch}.dmg",
+  url "https://github.com/XmacsLabs/mogan/releases/download/v#{version}/MoganSTEM-v#{version}-arm.dmg",
       verified: "github.com/XmacsLabs/mogan/releases/download/"
   name "Mogan STEM"
   desc "Structured STEM suite"
