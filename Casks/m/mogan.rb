@@ -1,6 +1,6 @@
 cask "mogan" do
-  version "2025.2.1"
-  sha256 "003b71c2ade42d0c0ac85f2e262c7c1f149401dee33615086b1b902f558a4d80"
+  version "2025.2.2"
+  sha256 "4a7925e31960863e43345a56010b6e65d7d34b82e35fbdeef326858f497aa36d"
 
   url "https://github.com/XmacsLabs/mogan/releases/download/v#{version}/MoganSTEM-v#{version}-arm.dmg",
       verified: "github.com/XmacsLabs/mogan/releases/download/"
