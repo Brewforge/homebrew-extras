@@ -1,6 +1,6 @@
 cask "barss" do
-  version "1.5.5"
-  sha256 "52ec32522a4b5f68382c736049da0234047de96415d7fc9e347bbea80e59f678"
+  version "1.6.0"
+  sha256 "188af3fc51253ea0cbcf567613e8809506877186ac0a96ebd80730f45e6ff9d3"
 
   url "https://github.com/relikd/baRSS/releases/download/v#{version}/baRSS_#{version}.zip",
       verified: "github.com/relikd/baRSS/"
