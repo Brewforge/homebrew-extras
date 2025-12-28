@@ -1,11 +1,8 @@
 cask "ytsage" do
-  arch arm: "arm64", intel: "x64"
+  version "4.9.7"
+  sha256 "94904ceb33bf95eb53ee9455405f6652efc2a8ea0e060ab8a10d3049cb7fb0ef"
 
-  version "4.9.5"
-  sha256 arm:   "a580e8bdefa9578b18035847217e54094d4900001ffdae504cb0786810070d30",
-         intel: "50b1506b6db9948d61471c5704510b59a7ca10d270daa40cf289e51a8fff606c"
-
-  url "https://github.com/oop7/YTSage/releases/download/v#{version}/YTSage-v#{version}-#{arch}.dmg"
+  url "https://github.com/oop7/YTSage/releases/download/v#{version}/YTSage-v#{version}-arm64.dmg"
   name "YTSage"
   desc "Modern YouTube downloader with a clean PySide6 interface"
   homepage "https://github.com/oop7/YTSage/"
@@ -21,7 +18,7 @@ cask "ytsage" do
   app "YTSage-v#{version}.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/YTSage-v4.8.3",
+    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/YTSage-v#{version}",
     "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/4a151483-1084-4bff-b914-95692b73d397",
     "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/68329290-31b5-489c-b5d8-bf1331732aad",
     "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/dsymutil-021834",
@@ -43,6 +40,6 @@ cask "ytsage" do
     "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/dsymutil-ef2683",
     "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/lemminx-temp8886636787863583763",
     "~/Library/Application Support/google-heartbeat-storage/heartbeats-1_342559837177_ios_829944bbca5d6cdbeecb28",
-    "~/Library/Preferences/YTSage-v4.8.3.plist",
+    "~/Library/Preferences/YTSage-v#{version}.plist",
   ]
 end
