@@ -1,6 +1,6 @@
 cask "alexandria" do
-  version "0.13.1"
-  sha256 "aa7f9c272c98a942b0d30fbc11ba61d42da9652251e362681954d0248e45fb29"
+  version "0.13.2"
+  sha256 "b8a1369e124f9c9c0d49f4de89295f248cbd4fe36dfc5865c61683433efdb3e0"
 
   url "https://github.com/btpf/Alexandria/releases/download/v#{version}/Alexandria_#{version}_aarch64.dmg"
   name "Alexandria"
