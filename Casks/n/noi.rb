@@ -12,6 +12,8 @@ cask "noi" do
     strategy :github_latest
   end
 
+  depends_on macos: ">= :monterey"
+
   app "Noi.app"
 
   uninstall quit: "com.lencx.noi"
