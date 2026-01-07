@@ -68,6 +68,7 @@ brew help
 |       `alexandria`       |           [Alexandria](https://github.com/btpf/Alexandria)            | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `anx-reader`       |          [Anx Reader](https://github.com/Anxcye/anx-reader)           | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `butterfly`        |         [Butterfly](https://github.com/LinwoodDev/Butterfly)          | ![a](assets/a.svg)![1](assets/1.svg) |
+|        `deskflow`        |           [deskflow](https://github.com/deskflow/deskflow)            | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `dorion`         |              [dorion](https://github.com/SpikeHD/Dorion)              | ![a](assets/a.svg)![1](assets/1.svg) |
 |     `goldendict-ng`      |     [GoldenDict-ng](https://xiaoyifang.github.io/goldendict-ng/)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |       `gopeed-app`       |                     [Gopeed](https://gopeed.com)                      | ![a](assets/a.svg)![1](assets/1.svg) |
@@ -141,9 +142,9 @@ brew help
 
 There are several manifests that the current contributors cannot fix, welcome your help!
 
-|        Cask Name         |                         Site                          |                Problem                |
-|:------------------------:|:-----------------------------------------------------:|:-------------------------------------:|
-|       `tinkertool`       | [TinkerTool](https://bresink.com/osx/TinkerTool.html) | cannot obtain available info directly |
+|  Cask Name   |                         Site                          |                Problem                |
+|:------------:|:-----------------------------------------------------:|:-------------------------------------:|
+| `tinkertool` | [TinkerTool](https://bresink.com/osx/TinkerTool.html) | cannot obtain available info directly |
 
 ## 🌟 STAR ME
 
