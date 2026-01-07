@@ -28,8 +28,6 @@ cask "cytoscape" do
   }
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.install4j.5211-3645-3154-2580.3",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.install4j.5211-3645-3154-2580.uninstaller",
     "~/Library/Application Support/Cytoscape",
     "~/Library/Preferences/com.install4j.5211-3645-3154-2580.3.plist",
     "~/Library/Preferences/com.install4j.5211-3645-3154-2580.uninstaller.plist",

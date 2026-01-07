@@ -20,8 +20,6 @@ cask "ecopaste" do
   app "EcoPaste.app"
 
   zap trash: [
-    "/var/folders/pl/88zfv10n4_v7fmnchp0x97980000gn/C/com.ayangweb.EcoPaste",
-    "/var/folders/pl/88zfv10n4_v7fmnchp0x97980000gn/T/com.ayangweb.EcoPaste",
     "~/Library/Application Support/com.ayangweb.EcoPaste",
     "~/Library/Caches/com.ayangweb.EcoPaste",
     "~/Library/Logs/com.ayangweb.EcoPaste",

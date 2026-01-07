@@ -17,7 +17,6 @@ cask "oculante" do
   app "Oculante.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.github.woelper.oculante",
     "~/Library/Application Support/oculante",
     "~/Library/Saved Application State/com.github.woelper.oculante.savedState",
   ]

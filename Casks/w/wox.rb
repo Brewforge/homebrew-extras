@@ -25,8 +25,8 @@ cask "wox" do
   app "Wox.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.github.wox",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/wox",
+
+
     "~/.wox",
     "~/Library/Preferences/com.github.wox.plist",
   ]

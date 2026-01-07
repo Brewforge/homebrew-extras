@@ -79,7 +79,6 @@ cask "aerospace@beta" do
   end
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/bobko.aerospace",
     "~/Library/Preferences/bobko.aerospace.plist",
   ]
 end

@@ -28,7 +28,6 @@ cask "rune-music" do
   app "Rune.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/ci.not.rune",
     "~/Library/Application Scripts/ci.not.rune",
     "~/Library/Containers/ci.not.rune",
   ]

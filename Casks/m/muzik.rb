@@ -21,8 +21,6 @@ cask "muzik" do
   app "muzik-offline.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.muzik-offline.dev",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/com.muzik-offline.dev",
     "~/Library/Application Support/com.muzik-offline.dev",
     "~/Library/Caches/com.muzik-offline.dev",
     "~/Library/HTTPStorages/com.muzik-offline.dev",

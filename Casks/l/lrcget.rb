@@ -20,8 +20,8 @@ cask "lrcget" do
   app "LRCGET.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/net.lrclib.lrcget",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/net.lrclib.lrcget",
+
+
     "~/Library/Application Support/net.lrclib.lrcget",
     "~/Library/Caches/net.lrclib.lrcget",
     "~/Library/Preferences/net.lrclib.lrcget.plist",

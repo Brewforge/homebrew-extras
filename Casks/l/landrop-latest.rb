@@ -23,8 +23,8 @@ cask "landrop-latest" do
   uninstall quit: "app.landrop.landrop"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/app.landrop.landrop-v2-electron",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/app.landrop.landrop-v2-electron.helper.GPU",
+
+
     "~/Library/Preferences/app.landrop.landrop-v2-electron.plist",
   ]
 end

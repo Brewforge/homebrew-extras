@@ -21,8 +21,6 @@ cask "ytdownloader" do
   app "YTDownloader.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/io.github.aandrewme.ytdn",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/io.github.aandrewme.ytdn.helper.GPU",
     "~/.ytDownloader",
     "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/io.github.aandrewme.ytdn.sfl*",
     "~/Library/Application Support/ytdownloader",

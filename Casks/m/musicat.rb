@@ -20,8 +20,6 @@ cask "musicat" do
   app "Musicat.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/Musicat",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/Musicat",
     "~/Library/Application Support/Musicat",
     "~/Library/Caches/Musicat",
     "~/Library/Logs/Musicat",

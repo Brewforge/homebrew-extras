@@ -15,7 +15,6 @@ cask "corsixth-app" do
   app "CorsixTH.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.macsourceports.CorsixTH",
     "~/Library/Saved Application State/com.macsourceports.CorsixTH.savedState",
   ]
 end

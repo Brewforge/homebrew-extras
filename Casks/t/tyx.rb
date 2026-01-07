@@ -21,8 +21,6 @@ cask "tyx" do
   app "TyX.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.tyx-editor.tyx",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/com.tyx-editor.tyx",
     "/~/Library/Caches/com.tyx-editor.tyx",
     "/~/Library/Preferences/com.tyx-editor.tyx.plist",
     "/~/Library/WebKit/com.tyx-editor.tyx",

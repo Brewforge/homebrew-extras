@@ -26,7 +26,6 @@ cask "sequential-viewer" do
   app "Sequential #{version.csv.second} #{version.csv.third}/Sequential.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.SequentialX.Sequential",
     "~/Library/Application Support/com.SequentialX.Sequential",
     "~/Library/Preferences/com.SequentialX.Sequential.plist",
     "~/Library/Saved Application State/com.SequentialX.Sequential.savedState",

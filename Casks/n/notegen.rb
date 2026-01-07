@@ -19,8 +19,6 @@ cask "notegen" do
   app "NoteGen.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.codexu.NoteGen",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/com.codexu.NoteGen",
     "~/Library/Application Support/com.codexu.NoteGen",
     "~/Library/Caches/com.codexu.NoteGen",
     "~/Library/WebKit/com.codexu.NoteGen",

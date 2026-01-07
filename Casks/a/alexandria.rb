@@ -15,8 +15,6 @@ cask "alexandria" do
   app "Alexandria.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.btpf.alexandria",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/com.btpf.alexandria",
     "~/Library/Application Support/com.btpf.alexandria",
     "~/Library/Caches/com.btpf.alexandria",
     "~/Library/Preferences/com.btpf.alexandria.plist",

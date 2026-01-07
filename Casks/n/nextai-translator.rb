@@ -20,9 +20,6 @@ cask "nextai-translator" do
   app "NextAI Translator.app"
 
   zap trash: [
-    "/tmp/xyz_yetone_apps_openai_translator_si.sock",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/xyz.yetone.apps.openai-translator",
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/T/xyz.yetone.apps.openai-translator",
     "~/Library/Application Support/xyz.yetone.apps.openai-translator",
     "~/Library/Caches/xyz.yetone.apps.openai-translator",
     "~/Library/WebKit/xyz.yetone.apps.openai-translator",

@@ -17,7 +17,6 @@ cask "anx-reader" do
   app "AnxReader.app"
 
   zap trash: [
-    "/var/folders/py/n14256yd5r5ddms88x9bvsv40000gn/C/com.anxcye.anxReader",
     "~/Library/Application Scripts/com.anxcye.anxReader",
     "~/Library/Containers/com.anxcye.anxReader",
   ]
