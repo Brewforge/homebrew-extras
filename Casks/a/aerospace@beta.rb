@@ -1,6 +1,6 @@
 cask "aerospace@beta" do
-  version "0.19.2-Beta"
-  sha256 "bb85013b18189963e1fc049e1d4df283fcc2575115615747638ebd2ef85aa470"
+  version "0.20.2-Beta"
+  sha256 "d508c5bc6dbaea4e036235714e54bea42b028c7b28083e4e0e19f923b0d1eb99"
 
   url "https://github.com/nikitabobko/AeroSpace/releases/download/v#{version}/AeroSpace-v#{version}.zip"
   name "AeroSpace"
@@ -25,7 +25,7 @@ cask "aerospace@beta" do
 
   auto_updates true
   conflicts_with cask: "aerospace-dev"
-  depends_on macos: ">= :sonoma" # macOS 13
+  depends_on macos: ">= :sonoma"
 
   app "AeroSpace-v#{version}/AeroSpace.app"
   binary "AeroSpace-v#{version}/bin/aerospace"
@@ -78,7 +78,5 @@ cask "aerospace@beta" do
     system "xattr", "-d", "com.apple.quarantine", "#{appdir}/AeroSpace.app"
   end
 
-  zap trash: [
-    "~/Library/Preferences/bobko.aerospace.plist",
-  ]
+  zap trash: "~/Library/Preferences/bobko.aerospace.plist"
 end

@@ -14,7 +14,5 @@ cask "corsixth-app" do
 
   app "CorsixTH.app"
 
-  zap trash: [
-    "~/Library/Saved Application State/com.macsourceports.CorsixTH.savedState",
-  ]
+  zap trash: "~/Library/Saved Application State/com.macsourceports.CorsixTH.savedState"
 end
