@@ -23,8 +23,6 @@ cask "landrop-latest" do
   uninstall quit: "app.landrop.landrop"
 
   zap trash: [
-
-
     "~/Library/Preferences/app.landrop.landrop-v2-electron.plist",
   ]
 end
