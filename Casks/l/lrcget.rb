@@ -20,8 +20,6 @@ cask "lrcget" do
   app "LRCGET.app"
 
   zap trash: [
-
-
     "~/Library/Application Support/net.lrclib.lrcget",
     "~/Library/Caches/net.lrclib.lrcget",
     "~/Library/Preferences/net.lrclib.lrcget.plist",
