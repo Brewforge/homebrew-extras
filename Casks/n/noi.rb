@@ -1,6 +1,6 @@
 cask "noi" do
-  version "1.0.0"
-  sha256 "baf42d8349b1f8481b13b6b2b79e51abbb5eb63d8e96580df7f4d2a87b5c82e7"
+  version "1.1.0"
+  sha256 "08583cba4bdc3308b49f393ef272f844690262ad3eb7ab6c9399a859ccbddfd2"
 
   url "https://github.com/lencx/Noi/releases/download/v#{version}/Noi-#{version}-arm64.dmg"
   name "Noi"
