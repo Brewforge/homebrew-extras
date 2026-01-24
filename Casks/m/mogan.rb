@@ -3,14 +3,15 @@ cask "mogan" do
   sha256 "4aef82e2ef52616e0079142876c10603d588b6af44a12c738c86cc2a84ba1ef7"
 
   url "https://github.com/XmacsLabs/mogan/releases/download/v#{version}/MoganSTEM-v#{version}-arm.dmg",
-      verified: "github.com/XmacsLabs/mogan/releases/download/"
+      verified: "github.com/XmacsLabs/mogan/releases/"
   name "Mogan STEM"
   desc "Structured STEM suite"
   homepage "https://mogan.app/"
 
   livecheck do
-    url :url
-    strategy :github_latest
+    # url :url
+    # strategy :github_latest
+    skip "No livecheck"
   end
 
   auto_updates true
