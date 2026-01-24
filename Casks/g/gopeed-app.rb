@@ -1,6 +1,6 @@
 cask "gopeed-app" do
-  version "1.8.3"
-  sha256 "b7622e55f65833c6d717f8284cbd83ec406fe3f9cdee3d566af1bd9e24c37a92"
+  version "1.9.0"
+  sha256 "61df40d1336935e43fd6945bc3c252a535d58ff28856b12e8c50bb114f6bd03a"
 
   url "https://github.com/GopeedLab/gopeed/releases/download/v#{version}/Gopeed-v#{version}-macos.dmg",
       verified: "github.com/GopeedLab/gopeed/"
