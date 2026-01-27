@@ -8,13 +8,8 @@ cask "keyviz" do
   homepage "https://github.com/mulaRahul/keyviz"
 
   livecheck do
-    url "https://github.com/mulaRahul/keyviz/tags"
-    strategy :page_match do |page|
-      match = page.match(/href=.*?v(\d+(\.\d+){2}(a\d)?)/i)
-      next if match.blank?
-
-      match[1].to_s
-    end
+    url :url
+    strategy :github_latest
   end
 
   auto_updates true
