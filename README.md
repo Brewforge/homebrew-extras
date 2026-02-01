@@ -80,6 +80,7 @@ brew help
 |    `media-downloader`    | [Media Downloader](https://github.com/mhogomchungu/media-downloader) | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `mogan`          |                [Mogan STEM Suite](https://mogan.app)                 | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `notegen`         |                  [NoteGen](https://notegen.top/en/)                  | ![a](assets/a.svg)![1](assets/1.svg) |
+|        `pastemd`         |                [PasteMD](https://pastemd.richqaq.cn)                 | ![a](assets/a.svg)![1](assets/1.svg) |
 |         `peazip`         |              [PeaZip](https://github.com/peazip/PeaZip)              | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `oculante`        |           [Oculante](https://github.com/woelper/oculante)            | ![a](assets/a.svg)![1](assets/1.svg) |
 |        `revezone`        |                  [Revezone](https://revezone.com/)                   | ![a](assets/a.svg)![1](assets/1.svg) |
