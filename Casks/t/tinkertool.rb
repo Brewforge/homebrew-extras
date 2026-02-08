@@ -1,6 +1,6 @@
 cask "tinkertool" do
-  version "10.2,eai5aujc1e2lo9jaq02v24eshl"
-  sha256 "4eda2a040df4c5c7eefcd975c6164fcbf57704654090bcf290a298d251ac40a8"
+  version "11.4"
+  sha256 "13c2d92e788e3cc7c90696261b638fcee5b3139f286eaa8fbea228a03de87ff4"
 
   url "https://www.bresink.biz/download3.php?PHPSESSID=#{version.csv.second}",
       verified: "bresink.biz/"
