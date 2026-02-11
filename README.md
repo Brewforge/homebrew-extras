@@ -63,37 +63,35 @@ brew help
 
 ### General Use
 
-|        Cask Name         |                                 Site                                 |                 Note                 |
-|:------------------------:|:--------------------------------------------------------------------:|:------------------------------------:|
-|       `alexandria`       |           [Alexandria](https://github.com/btpf/Alexandria)           | ![a](assets/a.svg)![1](assets/1.svg) |
-|       `anx-reader`       |          [Anx Reader](https://github.com/Anxcye/anx-reader)          | ![a](assets/a.svg)![1](assets/1.svg) |
-|       `butterfly`        |         [Butterfly](https://github.com/LinwoodDev/Butterfly)         | ![a](assets/a.svg)![1](assets/1.svg) |
-|        `deskflow`        |           [deskflow](https://github.com/deskflow/deskflow)           | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `dorion`         |             [dorion](https://github.com/SpikeHD/Dorion)              | ![a](assets/a.svg)![1](assets/1.svg) |
-|     `goldendict-ng`      |     [GoldenDict-ng](https://xiaoyifang.github.io/goldendict-ng/)     | ![a](assets/a.svg)![1](assets/1.svg) |
-|       `gopeed-app`       |                     [Gopeed](https://gopeed.com)                     | ![a](assets/a.svg)![1](assets/1.svg) |
-|       `gridplayer`       |         [GridPlayer](https://github.com/vzhd1701/gridplayer)         | ![a](assets/a.svg)![1](assets/1.svg) |
-|        `hiddify`         |                 [Hiddify-Next](https://hiddify.com/)                 | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `imfile`         |                     [imFile](https://imfile.io/)                     | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `keyviz`         |            [KeyViz](https://github.com/mulaRahul/keyviz)             | ![a](assets/a.svg)![1](assets/1.svg) |
-|    `media-downloader`    | [Media Downloader](https://github.com/mhogomchungu/media-downloader) | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `mogan`          |                [Mogan STEM Suite](https://mogan.app)                 | ![a](assets/a.svg)![1](assets/1.svg) |
-|        `notegen`         |                  [NoteGen](https://notegen.top/en/)                  | ![a](assets/a.svg)![1](assets/1.svg) |
-|        `pastemd`         |                [PasteMD](https://pastemd.richqaq.cn)                 | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `peazip`         |              [PeaZip](https://github.com/peazip/PeaZip)              | ![a](assets/a.svg)![1](assets/1.svg) |
-|        `oculante`        |           [Oculante](https://github.com/woelper/oculante)            | ![a](assets/a.svg)![1](assets/1.svg) |
-|        `revezone`        |                  [Revezone](https://revezone.com/)                   | ![a](assets/a.svg)![1](assets/1.svg) |
-| `stirling-pdf-installer` |               [Stirling PDF](https://stirlingpdf.com/)               | ![a](assets/a.svg)![1](assets/1.svg) |
-|          `tyx`           |                    [TyX](https://tyx-editor.com/)                    | ![a](assets/a.svg)![1](assets/1.svg) |
-|      `wpsoffice-en`      |                    [WPS Office](https://wps.com/)                    | ![b](assets/a.svg)![1](assets/1.svg) |
-|      `ytdownloader`      |              [YTDownloader](https://ytdn.netlify.app/)               | ![a](assets/a.svg)![1](assets/1.svg) |
-|         `ytsage`         |              [YTSage](https://github.com/oop7/YTSage/)               | ![a](assets/a.svg)![1](assets/1.svg) |
+|     Cask Name      |                                 Site                                 |                 Note                 |
+|:------------------:|:--------------------------------------------------------------------:|:------------------------------------:|
+|    `alexandria`    |           [Alexandria](https://github.com/btpf/Alexandria)           | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `anx-reader`    |          [Anx Reader](https://github.com/Anxcye/anx-reader)          | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `butterfly`     |         [Butterfly](https://github.com/LinwoodDev/Butterfly)         | ![a](assets/a.svg)![1](assets/1.svg) |
+|     `deskflow`     |           [deskflow](https://github.com/deskflow/deskflow)           | ![a](assets/a.svg)![1](assets/1.svg) |
+|      `dorion`      |             [dorion](https://github.com/SpikeHD/Dorion)              | ![a](assets/a.svg)![1](assets/1.svg) |
+|  `goldendict-ng`   |     [GoldenDict-ng](https://xiaoyifang.github.io/goldendict-ng/)     | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `gopeed-app`    |                     [Gopeed](https://gopeed.com)                     | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `gridplayer`    |         [GridPlayer](https://github.com/vzhd1701/gridplayer)         | ![a](assets/a.svg)![1](assets/1.svg) |
+|     `hiddify`      |                 [Hiddify-Next](https://hiddify.com/)                 | ![a](assets/a.svg)![1](assets/1.svg) |
+|      `imfile`      |                     [imFile](https://imfile.io/)                     | ![a](assets/a.svg)![1](assets/1.svg) |
+|      `keyviz`      |            [KeyViz](https://github.com/mulaRahul/keyviz)             | ![a](assets/a.svg)![1](assets/1.svg) |
+| `media-downloader` | [Media Downloader](https://github.com/mhogomchungu/media-downloader) | ![a](assets/a.svg)![1](assets/1.svg) |
+|     `notegen`      |                  [NoteGen](https://notegen.top/en/)                  | ![a](assets/a.svg)![1](assets/1.svg) |
+|     `pastemd`      |                [PasteMD](https://pastemd.richqaq.cn)                 | ![a](assets/a.svg)![1](assets/1.svg) |
+|      `peazip`      |              [PeaZip](https://github.com/peazip/PeaZip)              | ![a](assets/a.svg)![1](assets/1.svg) |
+|     `oculante`     |           [Oculante](https://github.com/woelper/oculante)            | ![a](assets/a.svg)![1](assets/1.svg) |
+|     `revezone`     |                  [Revezone](https://revezone.com/)                   | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `wpsoffice-en`   |                    [WPS Office](https://wps.com/)                    | ![b](assets/a.svg)![1](assets/1.svg) |
+|   `ytdownloader`   |              [YTDownloader](https://ytdn.netlify.app/)               | ![a](assets/a.svg)![1](assets/1.svg) |
+|      `ytsage`      |              [YTSage](https://github.com/oop7/YTSage/)               | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ### AI Clients
 
 |      Cask Name      |                                    Site                                     |                          Note                          |
 |:-------------------:|:---------------------------------------------------------------------------:|:------------------------------------------------------:|
 |        `noi`        |                     [Noi](https://github.com/lencx/Noi)                     |          ![a](assets/a.svg)![1](assets/1.svg)          |
+|  `next-ai-drawio`   |             [Next AI Draw.io](https://next-ai-drawio.jiang.jp/)             |          ![a](assets/a.svg)![1](assets/1.svg)          |
 | `nextai-translator` | [NextAI-Translator](https://github.com/nextai-translator/nextai-translator) |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |      `pearai`       |                        [pearai](https://trypear.ai)                         | ![a](assets/a.svg)![1](assets/1.svg)![3](assets/3.svg) |
 |      `peekai`       |             [peekai](https://prateekkeshari.gumroad.com/l/peek)             | ![a](assets/a.svg)![1](assets/1.svg)![2](assets/2.svg) |
@@ -118,6 +116,15 @@ brew help
 |  `qtscrcpy`   |   [QtScrcpy](https://github.com/barry-ran/QtScrcpy)    | ![a](assets/a.svg)![1](assets/1.svg) |
 | `scrcpy-mask` | [scrcpy-mask](https://github.com/AkiChase/scrcpy-mask) | ![a](assets/a.svg)![1](assets/1.svg) |
 
+### Academic
+
+|  Cask Name   |                       Site                       |                 Note                 |
+|:------------:|:------------------------------------------------:|:------------------------------------:|
+| `cytoscape`  |        [Cytoscape](https://cytoscape.org)        | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `mogan`    |      [Mogan STEM Suite](https://mogan.app)       | ![a](assets/a.svg)![1](assets/1.svg) |
+| `openstudio` | [OpenStudio](https://github.com/NREL/OpenStudio) | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `tyx`     |          [TyX](https://tyx-editor.com/)          | ![a](assets/a.svg)![1](assets/1.svg) |
+
 ### macOS Only
 
 |      Cask Name      |                                Site                                 |                 Note                 |
@@ -130,13 +137,6 @@ brew help
 |   `pixel-perfect`   | [Pixel Perfect](https://github.com/cormiertyshawn895/PixelPerfect)  | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `quickrecorder`   |     [QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)     | ![a](assets/a.svg)![1](assets/1.svg) |
 | `sequential-viewer` |       [Sequential](https://github.com/chuchusoft/Sequential)        | ![a](assets/a.svg)![1](assets/1.svg) |
-
-### Research
-
-|  Cask Name   |                       Site                       |                 Note                 |
-|:------------:|:------------------------------------------------:|:------------------------------------:|
-| `cytoscape`  |        [Cytoscape](https://cytoscape.org)        | ![a](assets/a.svg)![1](assets/1.svg) |
-| `openstudio` | [OpenStudio](https://github.com/NREL/OpenStudio) | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ## ⚔️ Challenge
 
