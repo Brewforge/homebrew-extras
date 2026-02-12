@@ -22,6 +22,6 @@ cask "next-ai-drawio" do
 
   zap trash: [
     "~/Library/Application Support/next-ai-draw-io",
-    "~/Library/Preferences/com.nextaidrawio.app.plist"
+    "~/Library/Preferences/com.nextaidrawio.app.plist",
   ]
 end
