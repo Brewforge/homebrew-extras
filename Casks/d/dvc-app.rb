@@ -1,6 +1,6 @@
 cask "dvc-app" do
   version "3.64.1"
-  sha256 :no_check
+  sha256 "d429afb71c40529afc9105881a4cfe97173014053599e0a5f42ef3c26705fad6"
 
   url "https://dvc.org/download/osx/dvc-#{version}"
   name "dvc"
@@ -8,7 +8,7 @@ cask "dvc-app" do
   homepage "https://dvc.org/"
 
   livecheck do
-    url "https://dvc.org/"
+    url "https://doc.dvc.org/install/macos"
     regex(/href=.*?dvc-(\d+(\.\d+)+)/i)
   end
 

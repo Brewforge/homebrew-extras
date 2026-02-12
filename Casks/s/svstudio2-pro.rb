@@ -7,6 +7,10 @@ cask "svstudio2-pro" do
   desc "AI-based singing voice synthesis software"
   homepage "https://dreamtonics.com/synthesizerv/"
 
+  livecheck do
+    skip "No version information available"
+  end
+
   pkg "svstudio2-pro-setup-latest.pkg"
 
   uninstall pkgutil: [
