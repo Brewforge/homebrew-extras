@@ -90,6 +90,7 @@ brew help
 
 |      Cask Name      |                                    Site                                     |                          Note                          |
 |:-------------------:|:---------------------------------------------------------------------------:|:------------------------------------------------------:|
+|     `cc-switch`     |            [cc-switch](https://github.com/farion1231/cc-switch)             |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |        `noi`        |                     [Noi](https://github.com/lencx/Noi)                     |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |  `next-ai-drawio`   |             [Next AI Draw.io](https://next-ai-drawio.jiang.jp/)             |          ![a](assets/a.svg)![1](assets/1.svg)          |
 | `nextai-translator` | [NextAI-Translator](https://github.com/nextai-translator/nextai-translator) |          ![a](assets/a.svg)![1](assets/1.svg)          |
