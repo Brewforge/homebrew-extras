@@ -12,7 +12,7 @@ cask "deskflow" do
   homepage "https://deskflow.org/"
 
   conflicts_with cask: "deskflow-dev"
-  depends_on macos: ">= :monterey"
+  depends_on macos: ">= :sonoma"
 
   app "Deskflow.app"
 
