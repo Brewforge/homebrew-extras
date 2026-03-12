@@ -1,6 +1,6 @@
 cask "cc-switch" do
-  version "3.12.0"
-  sha256 "43f3e825ca9932e8ae01de888ed9a2918ec3c19076705f36bc80a7befd586dd0"
+  version "3.12.1"
+  sha256 "a483e7b26782b98baf52846156f2a52cb51cefe74be77a6993abd7c0a1013f29"
 
   url "https://github.com/farion1231/cc-switch/releases/download/v#{version}/CC-Switch-v#{version}-macOS.zip"
   name "CC Switch"
