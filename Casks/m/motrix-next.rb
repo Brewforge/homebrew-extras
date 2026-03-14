@@ -1,11 +1,17 @@
 cask "motrix-next" do
-  version :latest
-  sha256 :no_check
+  version "3.1.0"
+  sha256 "6cd294ca0e66fe63fbf72efd58ad5496591fd91bb92bee2639d15acfb3f6de6f"
 
-  url "https://github.com/AnInsomniacy/motrix-next/releases/latest/download/MotrixNext_aarch64.app.tar.gz"
+  url "https://github.com/AnInsomniacy/motrix-next/releases/download/v#{version}/MotrixNext_#{version}_aarch64.dmg",
+      verified: "github.com/AnInsomniacy/motrix-next/releases/"
   name "Motrix Next"
   desc "Aria2-powered download manager rebuilt with Tauri"
   homepage "https://github.com/AnInsomniacy/motrix-next"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   depends_on arch: :arm64
   depends_on macos: ">= :big_sur"
