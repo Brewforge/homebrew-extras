@@ -24,7 +24,6 @@ cask "aerospace@beta" do
   end
 
   auto_updates true
-  conflicts_with cask: "aerospace-dev"
   depends_on macos: ">= :sonoma"
 
   app "AeroSpace-v#{version}/AeroSpace.app"
