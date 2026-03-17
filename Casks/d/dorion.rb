@@ -1,9 +1,9 @@
 cask "dorion" do
   arch arm: "aarch64", intel: "x64"
 
-  version "6.12.1"
-  sha256 arm:   "a2922028a39597903bcdb5523360a3b96e622e2a06de7028b7aeffc83aa47f0c",
-         intel: "0eaf069684951e9bf67f8cadcbd86baa866f55b871f0fae8f803bc9336674d7d"
+  version "6.12.2"
+  sha256 arm:   "06b90cdca31dc65d5e2c5d8a8d760c4b3533b384734af7e93f15235e68b8a4ef",
+         intel: "a36dc6cc176965b63e1138a29952c4b6659dfcaf7b91f8a847fa6888db575056"
 
   url "https://github.com/SpikeHD/Dorion/releases/download/v#{version}/Dorion_#{version}_#{arch}.dmg"
   name "Dorion"
