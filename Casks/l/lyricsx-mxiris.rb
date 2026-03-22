@@ -1,8 +1,8 @@
 cask "lyricsx-mxiris" do
-  version "1.7.4,2563"
-  sha256 "3d9fe7953adfe89bf76b91d751132de6a2ee039549ff9140cb9becf68fa4b026"
+  version "1.8.0,2026-03-21,12-32-44"
+  sha256 "082662bbba4ad0576315a45bbf6eba5393362f6d5b1924e88c60d8e77806bbe1"
 
-  url "https://github.com/MxIris-LyricsX-Project/LyricsX/releases/download/v#{version.csv.first}/LyricsX_#{version.csv.first}+#{version.csv.second}.zip"
+  url "https://github.com/MxIris-LyricsX-Project/LyricsX/releases/download/v#{version.csv.first}/LyricsX.#{version.csv.second}.#{version.csv.third}.zip"
   name "LyricsX"
   desc "Ultimate Lyrics App"
   homepage "https://github.com/MxIris-LyricsX-Project/LyricsX"
