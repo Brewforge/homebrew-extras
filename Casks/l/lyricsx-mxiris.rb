@@ -9,20 +9,20 @@ cask "lyricsx-mxiris" do
 
   livecheck do
     url :url
-    regex(%r{(\d+(\.\d+){2})/LyricsX_.+(\d{4})\.zip}i)
+    regex(%r{(\d+(\.\d+){2})/LyricsX\.(\d+(-\d+)+)\.+(\d+(-\d+)+)\.zip}i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|
         match = asset["browser_download_url"]&.match(regex)
         next if match.blank?
 
-        "#{match[1]},#{match[3]}"
+        "#{match[1]},#{match[3]},#{match[5]}"
       end
     end
   end
 
   conflicts_with cask: "lyricsx"
 
-  app "LyricsX.app"
+  app "LyricsX #{version.csv.second} #{version.csv.third}/LyricsX.app"
 
   zap trash: [
     "~/Library/Application Scripts/com.JH.LyricsX",
