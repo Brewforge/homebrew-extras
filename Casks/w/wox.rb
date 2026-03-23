@@ -1,6 +1,6 @@
 cask "wox" do
-  version "2.0.1"
-  sha256 "2ec186f0cf3a14e92e592ad1676e16b187ccce38b2fdbd50c5f0653d3302633c"
+  version "2.0.2"
+  sha256 "30c75c0c8a959a6589c950037d1e98c35de98c1d850924e2c4be1ff5f545779c"
 
   url "https://github.com/Wox-launcher/Wox/releases/download/v#{version.csv.first}/wox-mac-arm64.dmg"
   name "Wox"
