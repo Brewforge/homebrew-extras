@@ -1,4 +1,4 @@
-cask "aerospace@beta" do
+cask "aerospace" do
   version "0.20.3-Beta"
   sha256 "9d6cc269b773cbcb392623982c4f0ba585a68120b6bb1d179fec1cb4de8e374f"
 
@@ -8,19 +8,8 @@ cask "aerospace@beta" do
   homepage "https://github.com/nikitabobko/AeroSpace"
 
   livecheck do
-    # url :url
-    # regex(/^v?(\d+(\.\d+)+(-Beta)?)$/i)
-    # strategy :github_releases do |json, regex|
-    #   json.map do |release|
-    #     next if release["draft"]
-
-    #     match = release["tag_name"]&.match(regex)
-    #     next if match.blank?
-
-    #     match[1]
-    #   end
-    # end
-    skip "No livecheck as pre-release"
+    url :url
+    regex(/^v?(\d+(\.\d+)+(-Beta)?)$/i)
   end
 
   auto_updates true
