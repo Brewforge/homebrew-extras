@@ -10,14 +10,16 @@ cask "opencove" do
 
   livecheck do
     url :url
-    regex(%r{/v?([\d.]+(?:-nightly\.\d+\.\d+)?)/OpenCove-[\d.]+-nightly\.\d+\.\d+-mac-arm64\.dmg$}i)
-    strategy :github_latest do |json, regex|
-      json["assets"]&.map do |asset|
-        match = asset["browser_download_url"]&.match(regex)
-        next if match.blank?
+    regex(/OpenCove[._-]v?(\d+(?:\.\d+)*-nightly\.\d+\.\d+)-mac-arm64\.dmg/i)
+    strategy :github_releases do |json, regex|
+      json.map do |release|
+        release["assets"]&.map do |asset|
+          match = asset["browser_download_url"]&.match(regex)
+          next if match.nil?
 
-        match[1]
-      end
+          match[1]
+        end
+      end.flatten.compact
     end
   end
 
