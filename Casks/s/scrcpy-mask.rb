@@ -13,6 +13,7 @@ cask "scrcpy-mask" do
   end
 
   auto_updates true
+  depends_on arch: :arm64
 
   app "scrcpy-mask.app"
 

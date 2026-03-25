@@ -11,6 +11,7 @@ cask "deskflow" do
   desc "Mouse and keyboard sharing utility"
   homepage "https://deskflow.org/"
 
+  auto_updates true
   conflicts_with cask: "deskflow-dev"
   depends_on macos: ">= :sonoma"
 

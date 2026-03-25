@@ -16,6 +16,7 @@ cask "next-ai-drawio" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: ">= :monterey"
 
   app "Next AI Draw.io.app"

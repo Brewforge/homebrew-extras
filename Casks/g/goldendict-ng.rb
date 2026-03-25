@@ -23,6 +23,7 @@ cask "goldendict-ng" do
 
   auto_updates true
   conflicts_with cask: "goldendict"
+  depends_on arch: :arm64
   depends_on macos: ">= :monterey"
 
   app "GoldenDict-ng.app", target: "GoldenDict.app"

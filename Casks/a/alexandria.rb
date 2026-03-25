@@ -12,6 +12,8 @@ cask "alexandria" do
     strategy :github_latest
   end
 
+  depends_on arch: :arm64
+
   app "Alexandria.app"
 
   zap trash: [

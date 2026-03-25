@@ -12,6 +12,7 @@ cask "cc-switch" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: ">= :monterey"
 
   app "CC Switch.app"

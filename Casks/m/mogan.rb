@@ -14,6 +14,7 @@ cask "mogan" do
   end
 
   auto_updates true
+  depends_on arch: :arm64
   depends_on macos: ">= :sonoma"
 
   app "MoganSTEM.app"
