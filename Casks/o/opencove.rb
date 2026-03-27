@@ -22,6 +22,8 @@ cask "opencove" do
     end
   end
 
+  depends_on macos: ">= :big_sur"
+
   auto_updates true
 
   app "OpenCove.app"
