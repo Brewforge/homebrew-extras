@@ -1,6 +1,6 @@
 cask "opencove" do
-  version "0.2.0-nightly.20260325.1"
-  sha256 "08caaa36283a8122de97452b7fb891d1e470c4108299b02f53102a88ddb61c97"
+  version "0.2.0-nightly.20260327.1"
+  sha256 "9a3d7fdc023f78dbd2fc6052847b1d5258212038b936666c6c7c3e84d56e49f0"
 
   url "https://github.com/DeadWaveWave/opencove/releases/download/v#{version}/OpenCove-#{version}-mac-arm64.dmg"
   name "OpenCove"
@@ -22,9 +22,8 @@ cask "opencove" do
     end
   end
 
-  depends_on macos: ">= :big_sur"
-
   auto_updates true
+  depends_on macos: ">= :big_sur"
 
   app "OpenCove.app"
 
