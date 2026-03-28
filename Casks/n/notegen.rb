@@ -1,9 +1,9 @@
 cask "notegen" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.27.3"
-  sha256 arm:   "fe73187afe7d89d567c4891ecee1f961536a6e0125d4da7679025fc6df367734",
-         intel: "0b8f7411e640bb44b168dfb4b33dc78b5ca7296fc0b3ddf83f08436b4fd535d7"
+  version "0.27.4"
+  sha256 arm:   "e29366a58d5d889c45e47dfae01d062e36207195d75914f582e90e9717f4bea0",
+         intel: "7dd17d4561d0fe645f49c423193e3a26790f9cdf510db3cbca1c8387564823cd"
 
   url "https://github.com/codexu/note-gen/releases/download/note-gen-v#{version}/NoteGen_#{version}_#{arch}.dmg",
       verified: "github.com/codexu/note-gen/"
