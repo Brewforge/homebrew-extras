@@ -1,6 +1,6 @@
 cask "opencove" do
-  version "0.2.0-nightly.20260329.1"
-  sha256 "9a034dbccaad8599a720b4c962a865fe714bca7e1e54228c541c855cdef20624"
+  version "0.2.0-nightly.20260401.1"
+  sha256 "07d3e5ca5f91c07301a6ed20262c59fc25593de3b904ec6f40aac0beb81f199d"
 
   url "https://github.com/DeadWaveWave/opencove/releases/download/v#{version}/OpenCove-#{version}-mac-arm64.dmg"
   name "OpenCove"
