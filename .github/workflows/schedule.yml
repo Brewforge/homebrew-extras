@@ -117,28 +117,3 @@ jobs:
               echo "PR #$pr is not mergeable, skipping"
             fi
           done
-
-      - name: Cleanup stale branches
-        env:
-          GITHUB_TOKEN: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
-        run: |
-          echo "Cleaning up stale branches..."
-
-          # Get all branches except main/master and protected branches
-          branches=$(gh api repos/brewforge/homebrew-extras/branches --jq '.[] | select(.name != "main" and .name != "master" and .protected == false) | .name')
-
-          for branch in $branches; do
-            # Check if branch is associated with any open PR
-            pr_count=$(gh pr list --repo brewforge/homebrew-extras --state open --head "$branch" --json number | jq length)
-
-            if [ "$pr_count" -eq 0 ]; then
-              # Check last commit date (older than 30 days)
-              last_commit_date=$(gh api repos/brewforge/homebrew-extras/commits/$branch --jq '.commit.author.date')
-              days_old=$(( ($(date +%s) - $(date -d "$last_commit_date" +%s)) / 86400 ))
-
-              if [ "$days_old" -gt 30 ]; then
-                echo "Deleting stale branch: $branch (last commit $days_old days ago)"
-                gh api repos/brewforge/homebrew-extras/git/refs/heads/$branch -X DELETE || echo "Failed to delete branch $branch"
-              fi
-            fi
-          done
