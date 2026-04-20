@@ -1,6 +1,6 @@
 cask "goldendict-ng" do
-  version "26.5.0,Release.c5e2abc1,6.9.1"
-  sha256 "63843cf863060ad8025ccb5a47e183bd271b4ae3bbb5e843792553cb319c3300"
+  version "26.5.1,Release.9973c461,6.9.1"
+  sha256 "b53ebb8f345f552a947dfb493b1363464cc78398306c2416471a15458957b958"
 
   url "https://github.com/xiaoyifang/goldendict-ng/releases/download/v#{version.csv.first}-#{version.csv.second}/GoldenDict-ng-#{version.csv.first}-Qt#{version.csv.third}-macOS-arm64.dmg",
       verified: "github.com/xiaoyifang/goldendict-ng/"
