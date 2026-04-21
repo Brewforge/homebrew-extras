@@ -109,7 +109,7 @@ jobs:
               # Merge PR
               if gh pr merge "$pr" --repo brewforge/homebrew-extras --merge --delete-branch; then
                 echo "Successfully merged PR #$pr and deleted branch"
-                sleep 2s
+                sleep 5s
               else
                 echo "Failed to merge PR #$pr"
               fi
