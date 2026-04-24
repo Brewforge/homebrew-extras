@@ -12,27 +12,6 @@ cask "fileshows" do
   desc "FileShows: A file searcher with glob patterns and file streams."
   homepage "https://webpath.iche2.com/fssdoc/en/"
 
-  def caveats
-    <<~EOS
-      FileShows: Pure, Efficient, and Private Local File Management.
-
-      Core Features:
-      - Privacy First: Offline, ad-free, and registration-free.
-      - Intelligent Search: Supports glob patterns and regex for recursive matching.
-      - Advanced Ops: Duplicate detection, incremental mirroring, secure deletion, and CRON-based scheduling.
-      - Automation: Supports custom rule scripts for complex batch processing.
-
-      Quick Start & Documentation:
-      - Web Manual: https://webpath.iche2.com/fssdoc/en/started/
-      - MacOS Privacy Guide: https://webpath.iche2.com/fssdoc/en/faq/
-      - Help: Run `brew home fileshows` to open the project homepage.
-
-      Power User Tip:
-      For advanced CLI scripting and automation, check out the companion tool 'ft':
-      https://github.com/huanguan1978/ft/
-    EOS
-  end
-
   # Documentation: https://docs.brew.sh/Brew-Livecheck
   livecheck do
     url "https://webpath.iche2.com/release/"
