@@ -11,26 +11,6 @@ cask "gai" do
   desc "Generative-AI Tools For Beginner"
   homepage "https://webpath.iche2.com/gaidoc/en/"
 
-  def caveats 
-    <<~EOS
-     💡 No ads, No registration, No other permissions required. Internet connection only.
-
-     Features:
-       - Multimodal: Text, images, and videos.
-       - User-friendly: Manage prompts, instructions, and parameters with ease.
-       - Scheduled Tasks: Pre-set timing for automatic content generation.
-       - Private Libraries: Support for offline/online prompt storage.
-       - Flexible Output: Save to local logs or your private network server.
-
-     Full-featured, customizable, and easy to master!
-
-     🚀 Quick Start:
-       To view the full documentation, run:
-         brew home gai
-       Or visit: https://webpath.iche2.com/gaidoc/en/started/ 
-    EOS
-  end
-
   # Documentation: https://docs.brew.sh/Brew-Livecheck
   livecheck do
     url "https://webpath.iche2.com/release/"
