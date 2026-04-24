@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Cask-Cookbook
-#                https://docs.brew.sh/Adding-Software-to-Homebrew#cask-stanzas
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 cask "gai" do
   version "1.2.6"
   sha256 "34597fbfd1625afb21c017728916fc8ae0e3a0aeaa2e01095f62b2f4b8b4fe0d"
@@ -10,7 +7,6 @@ cask "gai" do
   desc "Generative-AI Tools For Beginner"
   homepage "https://webpath.iche2.com/gaidoc/en/"
 
-  # Documentation: https://docs.brew.sh/Brew-Livecheck
   livecheck do
     url "https://webpath.iche2.com/release/"
     regex(/Gai-(\d+(?:\.\d+)*)-universal\.dmg/i)
@@ -21,8 +17,5 @@ cask "gai" do
 
   app "Gai.app"
 
-  # Documentation: https://docs.brew.sh/Cask-Cookbook#stanza-zap
-  zap trash: [
-    "~/Library/Caches/com.iche2.gai.macos",
-  ]
+  zap trash: "~/Library/Caches/com.iche2.gai.macos"
 end
