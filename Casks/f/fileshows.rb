@@ -3,9 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 cask "fileshows" do
   version "1.0.2"
-  # version "1.0.0"  
-  # sha256 "c85d6ed784429dced7842626a9bf9fed03d8fbf1b9bb9c899d50d69cfaafb0bd"
-  sha256 :no_check
+  sha256 "37007ec49db45741841fda55038a5d1e95a2a72c695c12876e68fb2aff260bdf"
 
   url "https://webpath.iche2.com/release/FileShows-#{version}-universal.dmg"
   name "FileShows"
