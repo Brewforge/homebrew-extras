@@ -43,5 +43,7 @@ cask "gai" do
   app "Gai.app"
 
   # Documentation: https://docs.brew.sh/Cask-Cookbook#stanza-zap
-  zap trash: ""
+  zap trash: [
+    "~/Library/Caches/com.iche2.gai.macos",
+  ]
 end
