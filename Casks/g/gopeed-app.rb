@@ -17,6 +17,11 @@ cask "gopeed-app" do
 
   app "Gopeed.app"
 
+  preflight do
+    system_command "xattr",
+                   args: ["-cr", "#{staged_path}/Gopeed.app"]
+  end
+
   zap trash: [
     "~/Library/Application Scripts/com.gopeed",
     "~/Library/Containers/com.gopeed",

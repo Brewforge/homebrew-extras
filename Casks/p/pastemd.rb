@@ -17,6 +17,11 @@ cask "pastemd" do
 
   app "PasteMD.app"
 
+  preflight do
+    system_command "xattr",
+                   args: ["-cr", "#{staged_path}/PasteMD.app"]
+  end
+
   zap trash: [
     "~/Documents/GitHub/scoop-extras-plus/bucket/pastemd.json",
     "~/Library/Application Support/PasteMD",

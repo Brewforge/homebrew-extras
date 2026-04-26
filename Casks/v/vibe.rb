@@ -19,6 +19,11 @@ cask "vibe" do
 
   app "vibe.app"
 
+  preflight do
+    system_command "xattr",
+                   args: ["-cr", "#{staged_path}/vibe.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/github.com.thewh1teagle.vibe",
     "~/Library/Caches/thewh1teagle.vibe.plist",

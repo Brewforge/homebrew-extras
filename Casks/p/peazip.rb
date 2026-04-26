@@ -19,6 +19,11 @@ cask "peazip" do
 
   app "PeaZip.app"
 
+  preflight do
+    system_command "xattr",
+                   args: ["-cr", "#{staged_path}/PeaZip.app"]
+  end
+
   service_menu = "#{staged_path}/PeaZip.app/Contents/Resources/share/batch/macOS service menus"
   postflight do
     system_command "/usr/bin/open",

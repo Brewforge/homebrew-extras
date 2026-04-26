@@ -27,6 +27,11 @@ cask "rune-music" do
 
   app "Rune.app"
 
+  preflight do
+    system_command "xattr",
+                   args: ["-cr", "#{staged_path}/Rune.app"]
+  end
+
   zap trash: [
     "~/Library/Application Scripts/ci.not.rune",
     "~/Library/Containers/ci.not.rune",
