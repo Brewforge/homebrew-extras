@@ -28,8 +28,10 @@ cask "opencove" do
 
   app "OpenCove.app"
 
-  postflight do
-    system "xattr", "-dr", "com.apple.quarantine", "#{appdir}/OpenCove.app"
+
+  preflight do
+    system_command "xattr",
+                   args: ["-cr", "#{staged_path}/OpenCove.app"]
   end
 
   zap trash: [
