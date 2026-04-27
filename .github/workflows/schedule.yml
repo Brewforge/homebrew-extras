@@ -117,7 +117,25 @@ jobs:
               # Merge PR
               if gh pr merge "$pr" --repo brewforge/homebrew-extras --merge --delete-branch; then
                 echo "Successfully merged PR #$pr and deleted branch"
-                sleep 5s
+              else
+                echo "Failed to merge PR #$pr"
+              fi
+            else
+              echo "PR #$pr is not mergeable, skipping"
+            fi
+          done < prs.txt
+
+          while IFS= read -r pr; do
+            [ -n "$pr" ] || continue
+
+            echo "Processing PR #$pr"
+
+            if gh pr view "$pr" --repo brewforge/homebrew-extras --json mergeable --jq '.mergeable' | grep -q "MERGEABLE"; then
+              echo "Merging PR #$pr"
+
+              # Merge PR
+              if gh pr merge "$pr" --repo brewforge/homebrew-extras --merge --delete-branch; then
+                echo "Successfully merged PR #$pr and deleted branch"
               else
                 echo "Failed to merge PR #$pr"
               fi
