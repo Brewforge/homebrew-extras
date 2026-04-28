@@ -8,18 +8,19 @@ cask "opencove" do
   homepage "https://github.com/DeadWaveWave/opencove"
 
   livecheck do
-    url :url
-    regex(/OpenCove[._-]v?(\d+(?:\.\d+)*-nightly\.\d+\.\d+)-mac-arm64\.dmg/i)
-    strategy :github_releases do |json, regex|
-      json.map do |release|
-        release["assets"]&.map do |asset|
-          match = asset["browser_download_url"]&.match(regex)
-          next if match.nil?
+    # url :url
+    # regex(/OpenCove[._-]v?(\d+(?:\.\d+)*-nightly\.\d+\.\d+)-mac-arm64\.dmg/i)
+    # strategy :github_releases do |json, regex|
+    #   json.map do |release|
+    #     release["assets"]&.map do |asset|
+    #       match = asset["browser_download_url"]&.match(regex)
+    #       next if match.nil?
 
-          match[1]
-        end
-      end.flatten.compact
-    end
+    #       match[1]
+    #     end
+    #   end.flatten.compact
+    # end
+    skip "GitHub pre-release"
   end
 
   auto_updates true
@@ -27,7 +28,6 @@ cask "opencove" do
   depends_on macos: ">= :big_sur"
 
   app "OpenCove.app"
-
 
   preflight do
     system_command "xattr",
