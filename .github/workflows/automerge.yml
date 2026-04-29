@@ -15,12 +15,12 @@ permissions:
 jobs:
   auto-merge-prs:
     name: Auto merge PRs
-    if: github.repository == 'brewforge/homebrew-chinese'
+    if: github.repository == 'brewforge/homebrew-extras'
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
       MAX_ROUNDS: 10
-      REPO: brewforge/homebrew-chinese
+      REPO: brewforge/homebrew-extras
     steps:
       - name: Auto merge PRs
         run: |
