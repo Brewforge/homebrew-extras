@@ -1,14 +1,24 @@
 cask "openstudio" do
   arch arm: "arm64", intel: "x86_64"
+  os macos: "Darwin", linux: "Ubuntu"
 
   version "3.11.0,241b8abb4d"
-  sha256 arm:   "3e8fa3831a1d31fbe47832cb96a168e2495e219a9628224e59be625322729588",
-         intel: "b1e8a0c8b5b0b54f610b831b02ed330cda024ac5bbd902fdb3c9bfe5381330b0"
+  sha256 arm:          "3e8fa3831a1d31fbe47832cb96a168e2495e219a9628224e59be625322729588",
+         intel:        "b1e8a0c8b5b0b54f610b831b02ed330cda024ac5bbd902fdb3c9bfe5381330b0",
+         arm64_linux:  "5c2693c704c1c3350b78b2e788756dde60d27f57c9cb9d45ca0f9cb28bd668ef",
+         x86_64_linux: "9b028f0fd7f82fd1ba965dd8f1bf8a97488fd3042f629d46b7ca700a23cc2cf0"
 
-  url "https://github.com/NREL/OpenStudio/releases/download/v#{version.csv.first}/OpenStudio-#{version.csv.first}+#{version.csv.second}-Darwin-#{arch}.dmg"
+  on_macos do
+    url "https://github.com/NatLabRockies/OpenStudio/releases/download/v#{version.csv.first}/OpenStudio-#{version.csv.first}+#{version.csv.second}-#{os}-#{arch}.dmg"
+  end
+
+  on_linux do
+    url "https://github.com/NatLabRockies/OpenStudio/releases/download/v#{version.csv.first}/OpenStudio-#{version.csv.first}+#{version.csv.second}-#{os}-#{arch}.tar.gz"
+  end
+
   name "OpenStudio"
   desc "Collection of software tools to support whole building energy modeling"
-  homepage "https://github.com/NREL/OpenStudio/"
+  homepage "https://github.com/NatLabRockies/OpenStudio/"
 
   livecheck do
     url :url
@@ -22,13 +32,4 @@ cask "openstudio" do
       end
     end
   end
-
-  installer script: {
-    executable: "#{staged_path}/OpenStudio-#{version.csv.first}+#{version.csv.second}-Darwin-arm64.app/Contents/MacOS/OpenStudio-#{version.csv.first}+#{version.csv.second}-Darwin-#{arch}",
-  }
-  binary "/Applications/OpenStudio-#{version.csv.first}/bin/openstudio"
-
-  uninstall delete: "/Applications/OpenStudio-#{version.csv.first}"
-
-  zap trash: "~/Library/Saved Application State/com.yourcompany.installerbase.savedState"
 end
