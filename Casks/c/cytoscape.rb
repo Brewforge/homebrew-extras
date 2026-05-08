@@ -10,6 +10,23 @@ cask "cytoscape" do
     version2 = version.tr(".", "_")
     url "https://github.com/cytoscape/cytoscape/releases/download/#{version}/Cytoscape_#{version2}_macos_#{arch}.dmg",
         verified: "github.com/cytoscape/cytoscape/"
+
+    installer script: {
+      executable: "Cytoscape Installer.app/Contents/MacOS/JavaApplicationStub",
+      args:       ["-q"],
+    }
+
+    uninstall script: {
+      executable: "/Applications/Cytoscape_v#{version}/Cytoscape Uninstaller.app/Contents/MacOS/JavaApplicationStub",
+      args:       ["-q"],
+    }
+    zap trash: [
+      "~/Library/Application Support/Cytoscape",
+      "~/Library/Preferences/com.install4j.5211-3645-3154-2580.3.plist",
+      "~/Library/Preferences/com.install4j.5211-3645-3154-2580.uninstaller.plist",
+      "~/Library/Saved Application State/com.install4j.5211-3645-3154-2580.3.savedState",
+      "~/Library/Saved Application State/com.install4j.5211-3645-3154-2580.uninstaller.savedState",
+    ]
   end
 
   on_linux do
@@ -24,22 +41,4 @@ cask "cytoscape" do
     url :url
     strategy :github_latest
   end
-
-  installer script: {
-    executable: "Cytoscape Installer.app/Contents/MacOS/JavaApplicationStub",
-    args:       ["-q"],
-  }
-
-  uninstall script: {
-    executable: "/Applications/Cytoscape_v#{version}/Cytoscape Uninstaller.app/Contents/MacOS/JavaApplicationStub",
-    args:       ["-q"],
-  }
-
-  zap trash: [
-    "~/Library/Application Support/Cytoscape",
-    "~/Library/Preferences/com.install4j.5211-3645-3154-2580.3.plist",
-    "~/Library/Preferences/com.install4j.5211-3645-3154-2580.uninstaller.plist",
-    "~/Library/Saved Application State/com.install4j.5211-3645-3154-2580.3.savedState",
-    "~/Library/Saved Application State/com.install4j.5211-3645-3154-2580.uninstaller.savedState",
-  ]
 end

@@ -10,6 +10,14 @@ cask "openstudio" do
 
   on_macos do
     url "https://github.com/NatLabRockies/OpenStudio/releases/download/v#{version.csv.first}/OpenStudio-#{version.csv.first}+#{version.csv.second}-#{os}-#{arch}.dmg"
+    installer script: {
+      executable: "#{staged_path}/OpenStudio-#{version.csv.first}+#{version.csv.second}-Darwin-arm64.app/Contents/MacOS/OpenStudio-#{version.csv.first}+#{version.csv.second}-Darwin-#{arch}",
+    }
+    binary "/Applications/OpenStudio-#{version.csv.first}/bin/openstudio"
+
+    uninstall delete: "/Applications/OpenStudio-#{version.csv.first}"
+
+    zap trash: "~/Library/Saved Application State/com.yourcompany.installerbase.savedState"
   end
 
   on_linux do
