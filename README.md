@@ -83,7 +83,6 @@ brew help
 |     `pastemd`      |                [PasteMD](https://pastemd.richqaq.cn)                 | ![a](assets/a.svg)![1](assets/1.svg) |
 |      `peazip`      |              [PeaZip](https://github.com/peazip/PeaZip)              | ![a](assets/a.svg)![1](assets/1.svg) |
 |     `oculante`     |           [Oculante](https://github.com/woelper/oculante)            | ![a](assets/a.svg)![1](assets/1.svg) |
-|     `revezone`     |                  [Revezone](https://revezone.com/)                   | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `wpsoffice-en`   |                    [WPS Office](https://wps.com/)                    | ![b](assets/a.svg)![1](assets/1.svg) |
 |   `ytdownloader`   |              [YTDownloader](https://ytdn.netlify.app/)               | ![a](assets/a.svg)![1](assets/1.svg) |
 |      `ytsage`      |              [YTSage](https://github.com/oop7/YTSage/)               | ![a](assets/a.svg)![1](assets/1.svg) |
@@ -96,7 +95,6 @@ brew help
 |  `next-ai-drawio`   |             [Next AI Draw.io](https://next-ai-drawio.jiang.jp/)             |          ![a](assets/a.svg)![1](assets/1.svg)          |
 | `nextai-translator` | [NextAI-Translator](https://github.com/nextai-translator/nextai-translator) |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |      `pearai`       |                        [pearai](https://trypear.ai)                         | ![a](assets/a.svg)![1](assets/1.svg)![3](assets/3.svg) |
-|      `peekai`       |             [peekai](https://prateekkeshari.gumroad.com/l/peek)             | ![a](assets/a.svg)![1](assets/1.svg)![2](assets/2.svg) |
 |       `vibe`        |                [vibe](https://github.com/thewh1teagle/vibe)                 |          ![a](assets/a.svg)![1](assets/1.svg)          |
 
 ### Media & Games
