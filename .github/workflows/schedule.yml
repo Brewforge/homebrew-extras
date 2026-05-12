@@ -34,7 +34,6 @@ jobs:
         with:
           core: false
           cask: false
-          debug: true
 
       - run: brew test-bot --only-tap-syntax
 

@@ -13,7 +13,7 @@ cask "deskflow" do
 
   auto_updates true
   conflicts_with cask: "deskflow-dev"
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Deskflow.app"
 

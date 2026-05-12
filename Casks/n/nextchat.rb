@@ -12,6 +12,8 @@ cask "nextchat" do
     strategy :github_latest
   end
 
+  depends_on :macos
+
   app "NextChatAI.app"
 
   zap trash: [

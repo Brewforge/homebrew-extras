@@ -14,6 +14,7 @@ cask "pastemd" do
   end
 
   auto_updates true
+  depends_on :macos
 
   app "PasteMD.app"
 

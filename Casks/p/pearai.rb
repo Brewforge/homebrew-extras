@@ -14,6 +14,7 @@ cask "pearai" do
   end
 
   auto_updates true
+  depends_on :macos
 
   app "PearAI.app"
 

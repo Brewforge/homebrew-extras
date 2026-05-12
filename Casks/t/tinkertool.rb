@@ -26,6 +26,8 @@ cask "tinkertool" do
     # end
   end
 
+  depends_on :macos
+
   app "TinkerTool.app"
 
   uninstall quit: "com.bresink.system.tinkertool"

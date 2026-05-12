@@ -11,6 +11,8 @@ cask "svstudio2-pro" do
     skip "No version information available"
   end
 
+  depends_on :macos
+
   pkg "svstudio2-pro-setup-latest.pkg"
 
   uninstall pkgutil: [

@@ -13,6 +13,7 @@ cask "quickrecorder" do
   end
 
   auto_updates true
+  depends_on :macos
 
   app "QuickRecorder.app"
 

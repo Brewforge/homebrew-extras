@@ -13,7 +13,7 @@ cask "aerospace" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "AeroSpace-v#{version}/AeroSpace.app"
   binary "AeroSpace-v#{version}/bin/aerospace"

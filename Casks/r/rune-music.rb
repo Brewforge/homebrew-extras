@@ -24,6 +24,7 @@ cask "rune-music" do
   end
 
   auto_updates true
+  depends_on :macos
 
   app "Rune.app"
 

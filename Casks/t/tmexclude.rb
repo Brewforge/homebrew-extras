@@ -13,6 +13,7 @@ cask "tmexclude" do
   end
 
   auto_updates true
+  depends_on :macos
 
   app "TimeMachine Exclude.app"
 
