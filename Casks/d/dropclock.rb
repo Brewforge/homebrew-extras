@@ -14,7 +14,6 @@ cask "dropclock" do
 
   auto_updates true
   depends_on macos: :ventura
-  depends_on :macos
 
   app "Dropclock.app"
 

@@ -21,6 +21,7 @@ cask "lyricsx-mxiris" do
   end
 
   conflicts_with cask: "lyricsx"
+  depends_on :macos
 
   app "LyricsX #{version.csv.second} #{version.csv.third}/LyricsX.app"
 
