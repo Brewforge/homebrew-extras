@@ -16,6 +16,7 @@ cask "dorion" do
   end
 
   auto_updates true
+  depends_on :macos
 
   app "Dorion.app"
 

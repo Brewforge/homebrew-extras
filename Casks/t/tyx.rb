@@ -17,6 +17,7 @@ cask "tyx" do
   end
 
   auto_updates true
+  depends_on :macos
 
   app "TyX.app"
 

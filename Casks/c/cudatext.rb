@@ -22,6 +22,8 @@ cask "cudatext" do
     end
   end
 
+  depends_on :macos
+
   app "CudaText.app"
 
   preflight do
