@@ -12,6 +12,8 @@ cask "corsixth-app" do
     strategy :github_latest
   end
 
+  depends_on :macos
+
   app "CorsixTH.app"
 
   zap trash: "~/Library/Saved Application State/com.macsourceports.CorsixTH.savedState"

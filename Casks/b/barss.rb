@@ -12,7 +12,7 @@ cask "barss" do
     url :url
     strategy :github_latest
   end
-
+depends_on :macos
   app "baRSS.app"
 
   zap trash: [

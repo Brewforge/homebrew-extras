@@ -12,6 +12,8 @@ cask "butterfly" do
     strategy :github_latest
   end
 
+  depends_on :macos
+
   app "Butterfly.app"
 
   zap trash: [
