@@ -1,6 +1,6 @@
 cask "dvc-app" do
-  version "3.67.0"
-  sha256 "a3175b3672ae00364c04d060909ce4310d442ccf8678ed005921d7b5508c9f3b"
+  version "3.67.1"
+  sha256 "33f315d177db3d317562084c4d3522fbe326c0ade9b1877735c33259dbb458fd"
 
   url "https://dvc.org/download/osx/dvc-#{version}"
   name "dvc"
