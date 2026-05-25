@@ -51,7 +51,6 @@ jobs:
         with:
           core: false
           cask: false
-          debug: false
 
       - name: Prepare Homebrew
         run: |
