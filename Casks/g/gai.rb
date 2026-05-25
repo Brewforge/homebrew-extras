@@ -1,6 +1,6 @@
 cask "gai" do
-  version "1.2.6"
-  sha256 "34597fbfd1625afb21c017728916fc8ae0e3a0aeaa2e01095f62b2f4b8b4fe0d"
+  version "1.2.7"
+  sha256 "3393d265b3b88a72772128ef8abab88212b80cd9b20c143d4906691dcbe6e416"
 
   url "https://webpath.iche2.com/release/Gai-#{version}-universal.dmg"
   name "Gai"
