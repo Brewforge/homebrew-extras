@@ -23,7 +23,7 @@ cask "lyricsx-mxiris" do
   conflicts_with cask: "lyricsx"
   depends_on :macos
 
-  app "LyricsX #{version.csv.second}/LyricsX.app"
+  app "LyricsX.app"
 
   zap trash: [
     "~/Library/Application Scripts/com.JH.LyricsX",
