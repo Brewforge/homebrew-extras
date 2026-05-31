@@ -1,7 +1,9 @@
 cask "goldendict-ng" do
   arch arm: "arm64", intel: "x86_64"
+
   version "26.5.4,6.8.3"
-  sha256 "1f6b578fd7e21ecbc7a53a2db7f23982f2bce2b106387a67b3374e39b1168395"
+  sha256 arm:   "d1c03e5d75cb9e61f20d066714350868c9c37592db0416675bdc89d3c6a18041",
+         intel: "848823731819e21c615a3ca39c7b968b2af47bdc6df32ee7682026e2ed3422eb"
 
   url "https://github.com/xiaoyifang/goldendict-ng/releases/download/v#{version.csv.first}/GoldenDict-ng-#{version.csv.first}-Qt#{version.csv.second}-macOS-#{arch}.dmg",
       verified: "github.com/xiaoyifang/goldendict-ng/"
@@ -11,7 +13,7 @@ cask "goldendict-ng" do
 
   livecheck do
     url :url
-    regex(%r{/v(\d{2}(\.\d{1,2}){2})/.+-Qt(6(\.\d)+)-macOS-arm64\.dmg$}i)
+    regex(%r{/v(\d{2}(\.\d{1,2}){2})/.+-Qt(6(\.\d+)+)-macOS-arm64\.dmg$}i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|
         match = asset["browser_download_url"]&.match(regex)
