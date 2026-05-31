@@ -5,7 +5,7 @@ cask "cudatext" do
   sha256 arm:   "f5b28759ab7dd8214d382c503462f0cf53a20d812831b46cc497e80b8a60476a",
          intel: "3dff03a1a87fec4fb71c0e818cef939a86a0a07ee7ec8279053755d430089e39"
 
-  url "https://downloads.sourceforge.net/cudatext/release/#{version}/cudatext-macos-cocoa-#{arch}-#{version}.dmg.zip?viasf=1",
+  url "https://downloads.sourceforge.net/cudatext/release/#{version}/cudatext-macos-cocoa-#{arch}-#{version}.zip?viasf=1",
       verified: "sourceforge.net/cudatext/"
   name "CudaText"
   desc "Text editor"
@@ -14,8 +14,8 @@ cask "cudatext" do
   livecheck do
     url "https://sourceforge.net/projects/cudatext/best_release.json"
     strategy :page_match do |page|
-      data = JSON.parse(page)["platform_releases"]["mac"]["url"]
-      match = data.match(/cudatext-macos-cocoa-#{arch}-(\d+(\.\d+)+)\.dmg\.zip/i)
+      data = JSON.parse(page)["platform_releases"]["mac"]["filename"]
+      match = data.match(/cudatext-macos-cocoa-#{arch}-(\d+(\.\d+)+)\.zip/i)
       next if match.blank?
 
       match[1].to_s
