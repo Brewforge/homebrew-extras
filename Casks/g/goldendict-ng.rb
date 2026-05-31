@@ -1,8 +1,9 @@
 cask "goldendict-ng" do
-  version "26.5.4,Release.ea1a9803,6.8.3"
+  arch arm: "arm64", intel: "x86_64"
+  version "26.5.4,6.8.3"
   sha256 "1f6b578fd7e21ecbc7a53a2db7f23982f2bce2b106387a67b3374e39b1168395"
 
-  url "https://github.com/xiaoyifang/goldendict-ng/releases/download/v#{version.csv.first}-#{version.csv.second}/GoldenDict-ng-#{version.csv.first}-Qt#{version.csv.third}-macOS-arm64.dmg",
+  url "https://github.com/xiaoyifang/goldendict-ng/releases/download/v#{version.csv.first}/GoldenDict-ng-#{version.csv.first}-Qt#{version.csv.second}-macOS-#{arch}.dmg",
       verified: "github.com/xiaoyifang/goldendict-ng/"
   name "GoldenDict"
   desc "Next Generation GoldenDict"
@@ -10,13 +11,13 @@ cask "goldendict-ng" do
 
   livecheck do
     url :url
-    regex(%r{/v(\d{2}(\.\d{1,2}){2})-(\w+\.\h+)/.+-Qt(6(\.\d)+)-macOS-arm64\.dmg$}i)
+    regex(%r{/v(\d{2}(\.\d{1,2}){2})/.+-Qt(6(\.\d)+)-macOS-arm64\.dmg$}i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|
         match = asset["browser_download_url"]&.match(regex)
         next if match.blank?
 
-        "#{match[1]},#{match[3]},#{match[4]}"
+        "#{match[1]},#{match[3]}"
       end
     end
   end
