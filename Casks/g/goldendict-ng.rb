@@ -1,7 +1,8 @@
 cask "goldendict-ng" do
   arch arm: "arm64", intel: "x86_64"
-  version "26.5.4,6.8.3"
-  sha256 "1f6b578fd7e21ecbc7a53a2db7f23982f2bce2b106387a67b3374e39b1168395"
+
+  version "26.5.6,6.8.3"
+  sha256 "2f21ad4022ee3755d79212953850bf519646af032a1bbe1761a2d0599180a870"
 
   url "https://github.com/xiaoyifang/goldendict-ng/releases/download/v#{version.csv.first}/GoldenDict-ng-#{version.csv.first}-Qt#{version.csv.second}-macOS-#{arch}.dmg",
       verified: "github.com/xiaoyifang/goldendict-ng/"
