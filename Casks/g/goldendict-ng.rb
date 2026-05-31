@@ -13,7 +13,7 @@ cask "goldendict-ng" do
 
   livecheck do
     url :url
-    regex(%r{/v(\d{2}(\.\d{1,2}){2})/.+-Qt(6(\.\d+)+)-macOS-arm64\.dmg$}i)
+    regex(%r{/GoldenDict-ng-(\d{2}(\.\d{1,2}){2})-Qt(6(\.\d+)+)-macOS-#{arch}\.dmg$}i)
     strategy :github_latest do |json, regex|
       json["assets"]&.map do |asset|
         match = asset["browser_download_url"]&.match(regex)
