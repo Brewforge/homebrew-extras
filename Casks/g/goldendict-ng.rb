@@ -1,7 +1,7 @@
 cask "goldendict-ng" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "26.5.4,6.8.3"
+  version "26.5.6,6.10.3"
   sha256 arm:   "d1c03e5d75cb9e61f20d066714350868c9c37592db0416675bdc89d3c6a18041",
          intel: "848823731819e21c615a3ca39c7b968b2af47bdc6df32ee7682026e2ed3422eb"
 
