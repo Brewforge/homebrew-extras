@@ -1,6 +1,6 @@
 cask "nextai-translator" do
-  version "0.6.16"
-  sha256 "c8c874f96e5257c9e47a9d7f5cb7e9b729726a47906e67422ffda15fb9e9e888"
+  version "0.6.18"
+  sha256 "89da7d94d48c1149adfa80cc51a85c9f2e62d1d14781fd006971f8f4c94a56f4"
 
   url "https://github.com/nextai-translator/nextai-translator/releases/download/v#{version}/NextAI.Translator_#{version}_aarch64.dmg"
   name "NextAI Translator"
