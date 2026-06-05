@@ -17,7 +17,7 @@ cask "hermes-desktop" do
   end
 
   auto_updates true
-  depends_on :macos
+  depends_on macos: :monterey
 
   app "Hermes Agent.app"
 
