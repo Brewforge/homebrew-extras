@@ -12,7 +12,6 @@ cask "aerospace" do
     regex(/^v?(\d+(\.\d+)+(-Beta)?)$/i)
   end
 
-  auto_updates true
   depends_on macos: :sonoma
 
   app "AeroSpace-v#{version}/AeroSpace.app"

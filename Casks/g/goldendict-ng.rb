@@ -24,7 +24,6 @@ cask "goldendict-ng" do
     end
   end
 
-  auto_updates true
   conflicts_with cask: "goldendict"
   depends_on arch: :arm64
   depends_on macos: :monterey
