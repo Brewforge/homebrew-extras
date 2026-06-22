@@ -1,6 +1,6 @@
 cask "motrix-next" do
-  version "3.9.5"
-  sha256 "5a856f00de6f2d75181499180a8efb137d49a48854289fed26d532c7e4baf0f0"
+  version "3.9.6"
+  sha256 "9442e87af4211012a10a0a08d29c0fcff4caa5e75cc864444a74398fb26fac2e"
 
   url "https://github.com/AnInsomniacy/motrix-next/releases/download/v#{version}/MotrixNext_#{version}_aarch64.dmg"
   name "Motrix Next"
