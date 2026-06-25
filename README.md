@@ -78,6 +78,7 @@ brew help
 |      `imfile`      |                     [imFile](https://imfile.io/)                     | ![a](assets/a.svg)![1](assets/1.svg) |
 |      `keyviz`      |            [KeyViz](https://github.com/mulaRahul/keyviz)             | ![a](assets/a.svg)![1](assets/1.svg) |
 | `media-downloader` | [Media Downloader](https://github.com/mhogomchungu/media-downloader) | ![a](assets/a.svg)![1](assets/1.svg) |
+|      `mineru`      |                     [Mineru](https://mineru.net)                     | ![b](assets/b.svg)![1](assets/1.svg) |
 |   `motrix-next`    |      [Motrix Next](https://github.com/AnInsomniacy/motrix-next)      | ![a](assets/a.svg)![1](assets/1.svg) |
 |     `notegen`      |                  [NoteGen](https://notegen.top/en/)                  | ![a](assets/a.svg)![1](assets/1.svg) |
 |     `pastemd`      |                [PasteMD](https://pastemd.richqaq.cn)                 | ![a](assets/a.svg)![1](assets/1.svg) |
@@ -91,7 +92,7 @@ brew help
 
 |      Cask Name      |                                    Site                                     |                          Note                          |
 | :-----------------: | :-------------------------------------------------------------------------: | :----------------------------------------------------: |
-|        `gai`        |                     [PyGai](https://github.com/huanguan1978/pygai)          |          ![a](assets/a.svg)![1](assets/1.svg)          |
+|        `gai`        |               [PyGai](https://github.com/huanguan1978/pygai)                |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |        `noi`        |                     [Noi](https://github.com/lencx/Noi)                     |          ![a](assets/a.svg)![1](assets/1.svg)          |
 |  `next-ai-drawio`   |             [Next AI Draw.io](https://next-ai-drawio.jiang.jp/)             |          ![a](assets/a.svg)![1](assets/1.svg)          |
 | `nextai-translator` | [NextAI-Translator](https://github.com/nextai-translator/nextai-translator) |          ![a](assets/a.svg)![1](assets/1.svg)          |
