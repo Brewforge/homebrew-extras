@@ -1,6 +1,6 @@
 cask "scrcpy-mask" do
-  version "0.8.3"
-  sha256 "2522e66074b75bbb25ef920083cad54e583b9238dd68642934e3f4e7664a89c0"
+  version "0.9.0"
+  sha256 "d3085c192da8c1503a7edf3148dc1e2807b94efd6f28d94be80da4a3a4ee6cd9"
 
   url "https://github.com/AkiChase/scrcpy-mask/releases/download/v#{version}/scrcpy-mask-macos-arm64.dmg"
   name "scrcpy-mask"
