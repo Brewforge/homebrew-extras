@@ -1,6 +1,6 @@
 cask "aerospace" do
-  version "0.20.3-Beta"
-  sha256 "9d6cc269b773cbcb392623982c4f0ba585a68120b6bb1d179fec1cb4de8e374f"
+  version "0.21.1-Beta"
+  sha256 "4f44d0710f71f1bc3b3c6b20af17bc1857773fb5432696ecc04f300934fad131"
 
   url "https://github.com/nikitabobko/AeroSpace/releases/download/v#{version}/AeroSpace-v#{version}.zip"
   name "AeroSpace"
@@ -12,7 +12,7 @@ cask "aerospace" do
     regex(/^v?(\d+(\.\d+)+(-Beta)?)$/i)
   end
 
-  depends_on macos: :sonoma
+  depends_on macos: :ventura
 
   app "AeroSpace-v#{version}/AeroSpace.app"
   binary "AeroSpace-v#{version}/bin/aerospace"
