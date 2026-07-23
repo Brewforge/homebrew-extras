@@ -1,9 +1,9 @@
 cask "hermes-one" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.7.3"
-  sha256 arm:   "d43b000c98833089ab2aaef5a3666211fecb7a95c0be29d63649268539c634a2",
-         intel: "1d1db03fcbc96de679f1e97473cdb9ce832d7d614c4fd48374d5cd8fe64f1eac"
+  version "0.7.6"
+  sha256 arm:   "a3b3890b9f8d66ead9641000f6efae3174ea0a38eeb8fc3e1e5f717f8bb2f533",
+         intel: "4a20bba6031ca659bc32f3ea280492b4ea98b4bf23c33493c141c922091378cd"
 
   url "https://github.com/fathah/hermes-desktop/releases/download/v#{version}/hermes-desktop-#{version}-#{arch}.dmg",
       verified: "github.com/fathah/hermes-desktop/"
