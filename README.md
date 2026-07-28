@@ -120,12 +120,13 @@ brew help
 
 ### Academic
 
-|  Cask Name   |                       Site                       |                 Note                 |
-| :----------: | :----------------------------------------------: | :----------------------------------: |
-| `cytoscape`  |        [Cytoscape](https://cytoscape.org)        | ![a](assets/a.svg)![1](assets/1.svg) |
-|   `mogan`    |      [Mogan STEM Suite](https://mogan.app)       | ![a](assets/a.svg)![1](assets/1.svg) |
-| `openstudio` | [OpenStudio](https://github.com/NREL/OpenStudio) | ![a](assets/a.svg)![1](assets/1.svg) |
-|    `tyx`     |          [TyX](https://tyx-editor.com/)          | ![a](assets/a.svg)![1](assets/1.svg) |
+|  Cask Name   |                       Site                              |                 Note                 |
+| :----------: | :-----------------------------------------------------: | :----------------------------------: |
+| `chabox`     | [ChaCrypt](https://github.com/huanguan1978/chacrypt)    | ![a](assets/a.svg)![1](assets/1.svg) |
+| `cytoscape`  |        [Cytoscape](https://cytoscape.org)               | ![a](assets/a.svg)![1](assets/1.svg) |
+|   `mogan`    |      [Mogan STEM Suite](https://mogan.app)              | ![a](assets/a.svg)![1](assets/1.svg) |
+| `openstudio` | [OpenStudio](https://github.com/NREL/OpenStudio)        | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `tyx`     |          [TyX](https://tyx-editor.com/)                 | ![a](assets/a.svg)![1](assets/1.svg) |
 
 ### macOS Only
 
