@@ -2,11 +2,10 @@ cask "pastemd" do
   version "0.1.7.1"
   sha256 "0f74864a9071c359842b146d10885ae52c9448293d1cc7e07b2163f99787a75b"
 
-  url "https://github.com/RICHQAQ/PasteMD/releases/download/v#{version}/PasteMD-#{version}.dmg",
-      verified: "github.com/RICHQAQ/PasteMD/"
+  url "https://github.com/RICHQAQ/PasteMD/releases/download/v#{version}/PasteMD-#{version}.dmg"
   name "pastemd"
   desc "One-click paste Markdown and AI responses into Word, WPS, and Excel perfectly"
-  homepage "https://pastemd.richqaq.cn/"
+  homepage "https://github.com/RICHQAQ/PasteMD"
 
   livecheck do
     url :url
