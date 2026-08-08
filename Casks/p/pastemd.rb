@@ -1,6 +1,6 @@
 cask "pastemd" do
-  version "0.1.7.3"
-  sha256 "01e67fe1cafd4274dc27085726ec84846fee6fc08012e4a31769058ab114a07e"
+  version "0.1.7.4"
+  sha256 "c84b0c0e5f858516f78140daeae4ab2b537cecdbb4181e63df6422a45732a438"
 
   url "https://github.com/RICHQAQ/PasteMD/releases/download/v#{version}/PasteMD-#{version}.dmg"
   name "pastemd"
