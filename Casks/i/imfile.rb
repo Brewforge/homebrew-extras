@@ -1,9 +1,9 @@
 cask "imfile" do
   arch arm: "-arm64"
 
-  version "2.3.2"
-  sha256 arm:   "79eee415aec4e7771abdf0e36a9f912f8589aa93dac9b793535cdf5089e6b482",
-         intel: "0963e58aae15d25930dce98a9260dba4d5426819ff9e3d72324a84164a3c76ef"
+  version "2.3.4"
+  sha256 arm:   "1cb410aa683caea17da3d74467949f59e230276465ea4fd1efbf6134b4a783ff",
+         intel: "ff3731599e4f70387852d548f7192daa708ca3789f82e0bfa8d33a6c846e355e"
 
   url "https://github.com/imfile-io/imfile-desktop/releases/download/v#{version}/imFile-#{version}#{arch}.dmg",
       verified: "github.com/imfile-io/imfile-desktop/"
