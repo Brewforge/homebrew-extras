@@ -16,7 +16,7 @@ cask "buzz" do
     strategy :github_latest
   end
 
-  depends_on :macos
+  depends_on macos: :big_sur
 
   app "Buzz.app"
 
