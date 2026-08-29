@@ -1,6 +1,6 @@
 cask "corsixth-app" do
-  version "0.70.0"
-  sha256 "d601785e69856bde265b707168af81c64cf9b89d6e3af56ee96037f3b1e1b5ae"
+  version "0.70.1"
+  sha256 "90910ded3830cda8204cf2958fb49f174f34c9c279eb5fbf43e17a15fd6ef9c8"
 
   url "https://github.com/CorsixTH/CorsixTH/releases/download/v#{version}/CorsixTH-#{version}.dmg"
   name "CorsixTH"
