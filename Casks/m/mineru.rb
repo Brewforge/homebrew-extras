@@ -2,8 +2,7 @@ cask "mineru" do
   version "0.14.1"
   sha256 "79daaa76d76ef1fe84c76338f899fa0ab514c6058484e3feba513fe8ea9b5f83"
 
-  url "https://webpub.shlab.tech/MinerU/latest/mac_arm/MinerU-#{version}-arm64.dmg",
-      verified: "webpub.shlab.tech/"
+  url "https://webpub.shlab.tech/MinerU/latest/mac_arm/MinerU-#{version}-arm64.dmg"
   name "mineru"
   desc "Intelligent Document Parsing Engine for LLMs and Agents"
   homepage "https://mineru.net/"
