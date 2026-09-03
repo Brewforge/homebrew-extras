@@ -15,7 +15,7 @@ cask "mogan" do
   depends_on macos: :sonoma
   container nested: "MoganSTEM-v#{version}-arm64-stable-Portable.zip"
 
-  app "MoganSTEM.app"
+  app "Mogan STEM.app"
 
   zap trash: [
     "~/Library/Application Support/XmacsLabs",
