@@ -13,6 +13,7 @@ cask "mogan" do
   end
 
   depends_on macos: :sonoma
+  container nested: MoganSTEM-v#{version}-arm64-stable-Portable.zip
 
   app "MoganSTEM.app"
 
