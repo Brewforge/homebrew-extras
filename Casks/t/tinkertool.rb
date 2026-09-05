@@ -2,8 +2,7 @@ cask "tinkertool" do
   version "11.4"
   sha256 "13c2d92e788e3cc7c90696261b638fcee5b3139f286eaa8fbea228a03de87ff4"
 
-  url "https://www.bresink.biz/download3.php?PHPSESSID=#{version.csv.second}",
-      verified: "bresink.biz/"
+  url "https://www.bresink.biz/download3.php?PHPSESSID=#{version.csv.second}"
   name "TinkerTool"
   desc "Gives you access to additional system preference settings"
   homepage "https://bresink.com/osx/TinkerTool.html"

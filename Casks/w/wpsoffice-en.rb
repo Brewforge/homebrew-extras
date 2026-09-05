@@ -9,8 +9,7 @@ cask "wpsoffice-en" do
   sha256 arm:   "7aa402cd41c3afbfe33a3b0b308b9c207bac02fef33649897993e3ead9c8fe5a",
          intel: "0de6b2f7cbb751a13db9ea9632c2038d52fd829be7fd3643b14f0e90ed40e8b0"
 
-  url "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/macwpsoffice/download/installer/WPSOffice_#{arch}_#{channel}.dmg",
-      verified: "wdl1.pcfg.cache.wpscdn.com/"
+  url "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/macwpsoffice/download/installer/WPSOffice_#{arch}_#{channel}.dmg"
   name "WPS Office"
   desc "AI-Powered Office Suite for Everyone"
   homepage "https://wps.com/"

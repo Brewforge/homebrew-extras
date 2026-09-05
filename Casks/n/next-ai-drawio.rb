@@ -5,8 +5,7 @@ cask "next-ai-drawio" do
   sha256 arm:   "d33c4ea32c4a51f6e6d0e1f8a322b4c751292fd84ae0b6ebd198920586fccbe9",
          intel: "c829735aac8c9be226a4e79f7b80d3e8d4fc85e3e40aa372ff7f23b1fb08f029"
 
-  url "https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v#{version}/Next-AI-Draw.io-#{version}#{arch}.dmg",
-      verified: "github.com/DayuanJiang/next-ai-draw-io/"
+  url "https://github.com/DayuanJiang/next-ai-draw-io/releases/download/v#{version}/Next-AI-Draw.io-#{version}#{arch}.dmg"
   name "Next AI Draw.io"
   desc "AI-Powered Diagram Creation Tool - Chat, Draw, Visualize"
   homepage "https://next-ai-drawio.jiang.jp/"

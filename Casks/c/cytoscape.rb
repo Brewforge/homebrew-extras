@@ -6,8 +6,7 @@ cask "cytoscape" do
          intel: "f1d898cc07ab0c74e02a559c97224e7f0fd84094e66f50f9e263c686efdae93c"
 
   version2 = version.tr(".", "_")
-  url "https://github.com/cytoscape/cytoscape/releases/download/#{version}/Cytoscape_#{version2}_macos_#{arch}.dmg",
-      verified: "github.com/cytoscape/cytoscape/"
+  url "https://github.com/cytoscape/cytoscape/releases/download/#{version}/Cytoscape_#{version2}_macos_#{arch}.dmg"
   name "Cytoscape"
   desc "Open source platform for network analysis and visualization"
   homepage "https://cytoscape.org/"
