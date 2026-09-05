@@ -13,7 +13,7 @@ cask "fileshows" do
     strategy :page_match
   end
 
-  depends_on macos: :catalina
+  depends_on :macos
 
   app "FileShows.app"
 
