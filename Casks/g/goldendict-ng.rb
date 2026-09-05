@@ -5,8 +5,7 @@ cask "goldendict-ng" do
   sha256 arm:   "2369c5bba5c68cd42061be8482813199c3fbe04e895616b62c4c3d5e7e233757",
          intel: "848823731819e21c615a3ca39c7b968b2af47bdc6df32ee7682026e2ed3422eb"
 
-  url "https://github.com/xiaoyifang/goldendict-ng/releases/download/v#{version.csv.first}/GoldenDict-ng-#{version.csv.first}-Qt#{version.csv.second}-macOS-#{arch}.dmg",
-      verified: "github.com/xiaoyifang/goldendict-ng/"
+  url "https://github.com/xiaoyifang/goldendict-ng/releases/download/v#{version.csv.first}/GoldenDict-ng-#{version.csv.first}-Qt#{version.csv.second}-macOS-#{arch}.dmg"
   name "GoldenDict"
   desc "Next Generation GoldenDict"
   homepage "https://xiaoyifang.github.io/goldendict-ng/"

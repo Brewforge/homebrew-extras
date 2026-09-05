@@ -5,8 +5,7 @@ cask "tyx" do
   sha256 arm:   "3795544330c26760f4ea144a8a4edc8aa04908ccab39cdc3d8db80cb8dd9d53f",
          intel: "b58a945337fc7fa3a57df0b6404dc09fe10d9b6a4b83f7ec95b366d2e778229f"
 
-  url "https://github.com/tyx-editor/TyX/releases/download/v#{version}/TyX_#{version}_#{arch}.dmg",
-      verified: "github.com/tyx-editor/TyX/"
+  url "https://github.com/tyx-editor/TyX/releases/download/v#{version}/TyX_#{version}_#{arch}.dmg"
   name "TyX"
   desc "LyX-like experience rewritten for Typst and the modern era"
   homepage "https://tyx-editor.com/"
