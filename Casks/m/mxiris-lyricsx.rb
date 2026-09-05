@@ -16,7 +16,7 @@ cask "mxiris-lyricsx" do
 
   auto_updates true
   conflicts_with cask: "lyricsx"
-  depends_on macos: :catalina
+  depends_on :macos
 
   app "LyricsX.app"
 

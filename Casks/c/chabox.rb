@@ -13,8 +13,8 @@ cask "chabox" do
     strategy :page_match
   end
 
-  depends_on macos: :catalina
-  
+  depends_on :macos
+
   app "ChaBox.app"
 
   zap trash: [
