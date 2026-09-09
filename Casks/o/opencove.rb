@@ -28,9 +28,8 @@ cask "opencove" do
 
   app "OpenCove.app"
 
-  preflight do
-    system_command "xattr",
-                   args: ["-cr", "#{staged_path}/OpenCove.app"]
+  preflight_steps do
+    run "xattr", args: ["-cr", "{{staged_path}}/OpenCove.app"]
   end
 
   zap trash: [

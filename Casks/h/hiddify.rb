@@ -16,9 +16,8 @@ cask "hiddify" do
 
   app "Hiddify.app"
 
-  preflight do
-    system_command "xattr",
-                   args: ["-cr", "#{staged_path}/Hiddify.app"]
+  preflight_steps do
+    run "xattr", args: ["-cr", "{{staged_path}}/Hiddify.app"]
   end
 
   zap trash: [

@@ -19,9 +19,8 @@ cask "vibe" do
 
   app "vibe.app"
 
-  preflight do
-    system_command "xattr",
-                   args: ["-cr", "#{staged_path}/vibe.app"]
+  preflight_steps do
+    run "xattr", args: ["-cr", "{{staged_path}}/vibe.app"]
   end
 
   zap trash: [
