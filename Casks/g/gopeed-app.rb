@@ -16,9 +16,8 @@ cask "gopeed-app" do
 
   app "Gopeed.app"
 
-  preflight do
-    system_command "xattr",
-                   args: ["-cr", "#{staged_path}/Gopeed.app"]
+  preflight_steps do
+    run "xattr", args: ["-cr", "{{staged_path}}/Gopeed.app"]
   end
 
   zap trash: [

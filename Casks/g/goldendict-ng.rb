@@ -32,10 +32,10 @@ cask "goldendict-ng" do
   shimscript = "#{staged_path}/goldendict.wrapper.sh"
   binary shimscript, target: "goldendict"
 
-  preflight do
-    File.write shimscript, <<~EOS
+  preflight_steps do
+    write_file "goldendict.wrapper.sh", <<~EOS
       #!/bin/sh
-      exec '#{appdir}/GoldenDict.app/Contents/MacOS/goldendict' "$@"
+      exec '{{appdir}}/GoldenDict.app/Contents/MacOS/goldendict' "$@"
     EOS
   end
 

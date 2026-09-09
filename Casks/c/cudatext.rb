@@ -25,9 +25,8 @@ cask "cudatext" do
 
   app "CudaText.app"
 
-  preflight do
-    system_command "xattr",
-                   args: ["-cr", "#{staged_path}/CudaText.app"]
+  preflight_steps do
+    run "xattr", args: ["-cr", "{{staged_path}}/CudaText.app"]
   end
 
   zap trash: [

@@ -16,9 +16,8 @@ cask "pastemd" do
 
   app "PasteMD.app"
 
-  preflight do
-    system_command "xattr",
-                   args: ["-cr", "#{staged_path}/PasteMD.app"]
+  preflight_steps do
+    run "xattr", args: ["-cr", "{{staged_path}}/PasteMD.app"]
   end
 
   zap trash: [

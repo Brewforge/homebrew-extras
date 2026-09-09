@@ -19,9 +19,8 @@ cask "hermes-one" do
 
   app "Hermes One.app"
 
-  preflight do
-    system_command "xattr",
-                   args: ["-cr", "#{staged_path}/Hermes One.app"]
+  preflight_steps do
+    run "xattr", args: ["-cr", "{{staged_path}}/Hermes One.app"]
   end
 
   zap trash: [
