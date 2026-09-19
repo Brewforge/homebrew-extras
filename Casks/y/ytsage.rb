@@ -1,6 +1,6 @@
 cask "ytsage" do
-  version "5.5.0"
-  sha256 "be9e3b024ecde7c12f8d8bdd27ade9900f4a7737f9a0bda858be354286d455e0"
+  version "5.5.6"
+  sha256 "ad9aeb92192d0b105a91bbdcc24bcec0b79427b438eeeb7d4d0e66a2f609bb54"
 
   url "https://github.com/oop7/YTSage/releases/download/v#{version}/YTSage-v#{version}-arm64.dmg"
   name "YTSage"
@@ -13,7 +13,7 @@ cask "ytsage" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "YTSage-v#{version}.app"
 
