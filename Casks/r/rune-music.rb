@@ -1,6 +1,6 @@
 cask "rune-music" do
-  version "2.0.0-alpha.9"
-  sha256 "0e6797b280e9059765a02bc007d43b6ee1f1a6ab34b0616195b82298cfa79ef8"
+  version "2.0.0-alpha.10"
+  sha256 "b626eb60487028e5fde023ee8934c150951ace092d64035e9fa981c30d971e74"
 
   url "https://github.com/Losses/rune/releases/download/v#{version}/Rune-v#{version}-macOS.dmg"
   name "Rune"
@@ -22,7 +22,7 @@ cask "rune-music" do
     end
   end
 
-  depends_on :macos
+  depends_on macos: :monterey
 
   app "Rune.app"
 
