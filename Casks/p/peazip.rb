@@ -1,6 +1,6 @@
 cask "peazip" do
-  version "11.2.0"
-  sha256 "8e354e950935b4cfbd25da71a80d18ad125ab204483ad41dd8dbb097d8f32a8e"
+  version "11.3.0"
+  sha256 "47bdd68b89d3c7b9fa9b10766048e962f636613fe274d4f36209ef301c5497b0"
 
   url "https://github.com/peazip/PeaZip/releases/download/#{version}/peazip-#{version}.DARWIN.aarch64.dmg"
   name "Peazip"
@@ -13,9 +13,9 @@ cask "peazip" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :big_sur
+  depends_on :macos
 
-  app "PeaZip.app"
+  app "peazip.app"
 
   preflight_steps do
     run "xattr", args: ["-cr", "{{staged_path}}/PeaZip.app"]
