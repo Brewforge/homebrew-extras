@@ -1,6 +1,6 @@
 cask "butterfly" do
-  version "2.5.5"
-  sha256 "1975eef4052551518ab02b94bf9027daafa287a1cb10f480ce91d5b1b1201ec9"
+  version "2.6.0"
+  sha256 "00ce88ed98408753721b8a89d2685cc514dd0be9b88bcd98ccbfd3db43dc8b33"
 
   url "https://github.com/LinwoodDev/Butterfly/releases/download/v#{version}/linwood-butterfly-macos.dmg"
   name "Butterfly"
@@ -12,7 +12,7 @@ cask "butterfly" do
     strategy :github_latest
   end
 
-  depends_on :macos
+  depends_on macos: :monterey
 
   app "butterfly.app"
 
