@@ -1,6 +1,6 @@
 cask "rayburst" do
-  version "4.0.0"
-  sha256 "5be9d15703203d2a40e0d507dbe29c5cd0f70dd35d1207ec28abf35e538936a1"
+  version "4.0.1"
+  sha256 "f4d1c40d7794dc7f42323001b472b2a722b168ace57e21074b9e780da883b3f2"
 
   url "https://github.com/AnInsomniacy/rayburst/releases/download/v#{version}/Rayburst_#{version}_aarch64.dmg"
   name "Motrix Next"
@@ -13,7 +13,7 @@ cask "rayburst" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Rayburst.app"
 
