@@ -21,78 +21,13 @@ cask "peazip" do
     run "xattr", args: ["-cr", "{{staged_path}}/PeaZip.app"]
   end
 
-  postflight_steps do
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, add to archive.workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, add to Brotli.workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, add to BZ2.workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, add to GZ.workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, add to TAR.workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, add to XZ.workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, add to Zstd.workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, convert.workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, extract here (smart new folder).workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, extract to Desktop.workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, extract to Documents.workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, extract to Downloads.workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, extract....workflow",
-        ]
-    run "/usr/bin/open",
-        args: [
-          "{{staged_path}}/PeaZip.app/Contents/Resources/share/batch/macOS service menus/" \
-          "PeaZip, open file or folder.workflow",
-        ]
-  end
+  caveats <<~EOS
+    To install PeaZip's macOS service menus (Finder context menu Quick Actions), run:
+
+      for workflow in "#{appdir}/peazip.app/Contents/Resources/share/batch/macOS service menus/"*.workflow; do
+        open "$workflow"
+      done
+  EOS
 
   zap trash: [
     "~/Library/Preferences/com.company.peazip.plist",
