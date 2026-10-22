@@ -1,31 +1,22 @@
 cask "tinkertool" do
-  version "11.4"
-  sha256 "13c2d92e788e3cc7c90696261b638fcee5b3139f286eaa8fbea228a03de87ff4"
+  version "11.71,c70a76c4ceb8349dee019ce09508f158"
+  sha256 "5e3d30d2daabc5462f4015d9921a2b6e93bec393e8803a15f19f69b6c989656c"
 
-  url "https://www.bresink.biz/download3.php?PHPSESSID=#{version.csv.second}"
+  # The original DMG on MacUpdate matches the developer's published SHA-256.
+  url "https://dist.macupdate.com/distributive/5721/#{version.csv.second}/TinkerTool_#{version.csv.first}.dmg"
   name "TinkerTool"
   desc "Gives you access to additional system preference settings"
-  homepage "https://bresink.com/osx/TinkerTool.html"
+  homepage "https://www.bresink.com/osx/TinkerTool.html"
 
   livecheck do
-    url "https://bresink.com/osx/0TinkerTool/download.php"
-    skip "cannot obtain available info"
-    # regex(/PHPSESSID=([\d+\w]+)/i)
-    # strategy :page_match do |page, regex|
-    #   # Match the ID for the macOS download
-    #   version = page.scan(/(\d+(?:\.\d+)+) \(Build \d+\)/i).flatten.first
-    #   mbskey = page.scan(/action=.*?dl=TinkerTool&MBSKey=([\d+\w]+)/i).flatten.first
-    #   next if mbskey.blank?
-
-    #   # Fetch the download_id for the download URL
-    #   download_page = Homebrew::Livecheck::Strategy.page_content("https://www.bresink.com/download2.php?ln=1&dl=TinkerTool&MBSKey=#{mbskey}")
-    #   download_id = download_page[:content]&.scan(regex)&.map { |match| match[0] }
-
-    #   "#{version},#{download_page}"
-    # end
+    url "https://tinkertool.macupdate.com/", user_agent: :browser
+    regex(%r{/distributive/5721/([a-f\d]{32})/TinkerTool[._-]v?(\d+(?:\.\d+)+)\.dmg}i)
+    strategy :page_match do |page, regex|
+      page.scan(regex).map { |download_id, app_version| "#{app_version},#{download_id}" }
+    end
   end
 
-  depends_on :macos
+  depends_on macos: :tahoe
 
   app "TinkerTool.app"
 
