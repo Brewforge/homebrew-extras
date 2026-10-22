@@ -139,15 +139,8 @@ brew help
 |   `pixel-perfect`   | [Pixel Perfect](https://github.com/cormiertyshawn895/PixelPerfect)  | ![a](assets/a.svg)![1](assets/1.svg) |
 |   `quickrecorder`   |     [QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)     | ![a](assets/a.svg)![1](assets/1.svg) |
 | `sequential-viewer` |       [Sequential](https://github.com/chuchusoft/Sequential)        | ![a](assets/a.svg)![1](assets/1.svg) |
+|    `tinkertool`     |     [TinkerTool](https://www.bresink.com/osx/TinkerTool.html)       |                                    |
 |      `tutti`       |              [Tutti](https://tutti.barrybarrywu.com/)              | ![b](assets/b.svg)![1](assets/1.svg)![2](assets/2.svg) |
-
-## ⚔️ Challenge
-
-There are several manifests that the current contributors cannot fix, welcome your help!
-
-|  Cask Name   |                         Site                          |                Problem                |
-| :----------: | :---------------------------------------------------: | :-----------------------------------: |
-| `tinkertool` | [TinkerTool](https://bresink.com/osx/TinkerTool.html) | cannot obtain available info directly |
 
 ## 🌟 STAR ME
 
