@@ -1,9 +1,9 @@
 cask "lrcget" do
   arch arm: "aarch64", intel: "x64"
 
-  version "2.2.0"
-  sha256 arm:   "d6c56d4b9d9977729d48a217558b93d29b8725b88a800a523fb9812e9ccbaab9",
-         intel: "82d277f008fc605a3ae0cb20a2bdade8b9e49930262d75b94961448d58906bf3"
+  version "2.2.1"
+  sha256 arm:   "6f1846351179db98de8a7a88459696717cbc8a60ecac71c7c9f6a5c95e952b03",
+         intel: "96e9fad622e1a3a8f4c90e098db4f38cfbbee25df08b349be109d57f31fe96c7"
 
   url "https://github.com/tranxuanthang/lrcget/releases/download/#{version}/LRCGET_#{version}_#{arch}.dmg"
   name "LRCGET"
