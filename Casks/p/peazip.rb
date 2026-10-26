@@ -1,6 +1,6 @@
 cask "peazip" do
-  version "11.3.0"
-  sha256 "47bdd68b89d3c7b9fa9b10766048e962f636613fe274d4f36209ef301c5497b0"
+  version "11.4.0"
+  sha256 "b31ec81e13dbe21a6189637855e55b827b2c7de046ba97060b689ace3f6248f9"
 
   url "https://github.com/peazip/PeaZip/releases/download/#{version}/peazip-#{version}.DARWIN.aarch64.dmg"
   name "Peazip"
@@ -21,6 +21,11 @@ cask "peazip" do
     run "xattr", args: ["-cr", "{{staged_path}}/PeaZip.app"]
   end
 
+  zap trash: [
+    "~/Library/Preferences/com.company.peazip.plist",
+    "~/Library/Saved Application State/com.company.peazip.savedState",
+  ]
+
   caveats <<~EOS
     To install PeaZip's macOS service menus (Finder context menu Quick Actions), run:
 
@@ -28,9 +33,4 @@ cask "peazip" do
         open "$workflow"
       done
   EOS
-
-  zap trash: [
-    "~/Library/Preferences/com.company.peazip.plist",
-    "~/Library/Saved Application State/com.company.peazip.savedState",
-  ]
 end
