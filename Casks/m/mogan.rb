@@ -1,6 +1,6 @@
 cask "mogan" do
-  version "2026.3.7"
-  sha256 "cc684e8fe4f01ed3f742ac6f8c2839dc852f0a0938620040b039ae62a603e15f"
+  version "2026.3.8"
+  sha256 "1e6a159d00eb5474da9c13c33d6c503daa827545ec2a63d6b5deb6e45cb71719"
 
   url "https://github.com/MoganLab/mogan/releases/download/v#{version}/mogan-release-#{version}-osx-arm64-stable.zip"
   name "Mogan STEM"
