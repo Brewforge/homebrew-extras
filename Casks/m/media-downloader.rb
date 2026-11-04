@@ -1,9 +1,9 @@
 cask "media-downloader" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "5.6.7"
-  sha256 arm:   "02cc4f21a6f435d03b11397f5e38c2302d8c137178d3e3fde31b90692df5baa6",
-         intel: "0ad0befc3224712dbbf85d804c3f6c88a7cebcfb1dc1a909ea8abcbcdae78730"
+  version "5.6.8"
+  sha256 arm:   "ec69ace0baa6c6282db18231aa1d311f4785564b104f7b5377c7010999f32ee0",
+         intel: "f534f98b6a93f3a99748eb9534fd93fbacfb7fcda3cb501b4195f2906c176314"
 
   url "https://github.com/mhogomchungu/media-downloader/releases/download/#{version}/MediaDownloaderQt6-#{arch}-#{version}.dmg"
   name "Media Downloader"
