@@ -1,6 +1,6 @@
 cask "tinkertool" do
-  version "11.71,c70a76c4ceb8349dee019ce09508f158"
-  sha256 "5e3d30d2daabc5462f4015d9921a2b6e93bec393e8803a15f19f69b6c989656c"
+  version "11.72,3238db8bd14513b1e067bfff21825611"
+  sha256 "202c1e6988acd0e694a6d5144bec66bf4c44aa260e646f0c43104c176cd516b1"
 
   # The original DMG on MacUpdate matches the developer's published SHA-256.
   url "https://dist.macupdate.com/distributive/5721/#{version.csv.second}/TinkerTool_#{version.csv.first}.dmg"
