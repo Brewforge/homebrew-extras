@@ -1,6 +1,6 @@
 cask "rayburst" do
-  version "4.1.1"
-  sha256 "715ed7f6eaf5a79e06d554f365a313b4843f90493f09b157091a15d665253b24"
+  version "4.1.2"
+  sha256 "ed54a1d1bf0d4b0819aa24c7ee4c662f5e1e1e4555ef48f8e6299a3ea8cc6d1c"
 
   url "https://github.com/AnInsomniacy/rayburst/releases/download/v#{version}/Rayburst_#{version}_aarch64.dmg"
   name "Motrix Next"
