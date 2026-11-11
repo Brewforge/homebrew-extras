@@ -1,6 +1,6 @@
 cask "dropclock" do
-  version "1.9"
-  sha256 "aa2c8d31642854be2e187f0d025922b2b9b46f447fc91c5bebb3265e387c6074"
+  version "1.10"
+  sha256 "5b91319e55f5173c434239b2e4bee743426f3f08b38408c74c0fea0d558f90c0"
 
   url "https://github.com/WrkX/Dropclock/releases/download/#{version}/Dropclock.dmg"
   name "ChatGPT"
@@ -12,7 +12,7 @@ cask "dropclock" do
     strategy :github_latest
   end
 
-  depends_on macos: :ventura
+  depends_on macos: :sonoma
 
   app "Dropclock.app"
 
