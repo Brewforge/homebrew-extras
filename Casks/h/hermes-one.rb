@@ -1,9 +1,9 @@
 cask "hermes-one" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.7.7"
-  sha256 arm:   "73353247c3aa47df6a2c53a344c183593dab3b9710dcff775ae7314be73e0550",
-         intel: "d440c88d6a3eff046706c653afcff92a5f33eed6c2350b28fb1530fcec4f201a"
+  version "0.7.8"
+  sha256 arm:   "809f426e04e865d1119ea43466f5f99299b8740a18c5031abd52b06ce31f424a",
+         intel: "04f6d8f07db01a32774f37487b6f0da669fbb17e96326072c029ad287b563f07"
 
   url "https://github.com/fathah/hermes-desktop/releases/download/v#{version}/hermes-desktop-#{version}-#{arch}.dmg"
   name "Hermes Agent"
