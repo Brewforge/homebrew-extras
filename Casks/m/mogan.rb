@@ -1,6 +1,6 @@
 cask "mogan" do
-  version "2026.3.8"
-  sha256 "1e6a159d00eb5474da9c13c33d6c503daa827545ec2a63d6b5deb6e45cb71719"
+  version "2026.3.9"
+  sha256 "66633dfd9b70378c4de03f2acbc19d4daa1e94b29f2539f6cf3c96d064a67d58"
 
   url "https://github.com/MoganLab/mogan/releases/download/v#{version}/mogan-release-#{version}-osx-arm64-stable.zip"
   name "Mogan STEM"
@@ -12,7 +12,7 @@ cask "mogan" do
     strategy :github_latest
   end
 
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
   container nested: "MoganSTEM-v#{version}-arm64-stable-Portable.zip"
 
   app "Mogan STEM.app"
