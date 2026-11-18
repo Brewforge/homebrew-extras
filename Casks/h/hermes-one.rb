@@ -8,7 +8,7 @@ cask "hermes-one" do
   url "https://github.com/fathah/hermes-desktop/releases/download/v#{version}/hermes-desktop-#{version}-#{arch}.dmg"
   name "Hermes Agent"
   desc "Desktop Companion for Hermes Agent"
-  homepage "https://hermes-desktop.com/"
+  homepage "https://hermesone.org/"
 
   livecheck do
     url :url
