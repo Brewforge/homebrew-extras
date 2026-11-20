@@ -1,6 +1,6 @@
 cask "tutti" do
-  version "1.11.0"
-  sha256 "f6202dfe14ff85324f24e177eabf84f97f895abfd99701f15a5a70dbb4434b8f"
+  version "2.0.0"
+  sha256 "ae8b4ae16dd5706d77bd7b4fd58644b733976e8a48ed17b53e645eb465e9700e"
 
   url "https://github.com/BarryBarrywu/tutti/releases/download/v#{version}/Tutti-#{version}.zip"
   name "Tutti"
