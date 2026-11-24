@@ -1,6 +1,6 @@
 cask "hiddify" do
-  version "5.5.5"
-  sha256 "3e8c1d1448f861e5594910e168f11dc39e52ecfb68c03d445f9fb1721032992e"
+  version "5.9.15"
+  sha256 "5d095a63af1130535f3f2dc50342242df2c2ea5bc153151c8ef79923cc6cbd3f"
 
   url "https://github.com/hiddify/hiddify-next/releases/download/v#{version}/Hiddify-MacOS.dmg"
   name "Hiddify"
