@@ -1,9 +1,9 @@
 cask "ytdownloader" do
   arch arm: "arm64", intel: "x64"
 
-  version "4.1.0"
-  sha256 arm:   "a15e185677a26e3f4f895d174424f827f0040acded23387d351b7ca8dbc45037",
-         intel: "4e65cb59b520cecfe8d4a2a46e925072509c11e94f595c2c098591dd87898084"
+  version "4.2.0"
+  sha256 arm:   "71b604878e6c4f6973aa0bc3d9017d49a90c0ad1a2a089f3121c501faf4e2bc0",
+         intel: "c0f18a836ba70511f14381fe2f8e5c6dcbf93ffe8f39a953793c481fd75e090f"
 
   url "https://github.com/aandrew-me/ytDownloader/releases/download/v#{version}/YTDownloader_Mac_#{arch}.dmg"
   name "YTDownloader"
