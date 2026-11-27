@@ -1,9 +1,9 @@
 cask "gridplayer" do
   arch arm: "arm64", intel: "intel64"
 
-  version "0.5.5"
-  sha256 arm:   "a0a9effd6c424931eaa43c2c978c15567583f7afeca8c0dbac8b1aa05e91bc6d",
-         intel: "33b6031667454373ed163590be1cd63ce0881485ead3e5d5851dbc4a316a84c5"
+  version "0.6.0"
+  sha256 arm:   "c003e8b6762650a9f80c1f665f03324c0d08dc54ee1c21b5d1a4ec6cfa6bf6ad",
+         intel: "b80b196fbf829ca8a924c767910ebef1bc512d399f8633d1c4f94999f437d7f3"
 
   url "https://github.com/vzhd1701/gridplayer/releases/download/v#{version}/GridPlayer.#{version}_#{arch}.dmg"
   name "gridplayer"
@@ -17,7 +17,7 @@ cask "gridplayer" do
 
   depends_on macos: :sonoma
 
-  app "gridplayer.app"
+  app "GridPlayer.app"
 
   zap trash: [
     "~/Library/Application Support/vzhd1701",
