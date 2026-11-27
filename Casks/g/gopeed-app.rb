@@ -1,6 +1,6 @@
 cask "gopeed-app" do
-  version "1.9.3"
-  sha256 "ebe7f39ef501deb3a55cd86e54f985a92872e215de50ea5ddbcbf9a02a2bd3cb"
+  version "2.0.0"
+  sha256 "2917947317f5faa1e0dfdd57e593ce33889c93e67c8604a94cd4abe76658ecb0"
 
   url "https://github.com/GopeedLab/gopeed/releases/download/v#{version}/Gopeed-v#{version}-macos.dmg"
   name "Gopeed"
@@ -12,7 +12,7 @@ cask "gopeed-app" do
     strategy :github_latest
   end
 
-  depends_on :macos
+  depends_on macos: :ventura
 
   app "Gopeed.app"
 
